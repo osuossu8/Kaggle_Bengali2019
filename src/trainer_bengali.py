@@ -105,6 +105,48 @@ def train_one_epoch_mixup_cutmix_for_single_output(model, train_loader, criterio
     return total_loss / (step + 1)
 
 
+def train_one_epoch_mixup_cutmix_for_single_swa(model, train_loader, criterion, optimizer, device, steps_upd_logging=500, accumulation_steps=1,
+                                 multi_loss=None):
+    model.train()
+
+    total_loss = 0.0
+    for step, (input_dic, targets1, targets2, targets3) in tqdm(enumerate(train_loader), total=len(train_loader)):
+        for k in input_dic.keys():
+            input_dic[k] = input_dic[k].to(device)
+        targets1 = targets1.to(device)
+        targets2 = targets2.to(device)
+        targets3 = targets3.to(device)
+        optimizer.zero_grad()
+
+        images = input_dic["image"].unsqueeze(1)
+
+        if np.random.rand()<0.5:
+            images, targets = mixup(images, targets1, targets2, targets3, 0.4)
+            logits = model(images)
+            logits1, logits2, logits3 = logits[:,:11], logits[:,11:11+168], logits[:, 11+168:]
+            # loss = mixup_criterion_weighted2(logits1, logits2, logits3, targets)
+            loss = mixup_criterion(logits1, logits2, logits3, targets)
+        else:
+            images, targets = cutmix(images, targets1, targets2, targets3, 0.4)
+            logits = model(images)
+            logits1, logits2, logits3 = logits[:,:11], logits[:,11:11+168], logits[:, 11+168:]
+            # loss = cutmix_criterion_weighted2(logits1, logits2, logits3, targets)
+            loss = cutmix_criterion(logits1, logits2, logits3, targets)
+
+        loss.backward()
+
+        optimizer.step()
+
+        total_loss += loss.item()
+
+        if (step + 1) % steps_upd_logging == 0:
+            LOGGER.info('Train loss on step {} was {}'.format(step + 1, round(total_loss / (step + 1), 5)))
+
+    optimizer.swap_swa_sgd()
+
+    return total_loss / (step + 1)
+
+
 def validate_for_single_output(model, val_loader, criterion, device, multi_loss=None):
     model.eval()
 
@@ -160,7 +202,6 @@ def validate_for_single_output(model, val_loader, criterion, device, multi_loss=
     all_preds = [all_preds1, all_preds2, all_preds3] # v, g, c
 
     return all_preds, all_true_ans, val_loss / (step + 1)
-
 
 
 def train_one_epoch_with_weighted_criterion(model, train_loader, criterion, optimizer, device, steps_upd_logging=500, accumulation_steps=1,
