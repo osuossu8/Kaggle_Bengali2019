@@ -106,8 +106,8 @@ def image_to_tensor(image, normalize=None):
 
 def macro_recall(val_pred, y_true):
     # v, g, c
-    recall_grapheme = sklearn.metrics.recall_score(val_pred[0], y_true[0], average='macro')
-    recall_vowel = sklearn.metrics.recall_score(val_pred[1], y_true[1], average='macro')
+    recall_vowel = sklearn.metrics.recall_score(val_pred[0], y_true[0], average='macro')
+    recall_grapheme = sklearn.metrics.recall_score(val_pred[1], y_true[1], average='macro')
     recall_consonant = sklearn.metrics.recall_score(val_pred[2], y_true[2], average='macro')
     scores = [recall_grapheme, recall_vowel, recall_consonant]
     final_score = np.average(scores, weights=[2, 1, 1])
