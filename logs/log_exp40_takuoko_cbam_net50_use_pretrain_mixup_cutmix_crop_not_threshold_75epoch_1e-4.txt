@@ -1,0 +1,704 @@
+2020-02-25 20:44:23,781 - INFO - logger set up
+2020-02-25 20:44:23,781 - INFO - seed=1129
+2020-02-25 20:44:27,993 - INFO - [load csv data] done in 4.21 s
+2020-02-25 20:44:30,078 - INFO - [load feather data] done in 2.09 s
+2020-02-25 20:44:40,853 - INFO - [prepare validation data] done in 10.77 s
+2020-02-25 20:44:44,052 - INFO - [create model] done in 3.2 s
+2020-02-25 20:44:44,052 - INFO - Starting 1 epoch...
+2020-02-25 20:47:42,698 - INFO - Train loss on step 500 was 6.675
+2020-02-25 20:50:43,918 - INFO - Train loss on step 1000 was 5.77516
+2020-02-25 20:53:45,438 - INFO - Train loss on step 1500 was 5.28601
+2020-02-25 20:56:47,555 - INFO - Train loss on step 2000 was 4.93835
+2020-02-25 20:59:48,891 - INFO - Train loss on step 2500 was 4.69676
+2020-02-25 21:02:50,378 - INFO - Train loss on step 3000 was 4.5251
+2020-02-25 21:04:57,009 - INFO - Mean train loss: 4.4171
+2020-02-25 21:07:43,223 - INFO - Mean valid loss: 0.84754 score: 0.89948
+2020-02-25 21:07:43,285 - INFO - save model at score=0.899481683951885 on epoch=1
+2020-02-25 21:07:43,285 - INFO - Starting 2 epoch...
+2020-02-25 21:10:43,775 - INFO - Train loss on step 500 was 3.48154
+2020-02-25 21:13:45,211 - INFO - Train loss on step 1000 was 3.43489
+2020-02-25 21:16:46,943 - INFO - Train loss on step 1500 was 3.36702
+2020-02-25 21:19:48,290 - INFO - Train loss on step 2000 was 3.34246
+2020-02-25 21:22:49,550 - INFO - Train loss on step 2500 was 3.32628
+2020-02-25 21:25:51,210 - INFO - Train loss on step 3000 was 3.33794
+2020-02-25 21:27:57,029 - INFO - Mean train loss: 3.3163
+2020-02-25 21:30:42,745 - INFO - Mean valid loss: 0.6721 score: 0.93208
+2020-02-25 21:30:42,826 - INFO - save model at score=0.9320799801982667 on epoch=2
+2020-02-25 21:30:42,827 - INFO - Starting 3 epoch...
+2020-02-25 21:33:43,805 - INFO - Train loss on step 500 was 3.28226
+2020-02-25 21:36:45,782 - INFO - Train loss on step 1000 was 3.14023
+2020-02-25 21:39:47,250 - INFO - Train loss on step 1500 was 3.11728
+2020-02-25 21:42:49,153 - INFO - Train loss on step 2000 was 3.11396
+2020-02-25 21:45:51,145 - INFO - Train loss on step 2500 was 3.09401
+2020-02-25 21:48:52,519 - INFO - Train loss on step 3000 was 3.098
+2020-02-25 21:50:58,655 - INFO - Mean train loss: 3.08983
+2020-02-25 21:53:46,501 - INFO - Mean valid loss: 0.60772 score: 0.94589
+2020-02-25 21:53:46,583 - INFO - save model at score=0.9458915038706721 on epoch=3
+2020-02-25 21:53:46,583 - INFO - Starting 4 epoch...
+2020-02-25 21:56:47,273 - INFO - Train loss on step 500 was 2.93325
+2020-02-25 21:59:48,556 - INFO - Train loss on step 1000 was 2.89237
+2020-02-25 22:02:50,017 - INFO - Train loss on step 1500 was 2.91031
+2020-02-25 22:05:51,803 - INFO - Train loss on step 2000 was 2.92167
+2020-02-25 22:08:52,771 - INFO - Train loss on step 2500 was 2.92292
+2020-02-25 22:11:54,025 - INFO - Train loss on step 3000 was 2.92574
+2020-02-25 22:14:00,235 - INFO - Mean train loss: 2.94229
+2020-02-25 22:16:48,560 - INFO - Mean valid loss: 0.58395 score: 0.94379
+2020-02-25 22:16:48,560 - INFO - Starting 5 epoch...
+2020-02-25 22:19:49,281 - INFO - Train loss on step 500 was 2.92313
+2020-02-25 22:22:50,524 - INFO - Train loss on step 1000 was 2.84006
+2020-02-25 22:25:52,354 - INFO - Train loss on step 1500 was 2.88016
+2020-02-25 22:28:53,545 - INFO - Train loss on step 2000 was 2.91364
+2020-02-25 22:31:54,781 - INFO - Train loss on step 2500 was 2.88647
+2020-02-25 22:34:56,580 - INFO - Train loss on step 3000 was 2.87064
+2020-02-25 22:37:02,239 - INFO - Mean train loss: 2.87535
+2020-02-25 22:39:47,755 - INFO - Mean valid loss: 0.4981 score: 0.95051
+2020-02-25 22:39:47,834 - INFO - save model at score=0.9505074452937434 on epoch=5
+2020-02-25 22:39:47,834 - INFO - Starting 6 epoch...
+2020-02-25 22:42:48,249 - INFO - Train loss on step 500 was 2.83781
+2020-02-25 22:45:49,935 - INFO - Train loss on step 1000 was 2.84322
+2020-02-25 22:48:51,091 - INFO - Train loss on step 1500 was 2.8909
+2020-02-25 22:51:52,215 - INFO - Train loss on step 2000 was 2.8716
+2020-02-25 22:54:54,067 - INFO - Train loss on step 2500 was 2.8537
+2020-02-25 22:57:55,022 - INFO - Train loss on step 3000 was 2.85222
+2020-02-25 23:00:00,785 - INFO - Mean train loss: 2.83893
+2020-02-25 23:02:46,562 - INFO - Mean valid loss: 0.41649 score: 0.95232
+2020-02-25 23:02:46,641 - INFO - save model at score=0.9523185542933141 on epoch=6
+2020-02-25 23:02:46,641 - INFO - Starting 7 epoch...
+2020-02-25 23:05:47,751 - INFO - Train loss on step 500 was 2.62346
+2020-02-25 23:08:49,105 - INFO - Train loss on step 1000 was 2.66992
+2020-02-25 23:11:50,318 - INFO - Train loss on step 1500 was 2.65028
+2020-02-25 23:14:52,122 - INFO - Train loss on step 2000 was 2.65581
+2020-02-25 23:17:53,240 - INFO - Train loss on step 2500 was 2.67302
+2020-02-25 23:20:54,534 - INFO - Train loss on step 3000 was 2.6722
+2020-02-25 23:23:00,466 - INFO - Mean train loss: 2.67241
+2020-02-25 23:25:48,766 - INFO - Mean valid loss: 0.44392 score: 0.95664
+2020-02-25 23:25:48,846 - INFO - save model at score=0.9566360293842553 on epoch=7
+2020-02-25 23:25:48,846 - INFO - Starting 8 epoch...
+2020-02-25 23:28:49,352 - INFO - Train loss on step 500 was 2.71577
+2020-02-25 23:31:50,722 - INFO - Train loss on step 1000 was 2.65005
+2020-02-25 23:34:52,567 - INFO - Train loss on step 1500 was 2.65866
+2020-02-25 23:37:53,768 - INFO - Train loss on step 2000 was 2.60237
+2020-02-25 23:40:55,194 - INFO - Train loss on step 2500 was 2.60932
+2020-02-25 23:43:56,927 - INFO - Train loss on step 3000 was 2.63426
+2020-02-25 23:46:02,944 - INFO - Mean train loss: 2.65167
+2020-02-25 23:48:49,337 - INFO - Mean valid loss: 0.46653 score: 0.95234
+2020-02-25 23:48:49,337 - INFO - Starting 9 epoch...
+2020-02-25 23:51:49,815 - INFO - Train loss on step 500 was 2.62629
+2020-02-25 23:54:51,726 - INFO - Train loss on step 1000 was 2.62022
+2020-02-25 23:57:52,782 - INFO - Train loss on step 1500 was 2.63337
+2020-02-26 00:00:54,160 - INFO - Train loss on step 2000 was 2.6005
+2020-02-26 00:03:55,925 - INFO - Train loss on step 2500 was 2.59154
+2020-02-26 00:06:57,195 - INFO - Train loss on step 3000 was 2.56319
+2020-02-26 00:09:03,301 - INFO - Mean train loss: 2.56011
+2020-02-26 00:11:49,196 - INFO - Mean valid loss: 0.37231 score: 0.95998
+2020-02-26 00:11:49,277 - INFO - save model at score=0.9599813915128549 on epoch=9
+2020-02-26 00:11:49,277 - INFO - Starting 10 epoch...
+2020-02-26 00:14:50,476 - INFO - Train loss on step 500 was 2.43553
+2020-02-26 00:17:51,922 - INFO - Train loss on step 1000 was 2.43637
+2020-02-26 00:20:53,284 - INFO - Train loss on step 1500 was 2.44789
+2020-02-26 00:23:55,036 - INFO - Train loss on step 2000 was 2.45731
+2020-02-26 00:26:56,217 - INFO - Train loss on step 2500 was 2.46164
+2020-02-26 00:29:57,472 - INFO - Train loss on step 3000 was 2.46874
+2020-02-26 00:32:03,466 - INFO - Mean train loss: 2.47239
+2020-02-26 00:34:52,037 - INFO - Mean valid loss: 0.36132 score: 0.95927
+2020-02-26 00:34:52,037 - INFO - Starting 11 epoch...
+2020-02-26 00:37:52,599 - INFO - Train loss on step 500 was 2.39011
+2020-02-26 00:40:54,042 - INFO - Train loss on step 1000 was 2.48751
+2020-02-26 00:43:56,570 - INFO - Train loss on step 1500 was 2.52041
+2020-02-26 00:46:58,513 - INFO - Train loss on step 2000 was 2.52606
+2020-02-26 00:50:00,820 - INFO - Train loss on step 2500 was 2.56242
+2020-02-26 00:53:03,577 - INFO - Train loss on step 3000 was 2.54416
+2020-02-26 00:55:10,439 - INFO - Mean train loss: 2.55487
+2020-02-26 00:57:56,428 - INFO - Mean valid loss: 0.56474 score: 0.96033
+2020-02-26 00:57:56,507 - INFO - save model at score=0.9603287853024904 on epoch=11
+2020-02-26 00:57:56,507 - INFO - Starting 12 epoch...
+2020-02-26 01:00:58,258 - INFO - Train loss on step 500 was 2.45237
+2020-02-26 01:04:01,373 - INFO - Train loss on step 1000 was 2.46507
+2020-02-26 01:07:03,697 - INFO - Train loss on step 1500 was 2.47463
+2020-02-26 01:10:06,076 - INFO - Train loss on step 2000 was 2.45998
+2020-02-26 01:13:08,535 - INFO - Train loss on step 2500 was 2.45309
+2020-02-26 01:16:11,189 - INFO - Train loss on step 3000 was 2.42697
+2020-02-26 01:18:17,862 - INFO - Mean train loss: 2.42472
+2020-02-26 01:21:05,351 - INFO - Mean valid loss: 0.52523 score: 0.96317
+2020-02-26 01:21:05,433 - INFO - save model at score=0.9631737289259603 on epoch=12
+2020-02-26 01:21:05,434 - INFO - Starting 13 epoch...
+2020-02-26 01:24:08,178 - INFO - Train loss on step 500 was 2.4262
+2020-02-26 01:27:10,905 - INFO - Train loss on step 1000 was 2.43336
+2020-02-26 01:30:13,607 - INFO - Train loss on step 1500 was 2.42213
+2020-02-26 01:33:16,170 - INFO - Train loss on step 2000 was 2.41683
+2020-02-26 01:36:18,749 - INFO - Train loss on step 2500 was 2.42979
+2020-02-26 01:39:21,172 - INFO - Train loss on step 3000 was 2.43025
+2020-02-26 01:41:28,081 - INFO - Mean train loss: 2.41965
+2020-02-26 01:44:16,631 - INFO - Mean valid loss: 0.45373 score: 0.96254
+2020-02-26 01:44:16,631 - INFO - Starting 14 epoch...
+2020-02-26 01:47:19,141 - INFO - Train loss on step 500 was 2.40724
+2020-02-26 01:50:22,577 - INFO - Train loss on step 1000 was 2.40826
+2020-02-26 01:53:25,730 - INFO - Train loss on step 1500 was 2.43678
+2020-02-26 01:56:28,485 - INFO - Train loss on step 2000 was 2.41287
+2020-02-26 01:59:31,123 - INFO - Train loss on step 2500 was 2.41863
+2020-02-26 02:02:33,832 - INFO - Train loss on step 3000 was 2.42405
+2020-02-26 02:04:41,348 - INFO - Mean train loss: 2.42236
+2020-02-26 02:07:27,247 - INFO - Mean valid loss: 0.38738 score: 0.96045
+2020-02-26 02:07:27,247 - INFO - Starting 15 epoch...
+2020-02-26 02:10:29,849 - INFO - Train loss on step 500 was 2.37434
+2020-02-26 02:13:33,444 - INFO - Train loss on step 1000 was 2.28331
+2020-02-26 02:16:36,296 - INFO - Train loss on step 1500 was 2.34235
+2020-02-26 02:19:38,714 - INFO - Train loss on step 2000 was 2.32328
+2020-02-26 02:22:40,919 - INFO - Train loss on step 2500 was 2.34216
+2020-02-26 02:25:43,529 - INFO - Train loss on step 3000 was 2.34913
+2020-02-26 02:27:50,051 - INFO - Mean train loss: 2.34331
+2020-02-26 02:30:35,891 - INFO - Mean valid loss: 0.49156 score: 0.96388
+2020-02-26 02:30:35,972 - INFO - save model at score=0.9638832008866786 on epoch=15
+2020-02-26 02:30:35,972 - INFO - Starting 16 epoch...
+2020-02-26 02:33:39,073 - INFO - Train loss on step 500 was 2.38659
+2020-02-26 02:36:42,475 - INFO - Train loss on step 1000 was 2.35879
+2020-02-26 02:39:45,302 - INFO - Train loss on step 1500 was 2.39093
+2020-02-26 02:42:47,777 - INFO - Train loss on step 2000 was 2.38269
+2020-02-26 02:45:50,473 - INFO - Train loss on step 2500 was 2.36183
+2020-02-26 02:48:52,968 - INFO - Train loss on step 3000 was 2.354
+2020-02-26 02:50:59,758 - INFO - Mean train loss: 2.35527
+2020-02-26 02:53:47,001 - INFO - Mean valid loss: 0.48887 score: 0.96585
+2020-02-26 02:53:47,084 - INFO - save model at score=0.9658481240849371 on epoch=16
+2020-02-26 02:53:47,084 - INFO - Starting 17 epoch...
+2020-02-26 02:56:49,851 - INFO - Train loss on step 500 was 2.27691
+2020-02-26 02:59:53,469 - INFO - Train loss on step 1000 was 2.31857
+2020-02-26 03:02:56,277 - INFO - Train loss on step 1500 was 2.28773
+2020-02-26 03:05:59,228 - INFO - Train loss on step 2000 was 2.27331
+2020-02-26 03:09:01,811 - INFO - Train loss on step 2500 was 2.27842
+2020-02-26 03:12:04,578 - INFO - Train loss on step 3000 was 2.2891
+2020-02-26 03:14:11,861 - INFO - Mean train loss: 2.28522
+2020-02-26 03:16:59,356 - INFO - Mean valid loss: 0.4521 score: 0.96296
+2020-02-26 03:16:59,356 - INFO - Starting 18 epoch...
+2020-02-26 03:20:02,649 - INFO - Train loss on step 500 was 2.35476
+2020-02-26 03:23:06,544 - INFO - Train loss on step 1000 was 2.34564
+2020-02-26 03:26:09,781 - INFO - Train loss on step 1500 was 2.36119
+2020-02-26 03:29:12,424 - INFO - Train loss on step 2000 was 2.36563
+2020-02-26 03:32:15,297 - INFO - Train loss on step 2500 was 2.33435
+2020-02-26 03:35:18,326 - INFO - Train loss on step 3000 was 2.3154
+2020-02-26 03:37:23,715 - INFO - Mean train loss: 2.31505
+2020-02-26 03:40:05,246 - INFO - Mean valid loss: 0.37367 score: 0.9659
+2020-02-26 03:40:05,326 - INFO - save model at score=0.9658990512786276 on epoch=18
+2020-02-26 03:40:05,327 - INFO - Starting 19 epoch...
+2020-02-26 03:43:04,640 - INFO - Train loss on step 500 was 2.23457
+2020-02-26 03:46:04,448 - INFO - Train loss on step 1000 was 2.23523
+2020-02-26 03:49:03,978 - INFO - Train loss on step 1500 was 2.217
+2020-02-26 03:52:03,480 - INFO - Train loss on step 2000 was 2.20168
+2020-02-26 03:55:02,856 - INFO - Train loss on step 2500 was 2.21032
+2020-02-26 03:58:02,102 - INFO - Train loss on step 3000 was 2.23445
+2020-02-26 04:00:06,609 - INFO - Mean train loss: 2.2351
+2020-02-26 04:02:47,128 - INFO - Mean valid loss: 0.30744 score: 0.9645
+2020-02-26 04:02:47,128 - INFO - Starting 20 epoch...
+2020-02-26 04:05:45,585 - INFO - Train loss on step 500 was 2.25495
+2020-02-26 04:08:44,210 - INFO - Train loss on step 1000 was 2.21059
+2020-02-26 04:11:42,515 - INFO - Train loss on step 1500 was 2.24119
+2020-02-26 04:14:40,509 - INFO - Train loss on step 2000 was 2.26507
+2020-02-26 04:17:38,142 - INFO - Train loss on step 2500 was 2.2859
+2020-02-26 04:20:35,615 - INFO - Train loss on step 3000 was 2.28478
+2020-02-26 04:22:38,780 - INFO - Mean train loss: 2.28809
+2020-02-26 04:25:19,200 - INFO - Mean valid loss: 0.41134 score: 0.96557
+2020-02-26 04:25:19,200 - INFO - Starting 21 epoch...
+2020-02-26 04:28:16,178 - INFO - Train loss on step 500 was 2.19342
+2020-02-26 04:31:13,756 - INFO - Train loss on step 1000 was 2.15913
+2020-02-26 04:34:11,237 - INFO - Train loss on step 1500 was 2.23578
+2020-02-26 04:37:08,594 - INFO - Train loss on step 2000 was 2.23476
+2020-02-26 04:40:05,757 - INFO - Train loss on step 2500 was 2.23442
+2020-02-26 04:43:03,147 - INFO - Train loss on step 3000 was 2.23506
+2020-02-26 04:45:06,459 - INFO - Mean train loss: 2.23867
+2020-02-26 04:47:46,899 - INFO - Mean valid loss: 0.45217 score: 0.96628
+2020-02-26 04:47:46,984 - INFO - save model at score=0.9662751936594234 on epoch=21
+2020-02-26 04:47:46,985 - INFO - Starting 22 epoch...
+2020-02-26 04:50:43,490 - INFO - Train loss on step 500 was 2.24998
+2020-02-26 04:53:40,786 - INFO - Train loss on step 1000 was 2.22741
+2020-02-26 04:56:37,912 - INFO - Train loss on step 1500 was 2.26315
+2020-02-26 04:59:35,051 - INFO - Train loss on step 2000 was 2.24881
+2020-02-26 05:02:32,130 - INFO - Train loss on step 2500 was 2.2613
+2020-02-26 05:05:29,302 - INFO - Train loss on step 3000 was 2.25535
+2020-02-26 05:07:32,325 - INFO - Mean train loss: 2.26008
+2020-02-26 05:10:12,775 - INFO - Mean valid loss: 0.38874 score: 0.96702
+2020-02-26 05:10:12,859 - INFO - save model at score=0.9670231573908161 on epoch=22
+2020-02-26 05:10:12,859 - INFO - Starting 23 epoch...
+2020-02-26 05:13:09,204 - INFO - Train loss on step 500 was 2.20448
+2020-02-26 05:16:06,678 - INFO - Train loss on step 1000 was 2.22437
+2020-02-26 05:19:04,080 - INFO - Train loss on step 1500 was 2.26027
+2020-02-26 05:22:01,436 - INFO - Train loss on step 2000 was 2.24103
+2020-02-26 05:24:58,700 - INFO - Train loss on step 2500 was 2.24317
+2020-02-26 05:27:55,944 - INFO - Train loss on step 3000 was 2.23864
+2020-02-26 05:29:59,046 - INFO - Mean train loss: 2.23088
+2020-02-26 05:32:39,683 - INFO - Mean valid loss: 0.35187 score: 0.96512
+2020-02-26 05:32:39,683 - INFO - Starting 24 epoch...
+2020-02-26 05:35:36,165 - INFO - Train loss on step 500 was 2.21179
+2020-02-26 05:38:33,555 - INFO - Train loss on step 1000 was 2.24564
+2020-02-26 05:41:31,194 - INFO - Train loss on step 1500 was 2.21127
+2020-02-26 05:44:28,666 - INFO - Train loss on step 2000 was 2.17106
+2020-02-26 05:47:26,012 - INFO - Train loss on step 2500 was 2.16132
+2020-02-26 05:50:23,543 - INFO - Train loss on step 3000 was 2.16808
+2020-02-26 05:52:26,900 - INFO - Mean train loss: 2.17121
+2020-02-26 05:55:08,418 - INFO - Mean valid loss: 0.27495 score: 0.96613
+2020-02-26 05:55:08,418 - INFO - Starting 25 epoch...
+2020-02-26 05:58:05,426 - INFO - Train loss on step 500 was 2.01093
+2020-02-26 06:01:03,221 - INFO - Train loss on step 1000 was 2.17092
+2020-02-26 06:04:00,797 - INFO - Train loss on step 1500 was 2.24933
+2020-02-26 06:06:58,405 - INFO - Train loss on step 2000 was 2.23508
+2020-02-26 06:09:55,895 - INFO - Train loss on step 2500 was 2.21448
+2020-02-26 06:12:53,237 - INFO - Train loss on step 3000 was 2.20882
+2020-02-26 06:14:56,508 - INFO - Mean train loss: 2.21584
+2020-02-26 06:17:38,819 - INFO - Mean valid loss: 0.29955 score: 0.96735
+2020-02-26 06:17:38,904 - INFO - save model at score=0.9673469380318721 on epoch=25
+2020-02-26 06:17:38,904 - INFO - Starting 26 epoch...
+2020-02-26 06:20:35,809 - INFO - Train loss on step 500 was 2.25469
+2020-02-26 06:23:33,560 - INFO - Train loss on step 1000 was 2.18751
+2020-02-26 06:26:30,899 - INFO - Train loss on step 1500 was 2.17254
+2020-02-26 06:29:28,403 - INFO - Train loss on step 2000 was 2.19196
+2020-02-26 06:32:26,045 - INFO - Train loss on step 2500 was 2.19051
+2020-02-26 06:35:23,406 - INFO - Train loss on step 3000 was 2.19321
+2020-02-26 06:37:26,714 - INFO - Mean train loss: 2.18361
+2020-02-26 06:40:07,394 - INFO - Mean valid loss: 0.26978 score: 0.96767
+2020-02-26 06:40:07,477 - INFO - save model at score=0.967674587084117 on epoch=26
+2020-02-26 06:40:07,477 - INFO - Starting 27 epoch...
+2020-02-26 06:43:04,761 - INFO - Train loss on step 500 was 2.08625
+2020-02-26 06:46:02,665 - INFO - Train loss on step 1000 was 2.03328
+2020-02-26 06:49:00,461 - INFO - Train loss on step 1500 was 2.10312
+2020-02-26 06:51:58,333 - INFO - Train loss on step 2000 was 2.13357
+2020-02-26 06:54:55,986 - INFO - Train loss on step 2500 was 2.14106
+2020-02-26 06:57:53,605 - INFO - Train loss on step 3000 was 2.14474
+2020-02-26 06:59:56,805 - INFO - Mean train loss: 2.14951
+2020-02-26 07:02:38,604 - INFO - Mean valid loss: 0.30661 score: 0.96904
+2020-02-26 07:02:38,689 - INFO - save model at score=0.9690383905997269 on epoch=27
+2020-02-26 07:02:38,689 - INFO - Starting 28 epoch...
+2020-02-26 07:05:35,846 - INFO - Train loss on step 500 was 2.12055
+2020-02-26 07:08:34,233 - INFO - Train loss on step 1000 was 2.10967
+2020-02-26 07:11:32,278 - INFO - Train loss on step 1500 was 2.10488
+2020-02-26 07:14:30,142 - INFO - Train loss on step 2000 was 2.12858
+2020-02-26 07:17:27,953 - INFO - Train loss on step 2500 was 2.14844
+2020-02-26 07:20:25,384 - INFO - Train loss on step 3000 was 2.15946
+2020-02-26 07:22:28,689 - INFO - Mean train loss: 2.16321
+2020-02-26 07:25:10,775 - INFO - Mean valid loss: 0.24019 score: 0.96833
+2020-02-26 07:25:10,775 - INFO - Starting 29 epoch...
+2020-02-26 07:28:07,874 - INFO - Train loss on step 500 was 2.15269
+2020-02-26 07:31:05,942 - INFO - Train loss on step 1000 was 2.20017
+2020-02-26 07:34:03,491 - INFO - Train loss on step 1500 was 2.21252
+2020-02-26 07:37:01,202 - INFO - Train loss on step 2000 was 2.15617
+2020-02-26 07:39:58,743 - INFO - Train loss on step 2500 was 2.16981
+2020-02-26 07:42:56,617 - INFO - Train loss on step 3000 was 2.16211
+2020-02-26 07:45:00,071 - INFO - Mean train loss: 2.16609
+2020-02-26 07:47:42,090 - INFO - Mean valid loss: 0.24604 score: 0.9672
+2020-02-26 07:47:42,090 - INFO - Starting 30 epoch...
+2020-02-26 07:50:39,451 - INFO - Train loss on step 500 was 2.03546
+2020-02-26 07:53:37,692 - INFO - Train loss on step 1000 was 2.07334
+2020-02-26 07:56:35,609 - INFO - Train loss on step 1500 was 2.08002
+2020-02-26 07:59:33,168 - INFO - Train loss on step 2000 was 2.09655
+2020-02-26 08:02:30,768 - INFO - Train loss on step 2500 was 2.10554
+2020-02-26 08:05:28,641 - INFO - Train loss on step 3000 was 2.12338
+2020-02-26 08:07:32,065 - INFO - Mean train loss: 2.12801
+2020-02-26 08:10:14,153 - INFO - Mean valid loss: 0.25296 score: 0.96726
+2020-02-26 08:10:14,153 - INFO - Starting 31 epoch...
+2020-02-26 08:13:11,592 - INFO - Train loss on step 500 was 2.11435
+2020-02-26 08:16:09,803 - INFO - Train loss on step 1000 was 2.09199
+2020-02-26 08:19:08,156 - INFO - Train loss on step 1500 was 2.10174
+2020-02-26 08:22:06,238 - INFO - Train loss on step 2000 was 2.09651
+2020-02-26 08:25:04,267 - INFO - Train loss on step 2500 was 2.10982
+2020-02-26 08:28:02,231 - INFO - Train loss on step 3000 was 2.10628
+2020-02-26 08:30:05,861 - INFO - Mean train loss: 2.11539
+2020-02-26 08:32:47,565 - INFO - Mean valid loss: 0.25205 score: 0.96629
+2020-02-26 08:32:47,565 - INFO - Starting 32 epoch...
+2020-02-26 08:35:45,385 - INFO - Train loss on step 500 was 2.14417
+2020-02-26 08:38:43,923 - INFO - Train loss on step 1000 was 2.16341
+2020-02-26 08:41:42,391 - INFO - Train loss on step 1500 was 2.11818
+2020-02-26 08:44:40,520 - INFO - Train loss on step 2000 was 2.10732
+2020-02-26 08:47:38,264 - INFO - Train loss on step 2500 was 2.1024
+2020-02-26 08:50:36,230 - INFO - Train loss on step 3000 was 2.09815
+2020-02-26 08:52:39,911 - INFO - Mean train loss: 2.1096
+2020-02-26 08:55:24,821 - INFO - Mean valid loss: 0.27504 score: 0.96499
+2020-02-26 08:55:24,821 - INFO - Starting 33 epoch...
+2020-02-26 08:58:22,791 - INFO - Train loss on step 500 was 2.06443
+2020-02-26 09:01:21,247 - INFO - Train loss on step 1000 was 2.098
+2020-02-26 09:04:19,903 - INFO - Train loss on step 1500 was 2.11832
+2020-02-26 09:07:18,085 - INFO - Train loss on step 2000 was 2.10446
+2020-02-26 09:10:16,195 - INFO - Train loss on step 2500 was 2.0872
+2020-02-26 09:13:14,403 - INFO - Train loss on step 3000 was 2.09589
+2020-02-26 09:15:18,108 - INFO - Mean train loss: 2.10237
+2020-02-26 09:18:01,770 - INFO - Mean valid loss: 0.24482 score: 0.96861
+2020-02-26 09:18:01,771 - INFO - Starting 34 epoch...
+2020-02-26 09:20:59,623 - INFO - Train loss on step 500 was 2.13501
+2020-02-26 09:23:58,879 - INFO - Train loss on step 1000 was 2.06566
+2020-02-26 09:26:57,538 - INFO - Train loss on step 1500 was 2.09488
+2020-02-26 09:29:55,840 - INFO - Train loss on step 2000 was 2.09186
+2020-02-26 09:32:54,055 - INFO - Train loss on step 2500 was 2.08933
+2020-02-26 09:35:52,528 - INFO - Train loss on step 3000 was 2.08453
+2020-02-26 09:37:56,223 - INFO - Mean train loss: 2.08298
+2020-02-26 09:40:37,434 - INFO - Mean valid loss: 0.25417 score: 0.96726
+2020-02-26 09:40:37,435 - INFO - Starting 35 epoch...
+2020-02-26 09:43:35,345 - INFO - Train loss on step 500 was 2.05134
+2020-02-26 09:46:33,826 - INFO - Train loss on step 1000 was 2.08466
+2020-02-26 09:49:31,988 - INFO - Train loss on step 1500 was 2.10135
+2020-02-26 09:52:29,879 - INFO - Train loss on step 2000 was 2.09709
+2020-02-26 09:55:27,578 - INFO - Train loss on step 2500 was 2.09201
+2020-02-26 09:58:25,487 - INFO - Train loss on step 3000 was 2.09243
+2020-02-26 10:00:29,068 - INFO - Mean train loss: 2.10855
+2020-02-26 10:03:11,202 - INFO - Mean valid loss: 0.23513 score: 0.96909
+2020-02-26 10:03:11,287 - INFO - save model at score=0.9690882137457376 on epoch=35
+2020-02-26 10:03:11,287 - INFO - Starting 36 epoch...
+2020-02-26 10:06:08,424 - INFO - Train loss on step 500 was 2.04773
+2020-02-26 10:09:06,335 - INFO - Train loss on step 1000 was 2.04864
+2020-02-26 10:12:04,386 - INFO - Train loss on step 1500 was 2.01124
+2020-02-26 10:15:02,142 - INFO - Train loss on step 2000 was 2.00882
+2020-02-26 10:17:59,759 - INFO - Train loss on step 2500 was 2.0515
+2020-02-26 10:20:57,488 - INFO - Train loss on step 3000 was 2.02868
+2020-02-26 10:23:00,807 - INFO - Mean train loss: 2.03438
+2020-02-26 10:25:41,948 - INFO - Mean valid loss: 0.23037 score: 0.96888
+2020-02-26 10:25:41,948 - INFO - Starting 37 epoch...
+2020-02-26 10:28:39,628 - INFO - Train loss on step 500 was 2.09151
+2020-02-26 10:31:37,937 - INFO - Train loss on step 1000 was 2.11763
+2020-02-26 10:34:36,203 - INFO - Train loss on step 1500 was 2.07811
+2020-02-26 10:37:34,018 - INFO - Train loss on step 2000 was 2.07368
+2020-02-26 10:40:31,651 - INFO - Train loss on step 2500 was 2.07363
+2020-02-26 10:43:29,226 - INFO - Train loss on step 3000 was 2.07128
+2020-02-26 10:45:32,567 - INFO - Mean train loss: 2.07686
+2020-02-26 10:48:14,204 - INFO - Mean valid loss: 0.26433 score: 0.9681
+2020-02-26 10:48:14,204 - INFO - Starting 38 epoch...
+2020-02-26 10:51:11,477 - INFO - Train loss on step 500 was 2.06501
+2020-02-26 10:54:09,704 - INFO - Train loss on step 1000 was 2.07011
+2020-02-26 10:57:07,735 - INFO - Train loss on step 1500 was 2.06282
+2020-02-26 11:00:05,508 - INFO - Train loss on step 2000 was 2.0565
+2020-02-26 11:03:03,325 - INFO - Train loss on step 2500 was 2.05739
+2020-02-26 11:06:01,141 - INFO - Train loss on step 3000 was 2.04908
+2020-02-26 11:08:04,559 - INFO - Mean train loss: 2.03839
+2020-02-26 11:10:45,351 - INFO - Mean valid loss: 0.24702 score: 0.96799
+2020-02-26 11:10:45,351 - INFO - Starting 39 epoch...
+2020-02-26 11:13:42,887 - INFO - Train loss on step 500 was 2.05478
+2020-02-26 11:16:41,186 - INFO - Train loss on step 1000 was 2.07993
+2020-02-26 11:19:39,169 - INFO - Train loss on step 1500 was 2.03662
+2020-02-26 11:22:36,814 - INFO - Train loss on step 2000 was 2.06309
+2020-02-26 11:25:34,380 - INFO - Train loss on step 2500 was 2.06834
+2020-02-26 11:28:31,955 - INFO - Train loss on step 3000 was 2.06711
+2020-02-26 11:30:35,301 - INFO - Mean train loss: 2.0657
+2020-02-26 11:33:16,094 - INFO - Mean valid loss: 0.24944 score: 0.97185
+2020-02-26 11:33:16,177 - INFO - save model at score=0.9718483685275201 on epoch=39
+2020-02-26 11:33:16,177 - INFO - Starting 40 epoch...
+2020-02-26 11:36:13,802 - INFO - Train loss on step 500 was 2.0397
+2020-02-26 11:39:12,095 - INFO - Train loss on step 1000 was 1.99919
+2020-02-26 11:42:10,411 - INFO - Train loss on step 1500 was 2.02503
+2020-02-26 11:45:08,520 - INFO - Train loss on step 2000 was 2.04918
+2020-02-26 11:48:06,380 - INFO - Train loss on step 2500 was 2.0273
+2020-02-26 11:51:04,294 - INFO - Train loss on step 3000 was 2.03977
+2020-02-26 11:53:07,890 - INFO - Mean train loss: 2.04226
+2020-02-26 11:55:49,131 - INFO - Mean valid loss: 0.22719 score: 0.96953
+2020-02-26 11:55:49,132 - INFO - Starting 41 epoch...
+2020-02-26 11:58:46,693 - INFO - Train loss on step 500 was 1.99448
+2020-02-26 12:01:44,871 - INFO - Train loss on step 1000 was 2.02676
+2020-02-26 12:04:42,915 - INFO - Train loss on step 1500 was 2.03776
+2020-02-26 12:07:40,668 - INFO - Train loss on step 2000 was 2.02095
+2020-02-26 12:10:38,312 - INFO - Train loss on step 2500 was 2.03445
+2020-02-26 12:13:35,895 - INFO - Train loss on step 3000 was 2.02278
+2020-02-26 12:15:39,266 - INFO - Mean train loss: 2.00986
+2020-02-26 12:18:20,002 - INFO - Mean valid loss: 0.24386 score: 0.96824
+2020-02-26 12:18:20,002 - INFO - Starting 42 epoch...
+2020-02-26 12:21:17,485 - INFO - Train loss on step 500 was 2.03159
+2020-02-26 12:24:15,673 - INFO - Train loss on step 1000 was 2.02126
+2020-02-26 12:27:13,862 - INFO - Train loss on step 1500 was 1.98202
+2020-02-26 12:30:11,817 - INFO - Train loss on step 2000 was 1.98872
+2020-02-26 12:33:09,540 - INFO - Train loss on step 2500 was 2.01833
+2020-02-26 12:36:07,317 - INFO - Train loss on step 3000 was 2.03865
+2020-02-26 12:38:10,794 - INFO - Mean train loss: 2.02643
+2020-02-26 12:40:51,917 - INFO - Mean valid loss: 0.22101 score: 0.9709
+2020-02-26 12:40:51,917 - INFO - Starting 43 epoch...
+2020-02-26 12:43:49,151 - INFO - Train loss on step 500 was 1.9477
+2020-02-26 12:46:47,117 - INFO - Train loss on step 1000 was 1.99618
+2020-02-26 12:49:45,187 - INFO - Train loss on step 1500 was 2.03246
+2020-02-26 12:52:42,912 - INFO - Train loss on step 2000 was 2.05734
+2020-02-26 12:55:40,500 - INFO - Train loss on step 2500 was 2.03099
+2020-02-26 12:58:38,241 - INFO - Train loss on step 3000 was 2.01061
+2020-02-26 13:00:41,726 - INFO - Mean train loss: 2.00756
+2020-02-26 13:03:23,286 - INFO - Mean valid loss: 0.25099 score: 0.97179
+2020-02-26 13:03:23,287 - INFO - Starting 44 epoch...
+2020-02-26 13:06:20,726 - INFO - Train loss on step 500 was 1.96867
+2020-02-26 13:09:18,667 - INFO - Train loss on step 1000 was 2.01075
+2020-02-26 13:12:16,381 - INFO - Train loss on step 1500 was 2.0206
+2020-02-26 13:15:13,843 - INFO - Train loss on step 2000 was 2.02693
+2020-02-26 13:18:11,217 - INFO - Train loss on step 2500 was 2.0329
+2020-02-26 13:21:08,574 - INFO - Train loss on step 3000 was 2.02749
+2020-02-26 13:23:11,758 - INFO - Mean train loss: 2.02522
+2020-02-26 13:25:52,487 - INFO - Mean valid loss: 0.22511 score: 0.97074
+2020-02-26 13:25:52,487 - INFO - Starting 45 epoch...
+2020-02-26 13:28:49,506 - INFO - Train loss on step 500 was 2.06876
+2020-02-26 13:31:47,289 - INFO - Train loss on step 1000 was 2.02685
+2020-02-26 13:34:44,995 - INFO - Train loss on step 1500 was 2.0384
+2020-02-26 13:37:42,433 - INFO - Train loss on step 2000 was 2.02006
+2020-02-26 13:40:39,906 - INFO - Train loss on step 2500 was 2.03478
+2020-02-26 13:43:37,304 - INFO - Train loss on step 3000 was 2.04403
+2020-02-26 13:45:40,584 - INFO - Mean train loss: 2.03076
+2020-02-26 13:48:21,387 - INFO - Mean valid loss: 0.23487 score: 0.97007
+2020-02-26 13:48:21,388 - INFO - Starting 46 epoch...
+2020-02-26 13:51:18,406 - INFO - Train loss on step 500 was 1.99998
+2020-02-26 13:54:16,165 - INFO - Train loss on step 1000 was 1.94951
+2020-02-26 13:57:13,874 - INFO - Train loss on step 1500 was 1.96097
+2020-02-26 14:00:11,466 - INFO - Train loss on step 2000 was 1.97235
+2020-02-26 14:03:08,903 - INFO - Train loss on step 2500 was 1.9917
+2020-02-26 14:06:06,300 - INFO - Train loss on step 3000 was 1.99802
+2020-02-26 14:08:09,582 - INFO - Mean train loss: 1.99336
+2020-02-26 14:10:51,786 - INFO - Mean valid loss: 0.22206 score: 0.97187
+2020-02-26 14:10:51,871 - INFO - save model at score=0.9718650910241442 on epoch=46
+2020-02-26 14:10:51,871 - INFO - Starting 47 epoch...
+2020-02-26 14:13:48,842 - INFO - Train loss on step 500 was 2.05261
+2020-02-26 14:16:46,495 - INFO - Train loss on step 1000 was 2.01382
+2020-02-26 14:19:44,008 - INFO - Train loss on step 1500 was 1.99665
+2020-02-26 14:22:41,347 - INFO - Train loss on step 2000 was 1.99143
+2020-02-26 14:25:38,581 - INFO - Train loss on step 2500 was 1.99934
+2020-02-26 14:28:35,896 - INFO - Train loss on step 3000 was 1.98646
+2020-02-26 14:30:38,972 - INFO - Mean train loss: 1.98002
+2020-02-26 14:33:19,667 - INFO - Mean valid loss: 0.22517 score: 0.97055
+2020-02-26 14:33:19,667 - INFO - Starting 48 epoch...
+2020-02-26 14:36:16,561 - INFO - Train loss on step 500 was 2.01889
+2020-02-26 14:39:14,181 - INFO - Train loss on step 1000 was 1.98461
+2020-02-26 14:42:11,759 - INFO - Train loss on step 1500 was 1.97435
+2020-02-26 14:45:09,284 - INFO - Train loss on step 2000 was 1.97688
+2020-02-26 14:48:06,569 - INFO - Train loss on step 2500 was 1.96249
+2020-02-26 14:51:03,972 - INFO - Train loss on step 3000 was 1.96492
+2020-02-26 14:53:07,202 - INFO - Mean train loss: 1.97506
+2020-02-26 14:55:47,893 - INFO - Mean valid loss: 0.22141 score: 0.97068
+2020-02-26 14:55:47,893 - INFO - Starting 49 epoch...
+2020-02-26 14:58:44,817 - INFO - Train loss on step 500 was 2.03499
+2020-02-26 15:01:42,459 - INFO - Train loss on step 1000 was 2.03126
+2020-02-26 15:04:40,145 - INFO - Train loss on step 1500 was 2.02762
+2020-02-26 15:07:37,681 - INFO - Train loss on step 2000 was 2.01262
+2020-02-26 15:10:35,118 - INFO - Train loss on step 2500 was 2.00111
+2020-02-26 15:13:32,486 - INFO - Train loss on step 3000 was 1.98599
+2020-02-26 15:15:35,739 - INFO - Mean train loss: 1.98221
+2020-02-26 15:18:17,902 - INFO - Mean valid loss: 0.23908 score: 0.96827
+2020-02-26 15:18:17,902 - INFO - Starting 50 epoch...
+2020-02-26 15:21:14,932 - INFO - Train loss on step 500 was 1.83941
+2020-02-26 15:24:12,575 - INFO - Train loss on step 1000 was 1.88257
+2020-02-26 15:27:10,162 - INFO - Train loss on step 1500 was 1.91388
+2020-02-26 15:30:07,623 - INFO - Train loss on step 2000 was 1.91048
+2020-02-26 15:33:04,533 - INFO - Train loss on step 2500 was 1.92473
+2020-02-26 15:36:01,372 - INFO - Train loss on step 3000 was 1.95077
+2020-02-26 15:38:04,257 - INFO - Mean train loss: 1.95915
+2020-02-26 15:40:44,850 - INFO - Mean valid loss: 0.22028 score: 0.97161
+2020-02-26 15:40:44,851 - INFO - Starting 51 epoch...
+2020-02-26 15:43:41,015 - INFO - Train loss on step 500 was 1.94265
+2020-02-26 15:46:37,930 - INFO - Train loss on step 1000 was 1.92989
+2020-02-26 15:49:34,698 - INFO - Train loss on step 1500 was 1.91428
+2020-02-26 15:52:31,397 - INFO - Train loss on step 2000 was 1.93711
+2020-02-26 15:55:28,079 - INFO - Train loss on step 2500 was 1.95131
+2020-02-26 15:58:24,641 - INFO - Train loss on step 3000 was 1.94735
+2020-02-26 16:00:27,321 - INFO - Mean train loss: 1.95925
+2020-02-26 16:03:07,908 - INFO - Mean valid loss: 0.22727 score: 0.96949
+2020-02-26 16:03:07,908 - INFO - Starting 52 epoch...
+2020-02-26 16:06:03,746 - INFO - Train loss on step 500 was 1.97553
+2020-02-26 16:09:00,208 - INFO - Train loss on step 1000 was 1.98952
+2020-02-26 16:11:56,610 - INFO - Train loss on step 1500 was 1.98796
+2020-02-26 16:14:52,962 - INFO - Train loss on step 2000 was 1.97906
+2020-02-26 16:17:49,213 - INFO - Train loss on step 2500 was 1.97301
+2020-02-26 16:20:45,518 - INFO - Train loss on step 3000 was 1.98945
+2020-02-26 16:22:48,006 - INFO - Mean train loss: 1.97903
+2020-02-26 16:25:28,638 - INFO - Mean valid loss: 0.27583 score: 0.96943
+2020-02-26 16:25:28,639 - INFO - Starting 53 epoch...
+2020-02-26 16:28:24,422 - INFO - Train loss on step 500 was 1.92077
+2020-02-26 16:31:20,864 - INFO - Train loss on step 1000 was 1.90121
+2020-02-26 16:34:17,260 - INFO - Train loss on step 1500 was 1.94832
+2020-02-26 16:37:13,702 - INFO - Train loss on step 2000 was 1.93641
+2020-02-26 16:40:10,067 - INFO - Train loss on step 2500 was 1.92374
+2020-02-26 16:43:06,450 - INFO - Train loss on step 3000 was 1.92699
+2020-02-26 16:45:08,954 - INFO - Mean train loss: 1.92572
+2020-02-26 16:47:50,408 - INFO - Mean valid loss: 0.24333 score: 0.96919
+2020-02-26 16:47:50,408 - INFO - Starting 54 epoch...
+2020-02-26 16:50:46,024 - INFO - Train loss on step 500 was 1.90578
+2020-02-26 16:53:42,322 - INFO - Train loss on step 1000 was 1.93718
+2020-02-26 16:56:38,644 - INFO - Train loss on step 1500 was 1.97562
+2020-02-26 16:59:34,896 - INFO - Train loss on step 2000 was 1.96631
+2020-02-26 17:02:31,227 - INFO - Train loss on step 2500 was 1.975
+2020-02-26 17:05:27,564 - INFO - Train loss on step 3000 was 1.96294
+2020-02-26 17:07:30,019 - INFO - Mean train loss: 1.94257
+2020-02-26 17:10:14,641 - INFO - Mean valid loss: 0.27643 score: 0.97098
+2020-02-26 17:10:14,641 - INFO - Starting 55 epoch...
+2020-02-26 17:13:10,978 - INFO - Train loss on step 500 was 2.01206
+2020-02-26 17:16:09,082 - INFO - Train loss on step 1000 was 1.9708
+2020-02-26 17:19:07,786 - INFO - Train loss on step 1500 was 1.97369
+2020-02-26 17:22:06,619 - INFO - Train loss on step 2000 was 1.92975
+2020-02-26 17:25:05,345 - INFO - Train loss on step 2500 was 1.90426
+2020-02-26 17:28:03,710 - INFO - Train loss on step 3000 was 1.90517
+2020-02-26 17:30:07,701 - INFO - Mean train loss: 1.91598
+2020-02-26 17:32:52,271 - INFO - Mean valid loss: 0.21848 score: 0.97148
+2020-02-26 17:32:52,271 - INFO - Starting 56 epoch...
+2020-02-26 17:35:51,338 - INFO - Train loss on step 500 was 1.97926
+2020-02-26 17:38:51,300 - INFO - Train loss on step 1000 was 2.01554
+2020-02-26 17:41:50,945 - INFO - Train loss on step 1500 was 2.00194
+2020-02-26 17:44:50,531 - INFO - Train loss on step 2000 was 1.98007
+2020-02-26 17:47:50,002 - INFO - Train loss on step 2500 was 1.98369
+2020-02-26 17:50:49,495 - INFO - Train loss on step 3000 was 1.9711
+2020-02-26 17:52:54,150 - INFO - Mean train loss: 1.95802
+2020-02-26 17:55:39,820 - INFO - Mean valid loss: 0.21874 score: 0.97156
+2020-02-26 17:55:39,820 - INFO - Starting 57 epoch...
+2020-02-26 17:58:37,472 - INFO - Train loss on step 500 was 1.85277
+2020-02-26 18:01:36,142 - INFO - Train loss on step 1000 was 1.86747
+2020-02-26 18:04:34,417 - INFO - Train loss on step 1500 was 1.87609
+2020-02-26 18:07:32,711 - INFO - Train loss on step 2000 was 1.87978
+2020-02-26 18:10:30,823 - INFO - Train loss on step 2500 was 1.88013
+2020-02-26 18:13:28,897 - INFO - Train loss on step 3000 was 1.87971
+2020-02-26 18:15:32,832 - INFO - Mean train loss: 1.89689
+2020-02-26 18:18:17,285 - INFO - Mean valid loss: 0.2398 score: 0.9694
+2020-02-26 18:18:17,285 - INFO - Starting 58 epoch...
+2020-02-26 18:21:15,790 - INFO - Train loss on step 500 was 1.86714
+2020-02-26 18:24:13,980 - INFO - Train loss on step 1000 was 1.87773
+2020-02-26 18:27:12,239 - INFO - Train loss on step 1500 was 1.90066
+2020-02-26 18:30:10,024 - INFO - Train loss on step 2000 was 1.93094
+2020-02-26 18:33:07,902 - INFO - Train loss on step 2500 was 1.9421
+2020-02-26 18:36:05,694 - INFO - Train loss on step 3000 was 1.94989
+2020-02-26 18:38:09,289 - INFO - Mean train loss: 1.94637
+2020-02-26 18:40:57,364 - INFO - Mean valid loss: 0.23206 score: 0.97023
+2020-02-26 18:40:57,364 - INFO - Starting 59 epoch...
+2020-02-26 18:43:54,238 - INFO - Train loss on step 500 was 1.92049
+2020-02-26 18:46:52,085 - INFO - Train loss on step 1000 was 1.8961
+2020-02-26 18:49:50,037 - INFO - Train loss on step 1500 was 1.88204
+2020-02-26 18:52:48,341 - INFO - Train loss on step 2000 was 1.89381
+2020-02-26 18:55:46,027 - INFO - Train loss on step 2500 was 1.90734
+2020-02-26 18:58:43,950 - INFO - Train loss on step 3000 was 1.89202
+2020-02-26 19:00:47,495 - INFO - Mean train loss: 1.90224
+2020-02-26 19:03:31,977 - INFO - Mean valid loss: 0.23652 score: 0.97108
+2020-02-26 19:03:31,977 - INFO - Starting 60 epoch...
+2020-02-26 19:06:29,252 - INFO - Train loss on step 500 was 1.94018
+2020-02-26 19:09:26,933 - INFO - Train loss on step 1000 was 1.87202
+2020-02-26 19:12:24,719 - INFO - Train loss on step 1500 was 1.87795
+2020-02-26 19:15:22,586 - INFO - Train loss on step 2000 was 1.87672
+2020-02-26 19:18:20,547 - INFO - Train loss on step 2500 was 1.8827
+2020-02-26 19:21:17,908 - INFO - Train loss on step 3000 was 1.87365
+2020-02-26 19:23:21,230 - INFO - Mean train loss: 1.88015
+2020-02-26 19:26:05,747 - INFO - Mean valid loss: 0.23354 score: 0.97088
+2020-02-26 19:26:05,747 - INFO - Starting 61 epoch...
+2020-02-26 19:29:02,595 - INFO - Train loss on step 500 was 2.00454
+2020-02-26 19:32:00,442 - INFO - Train loss on step 1000 was 1.89298
+2020-02-26 19:34:57,800 - INFO - Train loss on step 1500 was 1.89972
+2020-02-26 19:37:55,299 - INFO - Train loss on step 2000 was 1.93234
+2020-02-26 19:40:52,651 - INFO - Train loss on step 2500 was 1.91905
+2020-02-26 19:43:50,216 - INFO - Train loss on step 3000 was 1.89606
+2020-02-26 19:45:53,316 - INFO - Mean train loss: 1.89905
+2020-02-26 19:48:37,694 - INFO - Mean valid loss: 0.25215 score: 0.97092
+2020-02-26 19:48:37,694 - INFO - Starting 62 epoch...
+2020-02-26 19:51:34,394 - INFO - Train loss on step 500 was 1.90823
+2020-02-26 19:54:32,016 - INFO - Train loss on step 1000 was 1.87725
+2020-02-26 19:57:29,604 - INFO - Train loss on step 1500 was 1.88954
+2020-02-26 20:00:26,847 - INFO - Train loss on step 2000 was 1.88017
+2020-02-26 20:03:24,427 - INFO - Train loss on step 2500 was 1.88017
+2020-02-26 20:06:21,691 - INFO - Train loss on step 3000 was 1.87945
+2020-02-26 20:08:25,180 - INFO - Mean train loss: 1.88337
+2020-02-26 20:11:09,802 - INFO - Mean valid loss: 0.22436 score: 0.97063
+2020-02-26 20:11:09,802 - INFO - Starting 63 epoch...
+2020-02-26 20:14:06,345 - INFO - Train loss on step 500 was 1.81
+2020-02-26 20:17:03,746 - INFO - Train loss on step 1000 was 1.82433
+2020-02-26 20:20:01,282 - INFO - Train loss on step 1500 was 1.86933
+2020-02-26 20:22:58,543 - INFO - Train loss on step 2000 was 1.88168
+2020-02-26 20:25:55,723 - INFO - Train loss on step 2500 was 1.88653
+2020-02-26 20:28:52,838 - INFO - Train loss on step 3000 was 1.89165
+2020-02-26 20:30:56,090 - INFO - Mean train loss: 1.89266
+2020-02-26 20:33:43,277 - INFO - Mean valid loss: 0.22103 score: 0.97243
+2020-02-26 20:33:43,364 - INFO - save model at score=0.9724324485950351 on epoch=63
+2020-02-26 20:33:43,364 - INFO - Starting 64 epoch...
+2020-02-26 20:36:39,524 - INFO - Train loss on step 500 was 1.83126
+2020-02-26 20:39:36,683 - INFO - Train loss on step 1000 was 1.85049
+2020-02-26 20:42:33,766 - INFO - Train loss on step 1500 was 1.84365
+2020-02-26 20:45:30,988 - INFO - Train loss on step 2000 was 1.87711
+2020-02-26 20:48:28,052 - INFO - Train loss on step 2500 was 1.87655
+2020-02-26 20:51:25,082 - INFO - Train loss on step 3000 was 1.87141
+2020-02-26 20:53:28,123 - INFO - Mean train loss: 1.8756
+2020-02-26 20:56:12,582 - INFO - Mean valid loss: 0.24837 score: 0.97111
+2020-02-26 20:56:12,583 - INFO - Starting 65 epoch...
+2020-02-26 20:59:09,387 - INFO - Train loss on step 500 was 1.98787
+2020-02-26 21:02:06,586 - INFO - Train loss on step 1000 was 1.96368
+2020-02-26 21:05:03,797 - INFO - Train loss on step 1500 was 1.92684
+2020-02-26 21:08:01,031 - INFO - Train loss on step 2000 was 1.91576
+2020-02-26 21:10:58,350 - INFO - Train loss on step 2500 was 1.92276
+2020-02-26 21:13:55,377 - INFO - Train loss on step 3000 was 1.91547
+2020-02-26 21:15:58,420 - INFO - Mean train loss: 1.90277
+2020-02-26 21:18:42,710 - INFO - Mean valid loss: 0.24754 score: 0.97059
+2020-02-26 21:18:42,711 - INFO - Starting 66 epoch...
+2020-02-26 21:21:39,260 - INFO - Train loss on step 500 was 1.92299
+2020-02-26 21:24:36,676 - INFO - Train loss on step 1000 was 1.91136
+2020-02-26 21:27:33,564 - INFO - Train loss on step 1500 was 1.91471
+2020-02-26 21:30:30,518 - INFO - Train loss on step 2000 was 1.86828
+2020-02-26 21:33:27,521 - INFO - Train loss on step 2500 was 1.86138
+2020-02-26 21:36:24,863 - INFO - Train loss on step 3000 was 1.84563
+2020-02-26 21:38:27,768 - INFO - Mean train loss: 1.85202
+2020-02-26 21:41:12,139 - INFO - Mean valid loss: 0.22631 score: 0.97179
+2020-02-26 21:41:12,139 - INFO - Starting 67 epoch...
+2020-02-26 21:44:08,547 - INFO - Train loss on step 500 was 1.85768
+2020-02-26 21:47:05,667 - INFO - Train loss on step 1000 was 1.86943
+2020-02-26 21:50:02,873 - INFO - Train loss on step 1500 was 1.86956
+2020-02-26 21:52:59,806 - INFO - Train loss on step 2000 was 1.8925
+2020-02-26 21:55:56,828 - INFO - Train loss on step 2500 was 1.9046
+2020-02-26 21:58:53,829 - INFO - Train loss on step 3000 was 1.89211
+2020-02-26 22:00:57,020 - INFO - Mean train loss: 1.8903
+2020-02-26 22:03:42,923 - INFO - Mean valid loss: 0.22413 score: 0.97157
+2020-02-26 22:03:42,923 - INFO - Starting 68 epoch...
+2020-02-26 22:06:38,990 - INFO - Train loss on step 500 was 1.78315
+2020-02-26 22:09:35,957 - INFO - Train loss on step 1000 was 1.83091
+2020-02-26 22:12:32,905 - INFO - Train loss on step 1500 was 1.81627
+2020-02-26 22:15:30,052 - INFO - Train loss on step 2000 was 1.83473
+2020-02-26 22:18:26,718 - INFO - Train loss on step 2500 was 1.82807
+2020-02-26 22:21:23,661 - INFO - Train loss on step 3000 was 1.84552
+2020-02-26 22:23:26,675 - INFO - Mean train loss: 1.84096
+2020-02-26 22:26:14,106 - INFO - Mean valid loss: 0.24676 score: 0.97123
+2020-02-26 22:26:14,106 - INFO - Starting 69 epoch...
+2020-02-26 22:29:10,207 - INFO - Train loss on step 500 was 1.8321
+2020-02-26 22:32:07,068 - INFO - Train loss on step 1000 was 1.85127
+2020-02-26 22:35:04,031 - INFO - Train loss on step 1500 was 1.81937
+2020-02-26 22:38:01,000 - INFO - Train loss on step 2000 was 1.83353
+2020-02-26 22:40:57,950 - INFO - Train loss on step 2500 was 1.85877
+2020-02-26 22:43:54,722 - INFO - Train loss on step 3000 was 1.85766
+2020-02-26 22:45:57,562 - INFO - Mean train loss: 1.86373
+2020-02-26 22:48:41,801 - INFO - Mean valid loss: 0.21566 score: 0.97137
+2020-02-26 22:48:41,801 - INFO - Starting 70 epoch...
+2020-02-26 22:51:37,994 - INFO - Train loss on step 500 was 1.78129
+2020-02-26 22:54:34,836 - INFO - Train loss on step 1000 was 1.81054
+2020-02-26 22:57:31,693 - INFO - Train loss on step 1500 was 1.83675
+2020-02-26 23:00:28,424 - INFO - Train loss on step 2000 was 1.85346
+2020-02-26 23:03:25,152 - INFO - Train loss on step 2500 was 1.86332
+2020-02-26 23:06:22,075 - INFO - Train loss on step 3000 was 1.87108
+2020-02-26 23:08:24,799 - INFO - Mean train loss: 1.87336
+2020-02-26 23:11:09,122 - INFO - Mean valid loss: 0.22479 score: 0.97131
+2020-02-26 23:11:09,122 - INFO - Starting 71 epoch...
+2020-02-26 23:14:05,309 - INFO - Train loss on step 500 was 1.79225
+2020-02-26 23:17:02,589 - INFO - Train loss on step 1000 was 1.76781
+2020-02-26 23:19:59,488 - INFO - Train loss on step 1500 was 1.76435
+2020-02-26 23:22:56,345 - INFO - Train loss on step 2000 was 1.78697
+2020-02-26 23:25:53,356 - INFO - Train loss on step 2500 was 1.79805
+2020-02-26 23:28:50,322 - INFO - Train loss on step 3000 was 1.80809
+2020-02-26 23:30:53,409 - INFO - Mean train loss: 1.80461
+2020-02-26 23:33:37,803 - INFO - Mean valid loss: 0.22684 score: 0.97083
+2020-02-26 23:33:37,803 - INFO - Starting 72 epoch...
+2020-02-26 23:36:33,865 - INFO - Train loss on step 500 was 1.90332
+2020-02-26 23:39:30,812 - INFO - Train loss on step 1000 was 1.88998
+2020-02-26 23:42:27,966 - INFO - Train loss on step 1500 was 1.87487
+2020-02-26 23:45:24,808 - INFO - Train loss on step 2000 was 1.87158
+2020-02-26 23:48:21,703 - INFO - Train loss on step 2500 was 1.88104
+2020-02-26 23:51:18,615 - INFO - Train loss on step 3000 was 1.88606
+2020-02-26 23:53:21,542 - INFO - Mean train loss: 1.87615
+2020-02-26 23:56:09,388 - INFO - Mean valid loss: 0.2204 score: 0.97204
+2020-02-26 23:56:09,388 - INFO - Starting 73 epoch...
+2020-02-26 23:59:05,570 - INFO - Train loss on step 500 was 1.87599
+2020-02-27 00:02:02,679 - INFO - Train loss on step 1000 was 1.92583
+2020-02-27 00:04:59,824 - INFO - Train loss on step 1500 was 1.86279
+2020-02-27 00:07:57,161 - INFO - Train loss on step 2000 was 1.86896
+2020-02-27 00:10:54,087 - INFO - Train loss on step 2500 was 1.85429
+2020-02-27 00:13:51,207 - INFO - Train loss on step 3000 was 1.85798
+2020-02-27 00:15:54,315 - INFO - Mean train loss: 1.86024
+2020-02-27 00:18:38,687 - INFO - Mean valid loss: 0.22168 score: 0.97034
+2020-02-27 00:18:38,687 - INFO - Starting 74 epoch...
+2020-02-27 00:21:35,449 - INFO - Train loss on step 500 was 1.84426
+2020-02-27 00:24:32,653 - INFO - Train loss on step 1000 was 1.82034
+2020-02-27 00:27:30,172 - INFO - Train loss on step 1500 was 1.86266
+2020-02-27 00:30:27,712 - INFO - Train loss on step 2000 was 1.85909
+2020-02-27 00:33:25,297 - INFO - Train loss on step 2500 was 1.86158
+2020-02-27 00:36:22,486 - INFO - Train loss on step 3000 was 1.85648
+2020-02-27 00:38:26,016 - INFO - Mean train loss: 1.86544
+2020-02-27 00:41:10,475 - INFO - Mean valid loss: 0.22535 score: 0.97161
+2020-02-27 00:41:10,475 - INFO - Starting 75 epoch...
+2020-02-27 00:44:07,906 - INFO - Train loss on step 500 was 1.70449
+2020-02-27 00:47:06,210 - INFO - Train loss on step 1000 was 1.75792
+2020-02-27 00:50:04,349 - INFO - Train loss on step 1500 was 1.77685
+2020-02-27 00:53:02,812 - INFO - Train loss on step 2000 was 1.80188
+2020-02-27 00:56:00,995 - INFO - Train loss on step 2500 was 1.83045
+2020-02-27 00:58:59,316 - INFO - Train loss on step 3000 was 1.83359
+2020-02-27 01:01:02,970 - INFO - Mean train loss: 1.83048
+2020-02-27 01:03:47,874 - INFO - Mean valid loss: 0.21538 score: 0.97178
+2020-02-27 01:03:47,875 - INFO - best score=0.9724324485950351 on epoch=63
+2020-02-27 01:03:47,875 - INFO - [training loop] done in 101943.82 s
