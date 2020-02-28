@@ -7,6 +7,30 @@ from torch.autograd import Variable
 from torch.nn.parameter import Parameter
 
 
+class Mish(nn.Module):
+
+    def __init__(self):
+        super().__init__()
+
+    def forward(self, x):
+        return x * torch.tanh(F.softplus(x))
+
+
+class Swish(nn.Module):
+
+    def __init__(self, inplace=False):
+        super().__init__()
+
+        self.inplace = True
+
+    def forward(self, x):
+        if self.inplace:
+            x.mul_(F.sigmoid(x))
+            return x
+        else:
+            return x * F.sigmoid(x)
+
+
 class ArcMarginProduct(nn.Module):
     r"""Implement of large margin arc distance: :
         Args:
