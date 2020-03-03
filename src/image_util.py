@@ -111,7 +111,7 @@ def macro_recall(val_pred, y_true):
     recall_consonant = sklearn.metrics.recall_score(val_pred[2], y_true[2], average='macro')
     scores = [recall_grapheme, recall_vowel, recall_consonant]
     final_score = np.average(scores, weights=[2, 1, 1])
-    print(f'recall: vowel {recall_vowel}, grapheme {recall_grapheme}, consonant {recall_consonant}')
+    LOGGER.info(f'recall: vowel {recall_vowel}, grapheme {recall_grapheme}, consonant {recall_consonant}')
     return final_score
     
 

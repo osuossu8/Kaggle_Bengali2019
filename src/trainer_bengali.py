@@ -100,7 +100,7 @@ def train_one_epoch_mixup_cutmix_for_single_output(model, train_loader, criterio
     return total_loss / (step + 1)
 
 
-def train_one_epoch_mixup_cutmix_plane_for_single_output(model, train_loader, criterion, optimizer, device, steps_upd_logging=500, accumulation_steps=1,
+def train_one_epoch_cutmix_for_single_output(model, train_loader, criterion, optimizer, device, steps_upd_logging=500, accumulation_steps=1,
                                  multi_loss=None):
     model.train()
 
@@ -115,22 +115,10 @@ def train_one_epoch_mixup_cutmix_plane_for_single_output(model, train_loader, cr
 
         images = input_dic["image"].unsqueeze(1)
 
-        r = np.random.rand()
-        if r<0.3:
-            images, targets = mixup(images, targets1, targets2, targets3, 0.4)
-            logits = model(images)
-            logits1, logits2, logits3 = logits[:,:11], logits[:,11:11+168], logits[:, 11+168:]
-            loss = mixup_criterion(logits1, logits2, logits3, targets)
-        elif 0.3<r<0.8:
-            images, targets = cutmix(images, targets1, targets2, targets3, 0.4)
-            logits = model(images)
-            logits1, logits2, logits3 = logits[:,:11], logits[:,11:11+168], logits[:, 11+168:]
-            loss = cutmix_criterion(logits1, logits2, logits3, targets)
-        else:
-            logits = model(images)
-            logits1, logits2, logits3 = logits[:,:11], logits[:,11:11+168], logits[:, 11+168:]
-
-            loss = criterion(logits1, targets1)+criterion(logits2, targets2)+criterion(logits3, targets3)
+        images, targets = cutmix(images, targets1, targets2, targets3, 0.4)
+        logits = model(images)
+        logits1, logits2, logits3 = logits[:,:11], logits[:,11:11+168], logits[:, 11+168:]
+        loss = cutmix_criterion(logits1, logits2, logits3, targets)
 
         loss.backward()
         optimizer.step()
