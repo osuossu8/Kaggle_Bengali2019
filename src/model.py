@@ -5,6 +5,7 @@ from torch import nn
 from torchvision import models
 from pretrainedmodels import se_resnext101_32x4d, se_resnext50_32x4d, senet154
 from pretrainedmodels import inceptionresnetv2
+from efficientnet_pytorch import EfficientNet
 
 sys.path.append("/usr/src/app/Kaggle_Bengali2019")
 from src.layers import AdaptiveConcatPool2d, Flatten, SEBlock, GeM, CBAM_Module, Mish
@@ -217,3 +218,57 @@ class CnnModelV2(nn.Module):
     def forward(self, x):
         x = x.repeat(1, 3, 1, 1)
         return self.net(x)
+
+
+
+class EfficientHead(nn.Module):
+    def __init__(self, n_in_features):
+        super(EfficientHead, self).__init__()
+
+        self.grapheme_head = nn.Sequential(
+            Mish(), nn.Conv2d(n_in_features, 512, kernel_size=3),
+            nn.BatchNorm2d(512), GeM(), nn.Linear(512, 168))
+        self.vowel_head = nn.Sequential(
+            Mish(), nn.Conv2d(n_in_features, 512, kernel_size=3),
+            nn.BatchNorm2d(512), GeM(), nn.Linear(512, 11))
+        self.consonant_head = nn.Sequential(
+            Mish(), nn.Conv2d(n_in_features, 512, kernel_size=3),
+            nn.BatchNorm2d(512), GeM(), nn.Linear(512, 7))
+
+    def forward(self, x):
+
+        x1 = self.vowel_head(x)
+        x2 = self.grapheme_head(x)
+        x3 = self.consonant_head(x)
+
+        out = torch.cat([x1, x2, x3], 1)
+        return out
+
+
+class Efficient(nn.Module):
+    def __init__(self, num_classes, encoder='efficientnet-b0', pool_type="avg"):
+        super().__init__()
+        n_channels_dict = {'efficientnet-b0': 1280, 'efficientnet-b1': 1280, 'efficientnet-b2': 1408,
+                           'efficientnet-b3': 1536, 'efficientnet-b4': 1792, 'efficientnet-b5': 2048,
+                           'efficientnet-b6': 2304, 'efficientnet-b7': 2560}
+        self.net = EfficientNet.from_pretrained(encoder)
+        self.avg_pool = nn.AdaptiveAvgPool2d(1)
+        if pool_type == "concat":
+            self.net.avg_pool = AdaptiveConcatPool2d()
+            out_shape = n_channels_dict[encoder]*2
+        elif pool_type == "avg":
+            self.net.avg_pool = nn.AdaptiveAvgPool2d((1, 1))
+            out_shape = n_channels_dict[encoder]
+        elif pool_type == "gem":
+            self.net.avg_pool = GeM()
+            out_shape = n_channels_dict[encoder]
+        self.classifier = EfficientHead(out_shape)
+
+    def forward(self, x):
+        x = self.net.extract_features(x)
+        x = self.avg_pool(x)
+        x = self.classifier(x)
+
+        return x
+
+
