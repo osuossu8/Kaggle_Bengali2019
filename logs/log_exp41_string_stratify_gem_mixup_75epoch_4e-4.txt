@@ -1,0 +1,366 @@
+2020-03-03 21:14:57,234 - INFO - logger set up
+2020-03-03 21:14:57,234 - INFO - seed=1129
+2020-03-03 21:14:57,652 - INFO - [load csv data] done in 0.42 s
+2020-03-03 21:15:00,712 - INFO - [load feather data] done in 3.06 s
+2020-03-03 21:15:09,003 - INFO - [prepare validation data] done in 8.29 s
+2020-03-03 21:15:12,550 - INFO - [create model] done in 3.55 s
+2020-03-03 21:15:12,550 - INFO - Starting 1 epoch...
+2020-03-03 21:19:18,706 - INFO - Train loss on step 500 was 8.19334
+2020-03-03 21:22:24,470 - INFO - Mean train loss: 8.13779
+2020-03-03 21:23:19,712 - INFO - recall: vowel 0.09133329126828892, grapheme 0.005767555016387792, consonant 0.14285714285714285
+2020-03-03 21:23:19,712 - INFO - Mean valid loss: 8.03337 score: 0.06143
+2020-03-03 21:23:19,767 - INFO - save model at score=0.06143138603955184 on epoch=1
+2020-03-03 21:23:19,767 - INFO - Starting 2 epoch...
+2020-03-03 21:27:29,159 - INFO - Train loss on step 500 was 8.04486
+2020-03-03 21:30:35,239 - INFO - Mean train loss: 8.04345
+2020-03-03 21:31:30,479 - INFO - recall: vowel 0.09131717511040255, grapheme 0.005937274017395385, consonant 0.14285714285714285
+2020-03-03 21:31:30,479 - INFO - Mean valid loss: 8.02764 score: 0.06151
+2020-03-03 21:31:30,551 - INFO - save model at score=0.06151221650058404 on epoch=2
+2020-03-03 21:31:30,551 - INFO - Starting 3 epoch...
+2020-03-03 21:57:44,379 - INFO - logger set up
+2020-03-03 21:57:44,379 - INFO - seed=1129
+2020-03-03 21:57:45,730 - INFO - [load csv data] done in 1.35 s
+2020-03-03 21:57:47,950 - INFO - [load feather data] done in 2.22 s
+2020-03-03 21:57:50,140 - INFO - [prepare validation data] done in 2.19 s
+2020-03-03 21:57:53,863 - INFO - [create model] done in 3.72 s
+2020-03-03 21:58:01,630 - INFO - Starting 1 epoch...
+2020-03-03 22:02:03,426 - INFO - Train loss on step 500 was 8.20199
+2020-03-03 22:03:42,573 - INFO - Mean train loss: 8.16543
+2020-03-03 22:04:37,908 - INFO - recall: vowel 0.09058649644918232, grapheme 0.00594283860497604, consonant 0.14285714285714285
+2020-03-03 22:04:37,908 - INFO - Mean valid loss: 8.06176 score: 0.06133
+2020-03-03 22:04:37,980 - INFO - save model at score=0.061332329129069316 on epoch=1
+2020-03-03 22:11:22,991 - INFO - logger set up
+2020-03-03 22:11:22,992 - INFO - seed=1129
+2020-03-03 22:11:23,460 - INFO - [load csv data] done in 0.47 s
+2020-03-03 22:11:25,467 - INFO - [load feather data] done in 2.01 s
+2020-03-03 22:11:27,866 - INFO - [prepare validation data] done in 2.4 s
+2020-03-03 22:11:31,759 - INFO - [create model] done in 3.89 s
+2020-03-03 22:15:14,838 - INFO - logger set up
+2020-03-03 22:15:14,838 - INFO - seed=1129
+2020-03-03 22:15:15,315 - INFO - [load csv data] done in 0.48 s
+2020-03-03 22:15:17,406 - INFO - [load feather data] done in 2.09 s
+2020-03-03 22:15:19,860 - INFO - [prepare validation data] done in 2.45 s
+2020-03-03 22:15:23,817 - INFO - [create model] done in 3.96 s
+2020-03-03 22:18:16,184 - INFO - logger set up
+2020-03-03 22:18:16,184 - INFO - seed=1129
+2020-03-03 22:18:16,656 - INFO - [load csv data] done in 0.47 s
+2020-03-03 22:18:18,674 - INFO - [load feather data] done in 2.02 s
+2020-03-03 22:18:21,095 - INFO - [prepare validation data] done in 2.42 s
+2020-03-03 22:18:25,005 - INFO - [create model] done in 3.91 s
+2020-03-03 22:18:31,922 - INFO - Starting 1 epoch...
+2020-03-03 22:22:37,245 - INFO - Train loss on step 500 was 8.19256
+2020-03-03 22:24:17,775 - INFO - Mean train loss: 8.15448
+2020-03-03 22:25:16,557 - INFO - recall: vowel 0.09189578237118133, grapheme 0.0060483295732399215, consonant 0.14285714285714285
+2020-03-03 22:25:16,557 - INFO - Mean valid loss: 8.0268 score: 0.06171
+2020-03-03 22:25:16,631 - INFO - save model at score=0.06171239609370101 on epoch=1
+2020-03-03 22:25:23,616 - INFO - Starting 2 epoch...
+2020-03-03 22:29:30,171 - INFO - Train loss on step 500 was 8.04683
+2020-03-03 22:31:10,509 - INFO - Mean train loss: 8.04805
+2020-03-03 22:32:10,043 - INFO - recall: vowel 0.09161014747011526, grapheme 0.0059735381369418975, consonant 0.14285714285714285
+2020-03-03 22:32:10,044 - INFO - Mean valid loss: 8.02187 score: 0.0616
+2020-03-03 22:32:17,054 - INFO - Starting 3 epoch...
+2020-03-03 22:34:52,943 - INFO - logger set up
+2020-03-03 22:34:52,943 - INFO - seed=1129
+2020-03-03 22:34:53,415 - INFO - [load csv data] done in 0.47 s
+2020-03-03 22:34:55,419 - INFO - [load feather data] done in 2.0 s
+2020-03-03 22:34:57,907 - INFO - [prepare validation data] done in 2.49 s
+2020-03-03 22:35:01,849 - INFO - [create model] done in 3.94 s
+2020-03-03 22:35:08,771 - INFO - Starting 1 epoch...
+2020-03-03 22:39:11,955 - INFO - Train loss on step 500 was 8.19414
+2020-03-03 22:40:51,313 - INFO - Mean train loss: 8.15722
+2020-03-03 22:41:50,085 - INFO - recall: vowel 0.0928422191746742, grapheme 0.006112809039658355, consonant 0.14285714285714285
+2020-03-03 22:41:50,086 - INFO - Mean valid loss: 8.01885 score: 0.06198
+2020-03-03 22:41:50,159 - INFO - save model at score=0.06198124502778344 on epoch=1
+2020-03-03 22:41:57,143 - INFO - Starting 2 epoch...
+2020-03-03 23:10:30,815 - INFO - logger set up
+2020-03-03 23:10:30,815 - INFO - seed=1129
+2020-03-03 23:10:31,280 - INFO - [load csv data] done in 0.46 s
+2020-03-03 23:10:33,285 - INFO - [load feather data] done in 2.01 s
+2020-03-03 23:10:35,752 - INFO - [prepare validation data] done in 2.47 s
+2020-03-03 23:10:39,631 - INFO - [create model] done in 3.88 s
+2020-03-03 23:10:41,151 - INFO - Starting 1 epoch...
+2020-03-03 23:11:13,962 - INFO - Mean train loss: 7.75583
+2020-03-03 23:12:12,681 - INFO - recall: vowel 0.6597006537087434, grapheme 0.013210756394989639, consonant 0.45137505678016876
+2020-03-03 23:12:12,681 - INFO - Mean valid loss: 5.95818 score: 0.28437
+2020-03-03 23:12:12,737 - INFO - save model at score=0.2843743058197229 on epoch=1
+2020-03-03 23:12:14,272 - INFO - Starting 2 epoch...
+2020-03-03 23:13:58,940 - INFO - logger set up
+2020-03-03 23:13:58,940 - INFO - seed=1129
+2020-03-03 23:13:59,405 - INFO - [load csv data] done in 0.46 s
+2020-03-03 23:14:01,396 - INFO - [load feather data] done in 1.99 s
+2020-03-03 23:14:03,818 - INFO - [prepare validation data] done in 2.42 s
+2020-03-03 23:14:07,712 - INFO - [create model] done in 3.89 s
+2020-03-03 23:14:14,609 - INFO - Starting 1 epoch...
+2020-03-03 23:18:21,169 - INFO - Train loss on step 500 was 5.49268
+2020-03-03 23:20:01,062 - INFO - Mean train loss: 5.02506
+2020-03-03 23:21:00,532 - INFO - recall: vowel 0.9410130008991391, grapheme 0.7905154625165309, consonant 0.8749498379326754
+2020-03-03 23:21:00,533 - INFO - Mean valid loss: 1.31361 score: 0.84925
+2020-03-03 23:21:00,606 - INFO - save model at score=0.8492484409662191 on epoch=1
+2020-03-03 23:21:06,162 - INFO - Starting 2 epoch...
+2020-03-03 23:25:12,188 - INFO - Train loss on step 500 was 3.41656
+2020-03-03 23:26:52,117 - INFO - Mean train loss: 3.43468
+2020-03-03 23:27:51,119 - INFO - recall: vowel 0.9672080023486287, grapheme 0.9031139062063802, consonant 0.9456165647902645
+2020-03-03 23:27:51,119 - INFO - Mean valid loss: 0.96398 score: 0.92976
+2020-03-03 23:27:51,195 - INFO - save model at score=0.9297630948879134 on epoch=2
+2020-03-03 23:27:57,197 - INFO - Starting 3 epoch...
+2020-03-03 23:32:01,814 - INFO - Train loss on step 500 was 3.32243
+2020-03-03 23:33:40,973 - INFO - Mean train loss: 3.24425
+2020-03-03 23:34:39,838 - INFO - recall: vowel 0.9768428237234367, grapheme 0.9273830213748563, consonant 0.9601945766020273
+2020-03-03 23:34:39,838 - INFO - Mean valid loss: 0.77549 score: 0.94795
+2020-03-03 23:34:39,915 - INFO - save model at score=0.9479508607687942 on epoch=3
+2020-03-03 23:34:46,488 - INFO - Starting 4 epoch...
+2020-03-03 23:38:51,563 - INFO - Train loss on step 500 was 3.09934
+2020-03-03 23:40:31,206 - INFO - Mean train loss: 3.08691
+2020-03-03 23:41:29,883 - INFO - recall: vowel 0.9739755428367146, grapheme 0.9423463762652821, consonant 0.9661536533566579
+2020-03-03 23:41:29,883 - INFO - Mean valid loss: 0.82858 score: 0.95621
+2020-03-03 23:41:29,960 - INFO - save model at score=0.9562054871809842 on epoch=4
+2020-03-03 23:41:36,789 - INFO - Starting 5 epoch...
+2020-03-03 23:45:45,942 - INFO - Train loss on step 500 was 3.08498
+2020-03-03 23:47:26,926 - INFO - Mean train loss: 3.07484
+2020-03-03 23:48:25,615 - INFO - recall: vowel 0.978072878553074, grapheme 0.9411486243957111, consonant 0.9690906322985032
+2020-03-03 23:48:25,615 - INFO - Mean valid loss: 0.87803 score: 0.95737
+2020-03-03 23:48:25,694 - INFO - save model at score=0.9573651899107499 on epoch=5
+2020-03-03 23:48:32,762 - INFO - Starting 6 epoch...
+2020-03-03 23:52:39,751 - INFO - Train loss on step 500 was 2.99494
+2020-03-03 23:54:20,205 - INFO - Mean train loss: 2.90823
+2020-03-03 23:55:19,261 - INFO - recall: vowel 0.9753993589690727, grapheme 0.9461001324935051, consonant 0.974060333851624
+2020-03-03 23:55:19,261 - INFO - Mean valid loss: 0.70539 score: 0.96041
+2020-03-03 23:55:19,369 - INFO - save model at score=0.9604149894519267 on epoch=6
+2020-03-03 23:55:26,603 - INFO - Starting 7 epoch...
+2020-03-03 23:59:32,290 - INFO - Train loss on step 500 was 2.63137
+2020-03-04 00:01:12,044 - INFO - Mean train loss: 2.62986
+2020-03-04 00:02:10,577 - INFO - recall: vowel 0.9770662475873869, grapheme 0.9518993248319143, consonant 0.9721522375894034
+2020-03-04 00:02:10,578 - INFO - Mean valid loss: 0.81208 score: 0.96325
+2020-03-04 00:02:10,654 - INFO - save model at score=0.9632542837101548 on epoch=7
+2020-03-04 00:02:17,698 - INFO - Starting 8 epoch...
+2020-03-04 00:06:26,590 - INFO - Train loss on step 500 was 2.78279
+2020-03-04 00:08:07,855 - INFO - Mean train loss: 2.74599
+2020-03-04 00:09:06,634 - INFO - recall: vowel 0.9847416429402867, grapheme 0.9556040182227855, consonant 0.9797145522143695
+2020-03-04 00:09:06,634 - INFO - Mean valid loss: 0.61103 score: 0.96892
+2020-03-04 00:09:06,712 - INFO - save model at score=0.9689160579000569 on epoch=8
+2020-03-04 00:09:13,739 - INFO - Starting 9 epoch...
+2020-03-04 00:13:23,544 - INFO - Train loss on step 500 was 2.75683
+2020-03-04 00:15:04,507 - INFO - Mean train loss: 2.74756
+2020-03-04 00:16:03,048 - INFO - recall: vowel 0.9855492935891891, grapheme 0.961719986238748, consonant 0.9772862012414668
+2020-03-04 00:16:03,048 - INFO - Mean valid loss: 0.53601 score: 0.97157
+2020-03-04 00:16:03,124 - INFO - save model at score=0.971568866827038 on epoch=9
+2020-03-04 00:16:10,140 - INFO - Starting 10 epoch...
+2020-03-04 00:20:20,356 - INFO - Train loss on step 500 was 2.69162
+2020-03-04 00:22:01,944 - INFO - Mean train loss: 2.6891
+2020-03-04 00:23:02,355 - INFO - recall: vowel 0.9837735658953929, grapheme 0.9662789169618013, consonant 0.9741321331738734
+2020-03-04 00:23:02,355 - INFO - Mean valid loss: 0.62369 score: 0.97262
+2020-03-04 00:23:02,433 - INFO - save model at score=0.9726158832482172 on epoch=10
+2020-03-04 00:23:09,444 - INFO - Starting 11 epoch...
+2020-03-04 00:27:17,661 - INFO - Train loss on step 500 was 2.67445
+2020-03-04 00:28:58,292 - INFO - Mean train loss: 2.60356
+2020-03-04 00:29:57,585 - INFO - recall: vowel 0.9867170586939807, grapheme 0.9623247995737779, consonant 0.9857910843459786
+2020-03-04 00:29:57,585 - INFO - Mean valid loss: 0.44512 score: 0.97429
+2020-03-04 00:29:57,664 - INFO - save model at score=0.9742894355468787 on epoch=11
+2020-03-04 00:30:04,733 - INFO - Starting 12 epoch...
+2020-03-04 00:34:11,467 - INFO - Train loss on step 500 was 2.82589
+2020-03-04 00:35:52,101 - INFO - Mean train loss: 2.65089
+2020-03-04 00:36:51,225 - INFO - recall: vowel 0.9880149112372787, grapheme 0.9660606600016987, consonant 0.9843362438700126
+2020-03-04 00:36:51,225 - INFO - Mean valid loss: 0.46273 score: 0.97612
+2020-03-04 00:36:51,303 - INFO - save model at score=0.9761181187776721 on epoch=12
+2020-03-04 00:36:58,331 - INFO - Starting 13 epoch...
+2020-03-04 00:41:05,925 - INFO - Train loss on step 500 was 2.48176
+2020-03-04 00:42:46,528 - INFO - Mean train loss: 2.55817
+2020-03-04 00:43:45,224 - INFO - recall: vowel 0.9834837922501541, grapheme 0.9674778331226267, consonant 0.9833005167445232
+2020-03-04 00:43:45,224 - INFO - Mean valid loss: 0.52233 score: 0.97543
+2020-03-04 00:43:52,225 - INFO - Starting 14 epoch...
+2020-03-04 00:47:58,747 - INFO - Train loss on step 500 was 2.59016
+2020-03-04 00:49:39,025 - INFO - Mean train loss: 2.55649
+2020-03-04 00:50:37,860 - INFO - recall: vowel 0.9895685689213392, grapheme 0.9695338823584672, consonant 0.985543783078026
+2020-03-04 00:50:37,860 - INFO - Mean valid loss: 0.27841 score: 0.97855
+2020-03-04 00:50:37,941 - INFO - save model at score=0.9785450291790749 on epoch=14
+2020-03-04 00:50:44,983 - INFO - Starting 15 epoch...
+2020-03-04 00:54:54,843 - INFO - Train loss on step 500 was 2.44711
+2020-03-04 00:56:36,192 - INFO - Mean train loss: 2.46349
+2020-03-04 00:57:34,708 - INFO - recall: vowel 0.9887771418125222, grapheme 0.9643126616004252, consonant 0.9863957030189298
+2020-03-04 00:57:34,708 - INFO - Mean valid loss: 0.56376 score: 0.97595
+2020-03-04 00:57:41,708 - INFO - Starting 16 epoch...
+2020-03-04 01:01:51,569 - INFO - Train loss on step 500 was 2.41162
+2020-03-04 01:03:32,626 - INFO - Mean train loss: 2.48896
+2020-03-04 01:04:31,384 - INFO - recall: vowel 0.9887251793833144, grapheme 0.9689935309822747, consonant 0.9786951723764209
+2020-03-04 01:04:31,384 - INFO - Mean valid loss: 0.57857 score: 0.97635
+2020-03-04 01:04:38,376 - INFO - Starting 17 epoch...
+2020-03-04 01:08:48,912 - INFO - Train loss on step 500 was 2.4129
+2020-03-04 01:10:30,654 - INFO - Mean train loss: 2.39565
+2020-03-04 01:11:29,391 - INFO - recall: vowel 0.9892246014025868, grapheme 0.9706399319220415, consonant 0.98198997214324
+2020-03-04 01:11:29,391 - INFO - Mean valid loss: 0.53639 score: 0.97812
+2020-03-04 01:11:36,405 - INFO - Starting 18 epoch...
+2020-03-04 01:15:43,111 - INFO - Train loss on step 500 was 2.41072
+2020-03-04 01:17:23,293 - INFO - Mean train loss: 2.40596
+2020-03-04 01:18:22,268 - INFO - recall: vowel 0.9901519540129938, grapheme 0.9691203166313749, consonant 0.9828566640623978
+2020-03-04 01:18:22,268 - INFO - Mean valid loss: 0.37838 score: 0.97781
+2020-03-04 01:18:29,276 - INFO - Starting 19 epoch...
+2020-03-04 01:22:38,894 - INFO - Train loss on step 500 was 2.33937
+2020-03-04 01:24:20,091 - INFO - Mean train loss: 2.40237
+2020-03-04 01:25:18,725 - INFO - recall: vowel 0.9878315264601152, grapheme 0.9709885383404467, consonant 0.9810054594631233
+2020-03-04 01:25:18,725 - INFO - Mean valid loss: 0.58341 score: 0.9777
+2020-03-04 01:25:25,708 - INFO - Starting 20 epoch...
+2020-03-04 01:29:34,758 - INFO - Train loss on step 500 was 2.45576
+2020-03-04 01:31:15,675 - INFO - Mean train loss: 2.46555
+2020-03-04 01:32:14,763 - INFO - recall: vowel 0.9894759519629162, grapheme 0.9707955219077821, consonant 0.9890232240891118
+2020-03-04 01:32:14,763 - INFO - Mean valid loss: 0.5148 score: 0.98002
+2020-03-04 01:32:14,841 - INFO - save model at score=0.980022554966898 on epoch=20
+2020-03-04 01:32:21,848 - INFO - Starting 21 epoch...
+2020-03-04 01:36:31,170 - INFO - Train loss on step 500 was 2.34635
+2020-03-04 01:38:12,341 - INFO - Mean train loss: 2.3111
+2020-03-04 01:39:11,191 - INFO - recall: vowel 0.9899584615355524, grapheme 0.9725214244032363, consonant 0.9843067172547665
+2020-03-04 01:39:11,191 - INFO - Mean valid loss: 0.55956 score: 0.97983
+2020-03-04 01:39:18,205 - INFO - Starting 22 epoch...
+2020-03-04 01:43:26,350 - INFO - Train loss on step 500 was 2.38196
+2020-03-04 01:45:07,046 - INFO - Mean train loss: 2.34616
+2020-03-04 01:46:05,753 - INFO - recall: vowel 0.9893347668442088, grapheme 0.9719927357347568, consonant 0.9895185479096982
+2020-03-04 01:46:05,753 - INFO - Mean valid loss: 0.38282 score: 0.98071
+2020-03-04 01:46:05,829 - INFO - save model at score=0.980709696555855 on epoch=22
+2020-03-04 01:46:12,866 - INFO - Starting 23 epoch...
+2020-03-04 01:50:20,678 - INFO - Train loss on step 500 was 2.29752
+2020-03-04 01:52:02,071 - INFO - Mean train loss: 2.36469
+2020-03-04 01:53:01,090 - INFO - recall: vowel 0.9876497866220787, grapheme 0.971911230567788, consonant 0.9871857601709172
+2020-03-04 01:53:01,090 - INFO - Mean valid loss: 0.57469 score: 0.97966
+2020-03-04 01:53:08,152 - INFO - Starting 24 epoch...
+2020-03-04 01:57:18,925 - INFO - Train loss on step 500 was 2.26336
+2020-03-04 01:59:00,864 - INFO - Mean train loss: 2.25434
+2020-03-04 01:59:59,755 - INFO - recall: vowel 0.990955449044333, grapheme 0.9731643268883439, consonant 0.9848354299929998
+2020-03-04 01:59:59,755 - INFO - Mean valid loss: 0.4435 score: 0.98053
+2020-03-04 02:00:07,092 - INFO - Starting 25 epoch...
+2020-03-04 02:04:16,134 - INFO - Train loss on step 500 was 2.24793
+2020-03-04 02:05:57,214 - INFO - Mean train loss: 2.2706
+2020-03-04 02:06:55,907 - INFO - recall: vowel 0.9883015738538926, grapheme 0.9768721664800143, consonant 0.9861407138961159
+2020-03-04 02:06:55,907 - INFO - Mean valid loss: 0.45636 score: 0.98205
+2020-03-04 02:06:55,985 - INFO - save model at score=0.9820466551775092 on epoch=25
+2020-03-04 02:07:02,953 - INFO - Starting 26 epoch...
+2020-03-04 02:11:14,107 - INFO - Train loss on step 500 was 2.34415
+2020-03-04 02:12:56,242 - INFO - Mean train loss: 2.34689
+2020-03-04 02:13:55,014 - INFO - recall: vowel 0.9910952287997653, grapheme 0.9764682796740113, consonant 0.9854033362152379
+2020-03-04 02:13:55,014 - INFO - Mean valid loss: 0.38745 score: 0.98236
+2020-03-04 02:13:55,091 - INFO - save model at score=0.9823587810907564 on epoch=26
+2020-03-04 02:14:02,083 - INFO - Starting 27 epoch...
+2020-03-04 02:18:13,142 - INFO - Train loss on step 500 was 2.32934
+2020-03-04 02:19:54,773 - INFO - Mean train loss: 2.28598
+2020-03-04 02:20:53,692 - INFO - recall: vowel 0.9920897101396359, grapheme 0.9742646024195318, consonant 0.9883519377243898
+2020-03-04 02:20:53,692 - INFO - Mean valid loss: 0.3128 score: 0.98224
+2020-03-04 02:21:00,723 - INFO - Starting 28 epoch...
+2020-03-04 02:25:11,841 - INFO - Train loss on step 500 was 2.10548
+2020-03-04 02:26:53,772 - INFO - Mean train loss: 2.20653
+2020-03-04 02:27:52,802 - INFO - recall: vowel 0.9907584228808947, grapheme 0.9759339655954917, consonant 0.9881499945422739
+2020-03-04 02:27:52,802 - INFO - Mean valid loss: 0.46777 score: 0.98269
+2020-03-04 02:27:52,878 - INFO - save model at score=0.982694087153538 on epoch=28
+2020-03-04 02:27:59,845 - INFO - Starting 29 epoch...
+2020-03-04 02:32:09,472 - INFO - Train loss on step 500 was 2.26795
+2020-03-04 02:33:50,896 - INFO - Mean train loss: 2.2893
+2020-03-04 02:34:49,836 - INFO - recall: vowel 0.9918871601337979, grapheme 0.9738892432672004, consonant 0.9884434242759887
+2020-03-04 02:34:49,836 - INFO - Mean valid loss: 0.37633 score: 0.98203
+2020-03-04 02:34:56,808 - INFO - Starting 30 epoch...
+2020-03-04 02:39:05,223 - INFO - Train loss on step 500 was 2.19163
+2020-03-04 02:40:46,033 - INFO - Mean train loss: 2.16667
+2020-03-04 02:41:45,725 - INFO - recall: vowel 0.9919274712103561, grapheme 0.9744286745671245, consonant 0.9883994520318728
+2020-03-04 02:41:45,725 - INFO - Mean valid loss: 0.42737 score: 0.9823
+2020-03-04 02:41:52,810 - INFO - Starting 31 epoch...
+2020-03-04 02:46:01,201 - INFO - Train loss on step 500 was 2.09532
+2020-03-04 02:47:41,967 - INFO - Mean train loss: 2.08695
+2020-03-04 02:48:40,910 - INFO - recall: vowel 0.9919026284017808, grapheme 0.976438390592159, consonant 0.9877147923804068
+2020-03-04 02:48:40,910 - INFO - Mean valid loss: 0.30877 score: 0.98312
+2020-03-04 02:48:40,988 - INFO - save model at score=0.9831235504916265 on epoch=31
+2020-03-04 02:48:47,937 - INFO - Starting 32 epoch...
+2020-03-04 02:52:56,598 - INFO - Train loss on step 500 was 2.25409
+2020-03-04 02:54:37,473 - INFO - Mean train loss: 2.19637
+2020-03-04 02:55:36,086 - INFO - recall: vowel 0.9916298884636262, grapheme 0.9780954805525, consonant 0.9913343110921735
+2020-03-04 02:55:36,087 - INFO - Mean valid loss: 0.42193 score: 0.98479
+2020-03-04 02:55:36,167 - INFO - save model at score=0.9847887901651999 on epoch=32
+2020-03-04 02:55:43,153 - INFO - Starting 33 epoch...
+2020-03-04 02:59:54,134 - INFO - Train loss on step 500 was 2.12953
+2020-03-04 03:01:36,134 - INFO - Mean train loss: 2.17132
+2020-03-04 03:02:35,001 - INFO - recall: vowel 0.9905870616921749, grapheme 0.9756230276699033, consonant 0.98994472819143
+2020-03-04 03:02:35,001 - INFO - Mean valid loss: 0.26322 score: 0.98294
+2020-03-04 03:02:41,951 - INFO - Starting 34 epoch...
+2020-03-04 03:06:51,630 - INFO - Train loss on step 500 was 2.17839
+2020-03-04 03:08:33,352 - INFO - Mean train loss: 2.18111
+2020-03-04 03:09:32,718 - INFO - recall: vowel 0.9926891347715223, grapheme 0.977258130824783, consonant 0.991783595529944
+2020-03-04 03:09:32,718 - INFO - Mean valid loss: 0.34357 score: 0.98475
+2020-03-04 03:09:39,680 - INFO - Starting 35 epoch...
+2020-03-04 03:13:49,291 - INFO - Train loss on step 500 was 2.17404
+2020-03-04 03:15:30,640 - INFO - Mean train loss: 2.14511
+2020-03-04 03:16:29,508 - INFO - recall: vowel 0.9915307673517874, grapheme 0.9778385716478524, consonant 0.9908183801878601
+2020-03-04 03:16:29,508 - INFO - Mean valid loss: 0.34142 score: 0.98451
+2020-03-04 03:16:36,506 - INFO - Starting 36 epoch...
+2020-03-04 03:20:48,234 - INFO - Train loss on step 500 was 2.1595
+2020-03-04 03:22:30,440 - INFO - Mean train loss: 2.09707
+2020-03-04 03:23:29,427 - INFO - recall: vowel 0.991690582295469, grapheme 0.9787291416983281, consonant 0.990694526818183
+2020-03-04 03:23:29,427 - INFO - Mean valid loss: 0.28896 score: 0.98496
+2020-03-04 03:23:29,505 - INFO - save model at score=0.9849608481275771 on epoch=36
+2020-03-04 03:23:36,496 - INFO - Starting 37 epoch...
+2020-03-04 03:27:46,078 - INFO - Train loss on step 500 was 2.1166
+2020-03-04 03:29:27,365 - INFO - Mean train loss: 2.16516
+2020-03-04 03:30:26,084 - INFO - recall: vowel 0.9919547846160427, grapheme 0.9784190181838003, consonant 0.9924736469657006
+2020-03-04 03:30:26,084 - INFO - Mean valid loss: 0.42728 score: 0.98532
+2020-03-04 03:30:26,160 - INFO - save model at score=0.985316616987336 on epoch=37
+2020-03-04 03:30:33,105 - INFO - Starting 38 epoch...
+2020-03-04 03:34:41,849 - INFO - Train loss on step 500 was 2.24416
+2020-03-04 03:36:22,731 - INFO - Mean train loss: 2.20667
+2020-03-04 03:37:22,033 - INFO - recall: vowel 0.9918377554359938, grapheme 0.9787363675111598, consonant 0.9931881944789039
+2020-03-04 03:37:22,033 - INFO - Mean valid loss: 0.31134 score: 0.98562
+2020-03-04 03:37:22,110 - INFO - save model at score=0.9856246712343044 on epoch=38
+2020-03-04 03:37:29,052 - INFO - Starting 39 epoch...
+2020-03-04 03:41:40,684 - INFO - Train loss on step 500 was 2.18785
+2020-03-04 03:43:22,898 - INFO - Mean train loss: 2.12935
+2020-03-04 03:44:22,119 - INFO - recall: vowel 0.9919770010142069, grapheme 0.9760841822344869, consonant 0.9921452743793068
+2020-03-04 03:44:22,119 - INFO - Mean valid loss: 0.25307 score: 0.98407
+2020-03-04 03:44:29,065 - INFO - Starting 40 epoch...
+2020-03-04 03:48:39,390 - INFO - Train loss on step 500 was 2.08571
+2020-03-04 03:50:21,211 - INFO - Mean train loss: 2.10776
+2020-03-04 03:51:20,679 - INFO - recall: vowel 0.9928586223476542, grapheme 0.9764574445958493, consonant 0.9882319462847056
+2020-03-04 03:51:20,679 - INFO - Mean valid loss: 0.29046 score: 0.9835
+2020-03-04 03:51:27,690 - INFO - Starting 41 epoch...
+2020-03-04 03:55:36,399 - INFO - Train loss on step 500 was 2.09734
+2020-03-04 03:57:17,602 - INFO - Mean train loss: 2.1308
+2020-03-04 03:58:17,093 - INFO - recall: vowel 0.9920525180890348, grapheme 0.9774213173266482, consonant 0.9910682144202804
+2020-03-04 03:58:17,093 - INFO - Mean valid loss: 0.34537 score: 0.98449
+2020-03-04 03:58:24,081 - INFO - Starting 42 epoch...
+2020-03-04 04:02:33,343 - INFO - Train loss on step 500 was 1.99136
+2020-03-04 04:04:14,678 - INFO - Mean train loss: 2.07956
+2020-03-04 04:05:13,533 - INFO - recall: vowel 0.9922507758255332, grapheme 0.9773541628496047, consonant 0.9909963913418266
+2020-03-04 04:05:13,533 - INFO - Mean valid loss: 0.32567 score: 0.98449
+2020-03-04 04:05:20,521 - INFO - Starting 43 epoch...
+2020-03-04 04:09:29,896 - INFO - Train loss on step 500 was 2.13671
+2020-03-04 04:11:11,112 - INFO - Mean train loss: 2.10997
+2020-03-04 04:12:10,202 - INFO - recall: vowel 0.9934472589245011, grapheme 0.9765569814342661, consonant 0.992045212983518
+2020-03-04 04:12:10,202 - INFO - Mean valid loss: 0.35897 score: 0.98465
+2020-03-04 04:12:17,192 - INFO - Starting 44 epoch...
+2020-03-04 04:16:26,695 - INFO - Train loss on step 500 was 2.12482
+2020-03-04 04:18:07,992 - INFO - Mean train loss: 2.14298
+2020-03-04 04:19:06,807 - INFO - recall: vowel 0.9916521655048985, grapheme 0.9770204120932097, consonant 0.9937660021803005
+2020-03-04 04:19:06,807 - INFO - Mean valid loss: 0.24711 score: 0.98486
+2020-03-04 04:19:13,766 - INFO - Starting 45 epoch...
+2020-03-04 04:23:26,232 - INFO - Train loss on step 500 was 2.14257
+2020-03-04 04:25:08,559 - INFO - Mean train loss: 2.16744
+2020-03-04 04:26:07,700 - INFO - recall: vowel 0.9920206148415809, grapheme 0.9765539091696511, consonant 0.9913601842005474
+2020-03-04 04:26:07,700 - INFO - Mean valid loss: 0.22141 score: 0.98412
+2020-03-04 04:26:14,685 - INFO - Starting 46 epoch...
+2020-03-04 04:30:23,644 - INFO - Train loss on step 500 was 2.03771
+2020-03-04 04:32:04,810 - INFO - Mean train loss: 2.07017
+2020-03-04 04:33:03,911 - INFO - recall: vowel 0.992979265349306, grapheme 0.9791543951270713, consonant 0.9909064496899955
+2020-03-04 04:33:03,911 - INFO - Mean valid loss: 0.34677 score: 0.98555
+2020-03-04 04:33:10,872 - INFO - Starting 47 epoch...
+2020-03-04 04:37:21,763 - INFO - Train loss on step 500 was 2.01626
+2020-03-04 04:39:03,533 - INFO - Mean train loss: 2.00947
+2020-03-04 04:40:02,495 - INFO - recall: vowel 0.9916183628518948, grapheme 0.9774484054730787, consonant 0.9893674589764065
+2020-03-04 04:40:02,495 - INFO - Mean valid loss: 0.2969 score: 0.98397
+2020-03-04 04:40:09,448 - INFO - Starting 48 epoch...
+2020-03-04 04:44:21,465 - INFO - Train loss on step 500 was 2.10428
+2020-03-04 04:46:03,891 - INFO - Mean train loss: 2.14461
+2020-03-04 04:47:02,711 - INFO - recall: vowel 0.9919036520987831, grapheme 0.9788444992760175, consonant 0.9905870211416896
+2020-03-04 04:47:02,711 - INFO - Mean valid loss: 0.24203 score: 0.98504
+2020-03-04 04:47:09,696 - INFO - Starting 49 epoch...
+2020-03-04 04:51:18,959 - INFO - Train loss on step 500 was 2.00944
+2020-03-04 04:52:59,964 - INFO - Mean train loss: 2.04228
+2020-03-04 04:53:58,887 - INFO - recall: vowel 0.9907905727830241, grapheme 0.9770758856630591, consonant 0.9907128953686194
+2020-03-04 04:53:58,887 - INFO - Mean valid loss: 0.28283 score: 0.98391
+2020-03-04 04:54:05,834 - INFO - Starting 50 epoch...
+2020-03-04 04:58:17,075 - INFO - Train loss on step 500 was 2.08526
+2020-03-04 04:59:59,219 - INFO - Mean train loss: 2.10976
+2020-03-04 05:00:57,969 - INFO - recall: vowel 0.9924051391977808, grapheme 0.9779850896297042, consonant 0.9934637232208593
+2020-03-04 05:00:57,970 - INFO - Mean valid loss: 0.22345 score: 0.98546
+2020-03-04 05:01:04,936 - INFO - Starting 51 epoch...
