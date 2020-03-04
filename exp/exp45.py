@@ -40,6 +40,7 @@ from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
 from torch.nn import CrossEntropyLoss, MSELoss
 import torch.optim as optim
 from torch.optim import lr_scheduler
+from torch.optim.lr_scheduler import CosineAnnealingLR, ReduceLROnPlateau, MultiStepLR, ExponentialLR
 from torch.utils import model_zoo
 from torch.utils.data import (Dataset,DataLoader, RandomSampler, SequentialSampler,
                               TensorDataset)
@@ -331,14 +332,14 @@ def Over9000(params, alpha=0.5, k=6, *args, **kwargs):
 
 RangerLars = Over9000 
 
-RESIZE = 128 # 236
+RESIZE = 236
 
 # https://albumentations.readthedocs.io/en/latest/api/augmentations.html
 data_transforms = albumentations.Compose([
+    albumentations.Resize(RESIZE, RESIZE, p=1),
     albumentations.Rotate(limit=15),
     albumentations.RandomScale(),
     albumentations.Cutout(num_holes=1, max_h_size=50, max_w_size=75, fill_value=255, always_apply=True),
-    albumentations.Resize(RESIZE, RESIZE, p=1),
     ])
 
 data_transforms_test = albumentations.Compose([
@@ -390,13 +391,13 @@ def convert_model_ReLU2Mish(module):
     return mod
 
 
-batch_size_list = [14, 46, 64, 72, 128]
+batch_size_list = [16, 46, 64, 72, 128]
 
 
 with timer('load csv data'):
     fold_id = 0
     epochs = 90
-    batch_size = batch_size_list[1]
+    batch_size = batch_size_list[0]
     
     train = pd.read_csv('input/train.csv')
 
@@ -404,7 +405,7 @@ with timer('load csv data'):
    
     y = train[["grapheme_root", "vowel_diacritic", "consonant_diacritic"]]
 
-    num_folds = 10
+    num_folds = 5
     kf = MultilabelStratifiedKFold(n_splits = num_folds, random_state = SEED)
     splits = list(kf.split(X=train, y=y))
     train_idx = splits[fold_id][0]
@@ -464,18 +465,16 @@ with timer('create model'):
     
     model = Efficient(186, encoder='efficientnet-b3', pool_type="gem")
 
-    print(model)
     # model = convert_model_ReLU2Mish(model)
-    w = model.net.conv1.weight
-    model.net.conv1 = nn.Conv2d(1, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
-    model.conv1.weight = nn.Parameter(torch.mean(w, dim=1, keepdim=True))
     model = model.to(device)
 
     criterion = nn.CrossEntropyLoss(reduction='mean').to(device)
-    optimizer = optim.Adam(model.parameters(), lr=1e-4)
+    optimizer = optim.Adam(model.parameters(), lr=0.00005)
     # optimizer =Over9000(model.parameters(), lr=2e-3, weight_decay=1e-3) ## New once
-    scheduler = GradualWarmupScheduler(optimizer, multiplier=1.1, total_epoch=5,
-                                       after_scheduler=None)
+    # scheduler = GradualWarmupScheduler(optimizer, multiplier=1.1, total_epoch=5,
+    #                                    after_scheduler=None)
+    t_max=10
+    scheduler = CosineAnnealingLR(optimizer, T_max=t_max)
 
 train_one_epoch_mixup_for_single_output, validate_for_single_output_weighted
 

@@ -227,19 +227,27 @@ class EfficientHead(nn.Module):
 
         self.grapheme_head = nn.Sequential(
             Mish(), nn.Conv2d(n_in_features, 512, kernel_size=3),
-            nn.BatchNorm2d(512), GeM(), nn.Linear(512, 168))
+            nn.BatchNorm2d(512), GeM(), Flatten())
         self.vowel_head = nn.Sequential(
             Mish(), nn.Conv2d(n_in_features, 512, kernel_size=3),
-            nn.BatchNorm2d(512), GeM(), nn.Linear(512, 11))
+            nn.BatchNorm2d(512), GeM(), Flatten())
         self.consonant_head = nn.Sequential(
             Mish(), nn.Conv2d(n_in_features, 512, kernel_size=3),
-            nn.BatchNorm2d(512), GeM(), nn.Linear(512, 7))
+            nn.BatchNorm2d(512), GeM(), Flatten())
+
+        self.fc1 = nn.Linear(512, 11)
+        self.fc2 = nn.Linear(512, 168)
+        self.fc3 = nn.Linear(512, 7)
 
     def forward(self, x):
 
         x1 = self.vowel_head(x)
         x2 = self.grapheme_head(x)
         x3 = self.consonant_head(x)
+        
+        x1 = self.fc1(x1)
+        x2 = self.fc2(x2)
+        x3 = self.fc3(x3)
 
         out = torch.cat([x1, x2, x3], 1)
         return out
@@ -252,6 +260,7 @@ class Efficient(nn.Module):
                            'efficientnet-b3': 1536, 'efficientnet-b4': 1792, 'efficientnet-b5': 2048,
                            'efficientnet-b6': 2304, 'efficientnet-b7': 2560}
         self.net = EfficientNet.from_pretrained(encoder)
+
         self.avg_pool = nn.AdaptiveAvgPool2d(1)
         if pool_type == "concat":
             self.net.avg_pool = AdaptiveConcatPool2d()
@@ -265,10 +274,10 @@ class Efficient(nn.Module):
         self.classifier = EfficientHead(out_shape)
 
     def forward(self, x):
-        x = self.net.extract_features(x)
-        x = self.avg_pool(x)
-        x = self.classifier(x)
 
+        x = x.repeat(1, 3, 1, 1)
+        x = self.net.extract_features(x)
+        x = self.classifier(x)
         return x
 
 
