@@ -77,19 +77,19 @@ def mixup(data, targets1, targets2, targets3, alpha):
     return data, targets
 
 
-def cutmix_criterion_weighted2(preds1,preds2,preds3, targets):
+def cutmix_criterion_weighted(preds1,preds2,preds3, targets):
     targets1, targets2,targets3, targets4,targets5, targets6, lam = targets[0], targets[1], targets[2], targets[3], targets[4], targets[5], targets[6]
     criterion = nn.CrossEntropyLoss(reduction='mean')
-    return (lam * criterion(preds1, targets1) + (1 - lam) * criterion(preds1, targets2)) * 0.1 \
-         + (lam * criterion(preds2, targets3) + (1 - lam) * criterion(preds2, targets4)) * 0.7 \
-         + (lam * criterion(preds3, targets5) + (1 - lam) * criterion(preds3, targets6)) * 0.2
+    return (lam * criterion(preds1, targets1) + (1 - lam) * criterion(preds1, targets2)) * 0.25 \
+         + (lam * criterion(preds2, targets3) + (1 - lam) * criterion(preds2, targets4)) * 0.5 \
+         + (lam * criterion(preds3, targets5) + (1 - lam) * criterion(preds3, targets6)) * 0.25
 
-def mixup_criterion_weighted2(preds1,preds2,preds3, targets):
+def mixup_criterion_weighted(preds1,preds2,preds3, targets):
     targets1, targets2,targets3, targets4,targets5, targets6, lam = targets[0], targets[1], targets[2], targets[3], targets[4], targets[5], targets[6]
     criterion = nn.CrossEntropyLoss(reduction='mean')
-    return (lam * criterion(preds1, targets1) + (1 - lam) * criterion(preds1, targets2)) * 0.1 \
-         + (lam * criterion(preds2, targets3) + (1 - lam) * criterion(preds2, targets4)) * 0.7 \
-         + (lam * criterion(preds3, targets5) + (1 - lam) * criterion(preds3, targets6)) * 0.2
+    return (lam * criterion(preds1, targets1) + (1 - lam) * criterion(preds1, targets2)) * 0.25 \
+         + (lam * criterion(preds2, targets3) + (1 - lam) * criterion(preds2, targets4)) * 0.5 \
+         + (lam * criterion(preds3, targets5) + (1 - lam) * criterion(preds3, targets6)) * 0.25
 
 
 def cutmix_criterion(preds1,preds2,preds3, targets):
@@ -101,21 +101,6 @@ def mixup_criterion(preds1,preds2,preds3, targets):
     targets1, targets2,targets3, targets4,targets5, targets6, lam = targets[0], targets[1], targets[2], targets[3], targets[4], targets[5], targets[6]
     criterion = nn.CrossEntropyLoss(reduction='mean')
     return lam * criterion(preds1, targets1) + (1 - lam) * criterion(preds1, targets2) + lam * criterion(preds2, targets3) + (1 - lam) * criterion(preds2, targets4) + lam * criterion(preds3, targets5) + (1 - lam) * criterion(preds3, targets6)
-
-
-def cutmix_criterion_weighted(preds1,preds2,preds3, targets, criterion):
-    targets1, targets2,targets3, targets4,targets5, targets6, lam = targets[0], targets[1], targets[2], targets[3], targets[4], targets[5], targets[6]
-    criterion1 = criterion[0] # v
-    criterion2 = criterion[1] # g
-    criterion3 = criterion[2] # c
-    return lam * criterion1(preds1, targets1) + (1 - lam) * criterion1(preds1, targets2) + lam * criterion2(preds2, targets3) + (1 - lam) * criterion2(preds2, targets4) + lam * criterion3(preds3, targets5) + (1 - lam) * criterion3(preds3, targets6)
-
-def mixup_criterion_weighted(preds1,preds2,preds3, targets, criterion):
-    targets1, targets2,targets3, targets4,targets5, targets6, lam = targets[0], targets[1], targets[2], targets[3], targets[4], targets[5], targets[6]
-    criterion1 = criterion[0] # v
-    criterion2 = criterion[1] # g
-    criterion3 = criterion[2] # c
-    return lam * criterion1(preds1, targets1) + (1 - lam) * criterion1(preds1, targets2) + lam * criterion2(preds2, targets3) + (1 - lam) * criterion2(preds2, targets4) + lam * criterion3(preds3, targets5) + (1 - lam) * criterion3(preds3, targets6)
 
 
 def cutmix_criterion_focal(preds1,preds2,preds3, targets):
