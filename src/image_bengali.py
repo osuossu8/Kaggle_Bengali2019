@@ -80,9 +80,9 @@ def mixup(data, targets1, targets2, targets3, alpha):
 def cutmix_criterion_weighted(preds1,preds2,preds3, targets):
     targets1, targets2,targets3, targets4,targets5, targets6, lam = targets[0], targets[1], targets[2], targets[3], targets[4], targets[5], targets[6]
     criterion = nn.CrossEntropyLoss(reduction='mean')
-    return (lam * criterion(preds1, targets1) + (1 - lam) * criterion(preds1, targets2)) * 0.1 \
-         + (lam * criterion(preds2, targets3) + (1 - lam) * criterion(preds2, targets4)) * 0.7 \
-         + (lam * criterion(preds3, targets5) + (1 - lam) * criterion(preds3, targets6)) * 0.2
+    return (lam * criterion(preds1, targets1) + (1 - lam) * criterion(preds1, targets2)) * 0.25 \
+         + (lam * criterion(preds2, targets3) + (1 - lam) * criterion(preds2, targets4)) * 0.5 \
+         + (lam * criterion(preds3, targets5) + (1 - lam) * criterion(preds3, targets6)) * 0.25
 
 def mixup_criterion_weighted(preds1,preds2,preds3, targets):
     targets1, targets2,targets3, targets4,targets5, targets6, lam = targets[0], targets[1], targets[2], targets[3], targets[4], targets[5], targets[6]

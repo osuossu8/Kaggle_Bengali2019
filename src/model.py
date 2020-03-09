@@ -271,12 +271,13 @@ class Efficient(nn.Module):
         elif pool_type == "gem":
             self.net.avg_pool = GeM()
             out_shape = n_channels_dict[encoder]
-        self.classifier = EfficientHead(out_shape)
+        self.classifier = EfficientHead(out_shape) # CNNHead(out_shape)
 
     def forward(self, x):
 
         x = x.repeat(1, 3, 1, 1)
         x = self.net.extract_features(x)
+        # x = self.net.avg_pool(x)
         x = self.classifier(x)
         return x
 
