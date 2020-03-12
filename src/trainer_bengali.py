@@ -119,12 +119,12 @@ def train_one_epoch_mixup_cutmix_for_single_output_weighted(model, train_loader,
             images, targets = mixup(images, targets1, targets2, targets3, 0.4)
             logits = model(images)
             logits1, logits2, logits3 = logits[:,:11], logits[:,11:11+168], logits[:, 11+168:]
-            loss = mixup_criterion_weighted(logits1, logits2, logits3, targets)
+            loss = mixup_criterion_weighted(logits1, logits2, logits3, targets, criterion)
         else:
             images, targets = cutmix(images, targets1, targets2, targets3, 0.4)
             logits = model(images)
             logits1, logits2, logits3 = logits[:,:11], logits[:,11:11+168], logits[:, 11+168:]
-            loss = cutmix_criterion_weighted(logits1, logits2, logits3, targets)
+            loss = cutmix_criterion_weighted(logits1, logits2, logits3, targets, criterion)
 
         loss.backward()
         optimizer.step()
@@ -189,7 +189,7 @@ def train_one_epoch_cutmix_for_single_output(model, train_loader, criterion, opt
         images, targets = cutmix(images, targets1, targets2, targets3, 0.4)
         logits = model(images)
         logits1, logits2, logits3 = logits[:,:11], logits[:,11:11+168], logits[:, 11+168:]
-        loss = cutmix_criterion(logits1, logits2, logits3, targets)
+        loss = cutmix_criterion_weighted(logits1, logits2, logits3, targets)
 
         loss.backward()
         optimizer.step()
