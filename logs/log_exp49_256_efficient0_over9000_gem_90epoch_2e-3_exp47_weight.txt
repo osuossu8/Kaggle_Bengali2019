@@ -582,3 +582,1745 @@
 2020-03-09 11:01:45,085 - INFO - Starting 52 epoch...
 2020-03-09 11:04:48,088 - INFO - Train loss on step 500 was 0.68496
 2020-03-09 11:07:52,082 - INFO - Train loss on step 1000 was 0.68316
+2020-03-09 13:28:37,562 - INFO - logger set up
+2020-03-09 13:28:37,562 - INFO - seed=1129
+2020-03-09 13:28:42,865 - INFO - [load csv data] done in 5.3 s
+2020-03-09 13:28:46,149 - INFO - [load feather data] done in 3.28 s
+2020-03-09 13:28:53,146 - INFO - [prepare validation data] done in 7.0 s
+2020-03-09 13:28:56,450 - INFO - [create model] done in 3.3 s
+2020-03-09 13:28:56,451 - INFO - Starting 1 epoch...
+2020-03-09 13:29:50,469 - INFO - logger set up
+2020-03-09 13:29:50,470 - INFO - seed=1129
+2020-03-09 13:29:55,635 - INFO - [load csv data] done in 5.16 s
+2020-03-09 13:29:58,843 - INFO - [load feather data] done in 3.21 s
+2020-03-09 13:30:06,162 - INFO - [prepare validation data] done in 7.32 s
+2020-03-09 13:39:20,153 - INFO - [create model] done in 553.99 s
+2020-03-09 13:39:20,153 - INFO - Starting 1 epoch...
+2020-03-09 13:40:10,477 - INFO - logger set up
+2020-03-09 13:40:10,478 - INFO - seed=1129
+2020-03-09 13:40:15,684 - INFO - [load csv data] done in 5.21 s
+2020-03-09 13:40:18,908 - INFO - [load feather data] done in 3.22 s
+2020-03-09 13:40:26,287 - INFO - [prepare validation data] done in 7.38 s
+2020-03-09 13:40:29,700 - INFO - [create model] done in 3.41 s
+2020-03-09 13:40:29,700 - INFO - Starting 1 epoch...
+2020-03-09 13:43:26,846 - INFO - logger set up
+2020-03-09 13:43:26,846 - INFO - seed=1129
+2020-03-09 13:43:32,096 - INFO - [load csv data] done in 5.25 s
+2020-03-09 13:43:35,343 - INFO - [load feather data] done in 3.25 s
+2020-03-09 13:43:42,690 - INFO - [prepare validation data] done in 7.35 s
+2020-03-09 13:43:46,093 - INFO - [create model] done in 3.4 s
+2020-03-09 13:43:46,093 - INFO - Starting 1 epoch...
+2020-03-09 13:46:12,135 - INFO - Train loss on step 500 was 3.44255
+2020-03-09 13:46:52,048 - INFO - logger set up
+2020-03-09 13:46:52,048 - INFO - seed=1129
+2020-03-09 13:46:57,584 - INFO - [load csv data] done in 5.54 s
+2020-03-09 13:47:00,736 - INFO - [load feather data] done in 3.15 s
+2020-03-09 13:47:08,529 - INFO - [prepare validation data] done in 7.79 s
+2020-03-09 13:47:12,181 - INFO - [create model] done in 3.65 s
+2020-03-09 13:47:12,181 - INFO - Starting 1 epoch...
+2020-03-09 13:47:27,476 - INFO - logger set up
+2020-03-09 13:47:27,476 - INFO - seed=1129
+2020-03-09 13:47:32,922 - INFO - [load csv data] done in 5.45 s
+2020-03-09 13:47:36,199 - INFO - [load feather data] done in 3.28 s
+2020-03-09 13:47:43,387 - INFO - [prepare validation data] done in 7.19 s
+2020-03-09 13:47:46,824 - INFO - [create model] done in 3.44 s
+2020-03-09 13:47:46,825 - INFO - Starting 1 epoch...
+2020-03-09 13:50:55,151 - INFO - Train loss on step 500 was 3.43725
+2020-03-09 13:54:03,138 - INFO - Train loss on step 1000 was 3.23921
+2020-03-09 13:57:11,207 - INFO - Train loss on step 1500 was 3.075
+2020-03-09 14:00:20,058 - INFO - Train loss on step 2000 was 2.92601
+2020-03-09 14:03:29,199 - INFO - Train loss on step 2500 was 2.7938
+2020-03-09 14:06:38,403 - INFO - Train loss on step 3000 was 2.69541
+2020-03-09 14:09:45,903 - INFO - Train loss on step 3500 was 2.6046
+2020-03-09 14:12:53,314 - INFO - Train loss on step 4000 was 2.52992
+2020-03-09 14:16:00,769 - INFO - Train loss on step 4500 was 2.4544
+2020-03-09 14:19:08,507 - INFO - Train loss on step 5000 was 2.38971
+2020-03-09 14:22:16,527 - INFO - Train loss on step 5500 was 2.33634
+2020-03-09 14:25:23,642 - INFO - Train loss on step 6000 was 2.2894
+2020-03-09 14:28:31,412 - INFO - Train loss on step 6500 was 2.25044
+2020-03-09 14:31:38,514 - INFO - Train loss on step 7000 was 2.21464
+2020-03-09 14:34:45,577 - INFO - Train loss on step 7500 was 2.18158
+2020-03-09 14:34:57,419 - INFO - Mean train loss: 2.18108
+2020-03-09 14:37:32,353 - INFO - recall: vowel 0.9586444220032397, grapheme 0.898602795572564, consonant 0.9136673639838894
+2020-03-09 14:37:32,353 - INFO - Mean valid loss: 0.56747 score: 0.91738
+2020-03-09 14:37:32,456 - INFO - save model at score=0.9173793442830642 on epoch=1
+2020-03-09 14:37:32,456 - INFO - Starting 2 epoch...
+2020-03-09 14:40:40,439 - INFO - Train loss on step 500 was 1.71307
+2020-03-09 14:43:48,955 - INFO - Train loss on step 1000 was 1.6733
+2020-03-09 14:46:58,125 - INFO - Train loss on step 1500 was 1.66148
+2020-03-09 14:50:06,814 - INFO - Train loss on step 2000 was 1.67162
+2020-03-09 14:53:16,076 - INFO - Train loss on step 2500 was 1.65601
+2020-03-09 14:56:24,680 - INFO - Train loss on step 3000 was 1.63816
+2020-03-09 14:59:33,708 - INFO - Train loss on step 3500 was 1.62724
+2020-03-09 15:02:43,234 - INFO - Train loss on step 4000 was 1.62743
+2020-03-09 15:05:52,665 - INFO - Train loss on step 4500 was 1.62253
+2020-03-09 15:09:01,307 - INFO - Train loss on step 5000 was 1.61608
+2020-03-09 15:12:10,111 - INFO - Train loss on step 5500 was 1.61033
+2020-03-09 15:15:18,743 - INFO - Train loss on step 6000 was 1.60578
+2020-03-09 15:18:27,825 - INFO - Train loss on step 6500 was 1.60451
+2020-03-09 15:21:37,481 - INFO - Train loss on step 7000 was 1.59877
+2020-03-09 15:24:44,802 - INFO - Train loss on step 7500 was 1.59383
+2020-03-09 15:24:56,632 - INFO - Mean train loss: 1.59416
+2020-03-09 15:27:30,359 - INFO - recall: vowel 0.9740673205981367, grapheme 0.9287309665811092, consonant 0.9588122147090384
+2020-03-09 15:27:30,359 - INFO - Mean valid loss: 0.43981 score: 0.94759
+2020-03-09 15:27:30,469 - INFO - save model at score=0.9475853671173484 on epoch=2
+2020-03-09 15:27:30,469 - INFO - Starting 3 epoch...
+2020-03-09 15:30:40,055 - INFO - Train loss on step 500 was 1.52447
+2020-03-09 15:33:50,155 - INFO - Train loss on step 1000 was 1.50914
+2020-03-09 15:36:59,708 - INFO - Train loss on step 1500 was 1.51109
+2020-03-09 15:40:09,355 - INFO - Train loss on step 2000 was 1.49455
+2020-03-09 15:43:19,299 - INFO - Train loss on step 2500 was 1.49515
+2020-03-09 15:46:29,408 - INFO - Train loss on step 3000 was 1.50313
+2020-03-09 15:49:38,728 - INFO - Train loss on step 3500 was 1.49523
+2020-03-09 15:52:46,973 - INFO - Train loss on step 4000 was 1.49394
+2020-03-09 15:55:55,216 - INFO - Train loss on step 4500 was 1.48972
+2020-03-09 15:59:04,094 - INFO - Train loss on step 5000 was 1.49136
+2020-03-09 16:02:12,475 - INFO - Train loss on step 5500 was 1.49136
+2020-03-09 16:05:20,873 - INFO - Train loss on step 6000 was 1.48166
+2020-03-09 16:08:31,016 - INFO - Train loss on step 6500 was 1.4768
+2020-03-09 16:11:39,131 - INFO - Train loss on step 7000 was 1.47453
+2020-03-09 16:14:46,746 - INFO - Train loss on step 7500 was 1.47167
+2020-03-09 16:14:58,599 - INFO - Mean train loss: 1.47151
+2020-03-09 16:17:32,640 - INFO - recall: vowel 0.9770338286424146, grapheme 0.9389971146372751, consonant 0.968651783749185
+2020-03-09 16:17:32,641 - INFO - Mean valid loss: 0.31767 score: 0.95592
+2020-03-09 16:17:32,751 - INFO - save model at score=0.9559199604165375 on epoch=3
+2020-03-09 16:17:32,751 - INFO - Starting 4 epoch...
+2020-03-09 16:20:40,164 - INFO - Train loss on step 500 was 1.43359
+2020-03-09 16:23:47,759 - INFO - Train loss on step 1000 was 1.41006
+2020-03-09 16:26:55,753 - INFO - Train loss on step 1500 was 1.4314
+2020-03-09 16:30:05,156 - INFO - Train loss on step 2000 was 1.42862
+2020-03-09 16:33:14,646 - INFO - Train loss on step 2500 was 1.42837
+2020-03-09 16:36:23,159 - INFO - Train loss on step 3000 was 1.4157
+2020-03-09 16:39:32,011 - INFO - Train loss on step 3500 was 1.42371
+2020-03-09 16:42:41,932 - INFO - Train loss on step 4000 was 1.42893
+2020-03-09 16:45:52,276 - INFO - Train loss on step 4500 was 1.43036
+2020-03-09 16:49:01,080 - INFO - Train loss on step 5000 was 1.42082
+2020-03-09 16:52:10,124 - INFO - Train loss on step 5500 was 1.42071
+2020-03-09 16:55:19,497 - INFO - Train loss on step 6000 was 1.41734
+2020-03-09 16:58:28,930 - INFO - Train loss on step 6500 was 1.41717
+2020-03-09 17:01:37,906 - INFO - Train loss on step 7000 was 1.41751
+2020-03-09 17:04:47,454 - INFO - Train loss on step 7500 was 1.41778
+2020-03-09 17:04:59,395 - INFO - Mean train loss: 1.41761
+2020-03-09 17:07:33,465 - INFO - recall: vowel 0.9823998973940559, grapheme 0.943264028554573, consonant 0.9734604598603598
+2020-03-09 17:07:33,465 - INFO - Mean valid loss: 0.2756 score: 0.9606
+2020-03-09 17:07:33,577 - INFO - save model at score=0.9605971035908905 on epoch=4
+2020-03-09 17:07:33,577 - INFO - Starting 5 epoch...
+2020-03-09 17:10:42,631 - INFO - Train loss on step 500 was 1.41184
+2020-03-09 17:13:51,572 - INFO - Train loss on step 1000 was 1.39216
+2020-03-09 17:17:01,354 - INFO - Train loss on step 1500 was 1.41422
+2020-03-09 17:20:10,444 - INFO - Train loss on step 2000 was 1.40196
+2020-03-09 17:23:19,055 - INFO - Train loss on step 2500 was 1.39844
+2020-03-09 17:26:28,713 - INFO - Train loss on step 3000 was 1.38687
+2020-03-09 17:29:36,878 - INFO - Train loss on step 3500 was 1.39035
+2020-03-09 17:32:45,614 - INFO - Train loss on step 4000 was 1.38475
+2020-03-09 17:35:55,029 - INFO - Train loss on step 4500 was 1.3876
+2020-03-09 17:39:04,968 - INFO - Train loss on step 5000 was 1.38561
+2020-03-09 17:42:12,989 - INFO - Train loss on step 5500 was 1.37865
+2020-03-09 17:45:20,532 - INFO - Train loss on step 6000 was 1.37717
+2020-03-09 17:48:28,081 - INFO - Train loss on step 6500 was 1.3773
+2020-03-09 17:51:35,784 - INFO - Train loss on step 7000 was 1.37723
+2020-03-09 17:54:44,579 - INFO - Train loss on step 7500 was 1.37509
+2020-03-09 17:54:56,466 - INFO - Mean train loss: 1.37564
+2020-03-09 17:57:33,858 - INFO - recall: vowel 0.9801290150525633, grapheme 0.9466720513844797, consonant 0.9781908063844639
+2020-03-09 17:57:33,858 - INFO - Mean valid loss: 0.24356 score: 0.96292
+2020-03-09 17:57:33,968 - INFO - save model at score=0.9629159810514967 on epoch=5
+2020-03-09 17:57:33,968 - INFO - Starting 6 epoch...
+2020-03-09 18:00:43,648 - INFO - Train loss on step 500 was 1.35787
+2020-03-09 18:03:53,292 - INFO - Train loss on step 1000 was 1.33228
+2020-03-09 18:07:02,094 - INFO - Train loss on step 1500 was 1.33644
+2020-03-09 18:10:10,514 - INFO - Train loss on step 2000 was 1.34768
+2020-03-09 18:13:20,250 - INFO - Train loss on step 2500 was 1.33662
+2020-03-09 18:16:30,002 - INFO - Train loss on step 3000 was 1.32565
+2020-03-09 18:19:38,913 - INFO - Train loss on step 3500 was 1.31806
+2020-03-09 18:22:47,787 - INFO - Train loss on step 4000 was 1.3191
+2020-03-09 18:25:56,654 - INFO - Train loss on step 4500 was 1.32281
+2020-03-09 18:29:05,558 - INFO - Train loss on step 5000 was 1.31708
+2020-03-09 18:32:14,537 - INFO - Train loss on step 5500 was 1.3165
+2020-03-09 18:35:23,492 - INFO - Train loss on step 6000 was 1.31655
+2020-03-09 18:38:32,444 - INFO - Train loss on step 6500 was 1.31658
+2020-03-09 18:41:41,302 - INFO - Train loss on step 7000 was 1.31795
+2020-03-09 18:44:50,196 - INFO - Train loss on step 7500 was 1.31545
+2020-03-09 18:45:02,139 - INFO - Mean train loss: 1.31507
+2020-03-09 18:47:36,125 - INFO - recall: vowel 0.9837732040890903, grapheme 0.9471438657100396, consonant 0.9779390527122492
+2020-03-09 18:47:36,125 - INFO - Mean valid loss: 0.20303 score: 0.964
+2020-03-09 18:47:36,235 - INFO - save model at score=0.9639999970553547 on epoch=6
+2020-03-09 18:47:36,235 - INFO - Starting 7 epoch...
+2020-03-09 18:50:44,436 - INFO - Train loss on step 500 was 1.25741
+2020-03-09 18:53:52,515 - INFO - Train loss on step 1000 was 1.29198
+2020-03-09 18:57:00,264 - INFO - Train loss on step 1500 was 1.30629
+2020-03-09 19:00:07,937 - INFO - Train loss on step 2000 was 1.31093
+2020-03-09 19:03:15,581 - INFO - Train loss on step 2500 was 1.29731
+2020-03-09 19:06:23,226 - INFO - Train loss on step 3000 was 1.2951
+2020-03-09 19:09:30,887 - INFO - Train loss on step 3500 was 1.29609
+2020-03-09 19:12:38,447 - INFO - Train loss on step 4000 was 1.2962
+2020-03-09 19:15:45,976 - INFO - Train loss on step 4500 was 1.29732
+2020-03-09 19:18:53,467 - INFO - Train loss on step 5000 was 1.29114
+2020-03-09 19:22:01,037 - INFO - Train loss on step 5500 was 1.29177
+2020-03-09 19:25:08,595 - INFO - Train loss on step 6000 was 1.29024
+2020-03-09 19:28:16,152 - INFO - Train loss on step 6500 was 1.28968
+2020-03-09 19:31:23,709 - INFO - Train loss on step 7000 was 1.28735
+2020-03-09 19:34:31,360 - INFO - Train loss on step 7500 was 1.29028
+2020-03-09 19:34:43,206 - INFO - Mean train loss: 1.29044
+2020-03-09 19:37:17,341 - INFO - recall: vowel 0.9847000408346112, grapheme 0.9511337181813798, consonant 0.9827138157128376
+2020-03-09 19:37:17,341 - INFO - Mean valid loss: 0.23215 score: 0.96742
+2020-03-09 19:37:17,453 - INFO - save model at score=0.9674203232275521 on epoch=7
+2020-03-09 19:37:17,453 - INFO - Starting 8 epoch...
+2020-03-09 19:40:25,029 - INFO - Train loss on step 500 was 1.24883
+2020-03-09 19:43:32,738 - INFO - Train loss on step 1000 was 1.26913
+2020-03-09 19:46:40,381 - INFO - Train loss on step 1500 was 1.24928
+2020-03-09 19:49:48,071 - INFO - Train loss on step 2000 was 1.25769
+2020-03-09 19:52:55,765 - INFO - Train loss on step 2500 was 1.25707
+2020-03-09 19:56:03,407 - INFO - Train loss on step 3000 was 1.26123
+2020-03-09 19:59:11,055 - INFO - Train loss on step 3500 was 1.27022
+2020-03-09 20:02:18,733 - INFO - Train loss on step 4000 was 1.26093
+2020-03-09 20:05:26,361 - INFO - Train loss on step 4500 was 1.25734
+2020-03-09 20:08:34,992 - INFO - Train loss on step 5000 was 1.25436
+2020-03-09 20:11:43,262 - INFO - Train loss on step 5500 was 1.25197
+2020-03-09 20:14:51,597 - INFO - Train loss on step 6000 was 1.24802
+2020-03-09 20:18:00,107 - INFO - Train loss on step 6500 was 1.24822
+2020-03-09 20:21:09,222 - INFO - Train loss on step 7000 was 1.24596
+2020-03-09 20:24:18,286 - INFO - Train loss on step 7500 was 1.24753
+2020-03-09 20:24:30,225 - INFO - Mean train loss: 1.24763
+2020-03-09 20:27:05,393 - INFO - recall: vowel 0.9846069504438361, grapheme 0.9490475396842438, consonant 0.9844018486037095
+2020-03-09 20:27:05,394 - INFO - Mean valid loss: 0.19615 score: 0.96678
+2020-03-09 20:27:05,394 - INFO - Starting 9 epoch...
+2020-03-09 20:30:14,309 - INFO - Train loss on step 500 was 1.25604
+2020-03-09 20:33:22,797 - INFO - Train loss on step 1000 was 1.22124
+2020-03-09 20:36:30,534 - INFO - Train loss on step 1500 was 1.21626
+2020-03-09 20:39:38,109 - INFO - Train loss on step 2000 was 1.22298
+2020-03-09 20:42:45,705 - INFO - Train loss on step 2500 was 1.22454
+2020-03-09 20:45:53,264 - INFO - Train loss on step 3000 was 1.22104
+2020-03-09 20:49:00,865 - INFO - Train loss on step 3500 was 1.21602
+2020-03-09 20:52:08,454 - INFO - Train loss on step 4000 was 1.21444
+2020-03-09 20:55:16,047 - INFO - Train loss on step 4500 was 1.22173
+2020-03-09 20:58:23,603 - INFO - Train loss on step 5000 was 1.21893
+2020-03-09 21:01:31,174 - INFO - Train loss on step 5500 was 1.21838
+2020-03-09 21:04:39,012 - INFO - Train loss on step 6000 was 1.22031
+2020-03-09 21:07:47,348 - INFO - Train loss on step 6500 was 1.22153
+2020-03-09 21:10:55,857 - INFO - Train loss on step 7000 was 1.21988
+2020-03-09 21:14:04,822 - INFO - Train loss on step 7500 was 1.21664
+2020-03-09 21:14:16,766 - INFO - Mean train loss: 1.21846
+2020-03-09 21:16:52,832 - INFO - recall: vowel 0.9847081344983287, grapheme 0.9512932357091941, consonant 0.9814174931386865
+2020-03-09 21:16:52,832 - INFO - Mean valid loss: 0.2443 score: 0.96718
+2020-03-09 21:16:52,833 - INFO - Starting 10 epoch...
+2020-03-09 21:20:00,494 - INFO - Train loss on step 500 was 1.2187
+2020-03-09 21:23:08,341 - INFO - Train loss on step 1000 was 1.21934
+2020-03-09 21:26:16,056 - INFO - Train loss on step 1500 was 1.2108
+2020-03-09 21:29:23,764 - INFO - Train loss on step 2000 was 1.22094
+2020-03-09 21:32:31,497 - INFO - Train loss on step 2500 was 1.2123
+2020-03-09 21:35:39,268 - INFO - Train loss on step 3000 was 1.21175
+2020-03-09 21:38:47,036 - INFO - Train loss on step 3500 was 1.213
+2020-03-09 21:41:54,951 - INFO - Train loss on step 4000 was 1.20245
+2020-03-09 21:45:03,329 - INFO - Train loss on step 4500 was 1.20201
+2020-03-09 21:48:11,245 - INFO - Train loss on step 5000 was 1.21111
+2020-03-09 21:51:19,433 - INFO - Train loss on step 5500 was 1.20503
+2020-03-09 21:54:27,116 - INFO - Train loss on step 6000 was 1.20354
+2020-03-09 21:57:34,835 - INFO - Train loss on step 6500 was 1.2064
+2020-03-09 22:00:42,554 - INFO - Train loss on step 7000 was 1.20998
+2020-03-09 22:03:50,236 - INFO - Train loss on step 7500 was 1.2104
+2020-03-09 22:04:02,082 - INFO - Mean train loss: 1.21112
+2020-03-09 22:06:36,616 - INFO - recall: vowel 0.9856386865274159, grapheme 0.9498206787185056, consonant 0.9845374752544955
+2020-03-09 22:06:36,617 - INFO - Mean valid loss: 0.20561 score: 0.96745
+2020-03-09 22:06:36,726 - INFO - save model at score=0.9674543798047306 on epoch=10
+2020-03-09 22:06:36,726 - INFO - Starting 11 epoch...
+2020-03-09 22:09:44,895 - INFO - Train loss on step 500 was 1.21499
+2020-03-09 22:12:53,255 - INFO - Train loss on step 1000 was 1.20095
+2020-03-09 22:16:01,556 - INFO - Train loss on step 1500 was 1.20081
+2020-03-09 22:19:09,870 - INFO - Train loss on step 2000 was 1.1807
+2020-03-09 22:22:18,198 - INFO - Train loss on step 2500 was 1.19652
+2020-03-09 22:25:26,489 - INFO - Train loss on step 3000 was 1.20116
+2020-03-09 22:28:34,731 - INFO - Train loss on step 3500 was 1.1964
+2020-03-09 22:31:43,010 - INFO - Train loss on step 4000 was 1.19026
+2020-03-09 22:34:51,322 - INFO - Train loss on step 4500 was 1.19218
+2020-03-09 22:37:59,659 - INFO - Train loss on step 5000 was 1.19254
+2020-03-09 22:41:07,994 - INFO - Train loss on step 5500 was 1.19175
+2020-03-09 22:44:16,286 - INFO - Train loss on step 6000 was 1.18783
+2020-03-09 22:47:24,599 - INFO - Train loss on step 6500 was 1.18807
+2020-03-09 22:50:32,421 - INFO - Train loss on step 7000 was 1.185
+2020-03-09 22:53:40,058 - INFO - Train loss on step 7500 was 1.18196
+2020-03-09 22:53:51,906 - INFO - Mean train loss: 1.18292
+2020-03-09 22:56:26,039 - INFO - recall: vowel 0.986078128096695, grapheme 0.9516108747032233, consonant 0.9843028383924517
+2020-03-09 22:56:26,039 - INFO - Mean valid loss: 0.19451 score: 0.9684
+2020-03-09 22:56:26,145 - INFO - save model at score=0.9684006789738984 on epoch=11
+2020-03-09 22:56:26,145 - INFO - Starting 12 epoch...
+2020-03-09 22:59:33,833 - INFO - Train loss on step 500 was 1.10745
+2020-03-09 23:02:41,705 - INFO - Train loss on step 1000 was 1.1345
+2020-03-09 23:05:49,336 - INFO - Train loss on step 1500 was 1.15406
+2020-03-09 23:08:56,988 - INFO - Train loss on step 2000 was 1.1563
+2020-03-09 23:12:04,582 - INFO - Train loss on step 2500 was 1.14479
+2020-03-09 23:15:12,197 - INFO - Train loss on step 3000 was 1.15238
+2020-03-09 23:18:19,747 - INFO - Train loss on step 3500 was 1.15459
+2020-03-09 23:21:27,233 - INFO - Train loss on step 4000 was 1.15653
+2020-03-09 23:24:34,727 - INFO - Train loss on step 4500 was 1.16318
+2020-03-09 23:27:42,315 - INFO - Train loss on step 5000 was 1.16566
+2020-03-09 23:30:49,862 - INFO - Train loss on step 5500 was 1.16192
+2020-03-09 23:33:58,442 - INFO - Train loss on step 6000 was 1.16414
+2020-03-09 23:37:06,000 - INFO - Train loss on step 6500 was 1.16819
+2020-03-09 23:40:13,576 - INFO - Train loss on step 7000 was 1.16821
+2020-03-09 23:43:21,225 - INFO - Train loss on step 7500 was 1.16598
+2020-03-09 23:43:33,083 - INFO - Mean train loss: 1.1647
+2020-03-09 23:46:08,362 - INFO - recall: vowel 0.9849847215849976, grapheme 0.9532408629356196, consonant 0.984501053649318
+2020-03-09 23:46:08,363 - INFO - Mean valid loss: 0.16477 score: 0.96899
+2020-03-09 23:46:08,470 - INFO - save model at score=0.9689918752763886 on epoch=12
+2020-03-09 23:46:08,471 - INFO - Starting 13 epoch...
+2020-03-09 23:49:16,711 - INFO - Train loss on step 500 was 1.21625
+2020-03-09 23:52:25,124 - INFO - Train loss on step 1000 was 1.18211
+2020-03-09 23:55:33,512 - INFO - Train loss on step 1500 was 1.17766
+2020-03-09 23:58:41,840 - INFO - Train loss on step 2000 was 1.16812
+2020-03-10 00:01:50,104 - INFO - Train loss on step 2500 was 1.17147
+2020-03-10 00:04:58,357 - INFO - Train loss on step 3000 was 1.16848
+2020-03-10 00:08:06,659 - INFO - Train loss on step 3500 was 1.17257
+2020-03-10 00:11:15,700 - INFO - Train loss on step 4000 was 1.17387
+2020-03-10 00:14:24,741 - INFO - Train loss on step 4500 was 1.17317
+2020-03-10 00:17:33,768 - INFO - Train loss on step 5000 was 1.17065
+2020-03-10 00:20:42,818 - INFO - Train loss on step 5500 was 1.17389
+2020-03-10 00:23:51,908 - INFO - Train loss on step 6000 was 1.16926
+2020-03-10 00:27:01,003 - INFO - Train loss on step 6500 was 1.16905
+2020-03-10 00:30:10,070 - INFO - Train loss on step 7000 was 1.16763
+2020-03-10 00:33:18,871 - INFO - Train loss on step 7500 was 1.16446
+2020-03-10 00:33:30,737 - INFO - Mean train loss: 1.16515
+2020-03-10 00:36:05,075 - INFO - recall: vowel 0.9852456939190755, grapheme 0.9519161719783956, consonant 0.9847092085110253
+2020-03-10 00:36:05,075 - INFO - Mean valid loss: 0.19036 score: 0.96845
+2020-03-10 00:36:05,075 - INFO - Starting 14 epoch...
+2020-03-10 00:39:12,701 - INFO - Train loss on step 500 was 1.15562
+2020-03-10 00:42:20,495 - INFO - Train loss on step 1000 was 1.1509
+2020-03-10 00:45:28,291 - INFO - Train loss on step 1500 was 1.13838
+2020-03-10 00:48:36,035 - INFO - Train loss on step 2000 was 1.15708
+2020-03-10 00:51:43,793 - INFO - Train loss on step 2500 was 1.15171
+2020-03-10 00:54:51,528 - INFO - Train loss on step 3000 was 1.1511
+2020-03-10 00:57:59,831 - INFO - Train loss on step 3500 was 1.15053
+2020-03-10 01:01:08,956 - INFO - Train loss on step 4000 was 1.14659
+2020-03-10 01:04:18,104 - INFO - Train loss on step 4500 was 1.14102
+2020-03-10 01:07:27,251 - INFO - Train loss on step 5000 was 1.1406
+2020-03-10 01:10:36,409 - INFO - Train loss on step 5500 was 1.13468
+2020-03-10 01:13:45,675 - INFO - Train loss on step 6000 was 1.13497
+2020-03-10 01:16:54,982 - INFO - Train loss on step 6500 was 1.137
+2020-03-10 01:20:04,302 - INFO - Train loss on step 7000 was 1.1401
+2020-03-10 01:23:13,618 - INFO - Train loss on step 7500 was 1.13739
+2020-03-10 01:23:25,586 - INFO - Mean train loss: 1.13805
+2020-03-10 01:26:00,042 - INFO - recall: vowel 0.9851043839437278, grapheme 0.9537510720186615, consonant 0.9849798223083447
+2020-03-10 01:26:00,042 - INFO - Mean valid loss: 0.19347 score: 0.9694
+2020-03-10 01:26:00,150 - INFO - save model at score=0.9693965875723488 on epoch=14
+2020-03-10 01:26:00,150 - INFO - Starting 15 epoch...
+2020-03-10 01:29:08,640 - INFO - Train loss on step 500 was 1.15127
+2020-03-10 01:32:17,153 - INFO - Train loss on step 1000 was 1.13564
+2020-03-10 01:35:25,478 - INFO - Train loss on step 1500 was 1.13232
+2020-03-10 01:38:33,862 - INFO - Train loss on step 2000 was 1.12091
+2020-03-10 01:41:42,181 - INFO - Train loss on step 2500 was 1.1276
+2020-03-10 01:44:50,306 - INFO - Train loss on step 3000 was 1.12067
+2020-03-10 01:47:57,971 - INFO - Train loss on step 3500 was 1.11815
+2020-03-10 01:51:05,631 - INFO - Train loss on step 4000 was 1.12555
+2020-03-10 01:54:13,265 - INFO - Train loss on step 4500 was 1.12796
+2020-03-10 01:57:20,898 - INFO - Train loss on step 5000 was 1.11765
+2020-03-10 02:00:28,588 - INFO - Train loss on step 5500 was 1.11014
+2020-03-10 02:03:36,266 - INFO - Train loss on step 6000 was 1.11114
+2020-03-10 02:06:43,947 - INFO - Train loss on step 6500 was 1.10848
+2020-03-10 02:09:51,660 - INFO - Train loss on step 7000 was 1.10852
+2020-03-10 02:12:59,272 - INFO - Train loss on step 7500 was 1.10749
+2020-03-10 02:13:11,135 - INFO - Mean train loss: 1.10757
+2020-03-10 02:15:45,472 - INFO - recall: vowel 0.9863839072116204, grapheme 0.9551442780032463, consonant 0.9832655937168632
+2020-03-10 02:15:45,472 - INFO - Mean valid loss: 0.16873 score: 0.96998
+2020-03-10 02:15:45,578 - INFO - save model at score=0.969984514233744 on epoch=15
+2020-03-10 02:15:45,578 - INFO - Starting 16 epoch...
+2020-03-10 02:18:54,184 - INFO - Train loss on step 500 was 1.16296
+2020-03-10 02:22:02,593 - INFO - Train loss on step 1000 was 1.1227
+2020-03-10 02:25:10,530 - INFO - Train loss on step 1500 was 1.10231
+2020-03-10 02:28:18,549 - INFO - Train loss on step 2000 was 1.10524
+2020-03-10 02:31:27,471 - INFO - Train loss on step 2500 was 1.10431
+2020-03-10 02:34:36,836 - INFO - Train loss on step 3000 was 1.1017
+2020-03-10 02:37:46,100 - INFO - Train loss on step 3500 was 1.11371
+2020-03-10 02:40:55,384 - INFO - Train loss on step 4000 was 1.11356
+2020-03-10 02:44:05,517 - INFO - Train loss on step 4500 was 1.11067
+2020-03-10 02:47:15,342 - INFO - Train loss on step 5000 was 1.11012
+2020-03-10 02:50:23,911 - INFO - Train loss on step 5500 was 1.10819
+2020-03-10 02:53:32,532 - INFO - Train loss on step 6000 was 1.10844
+2020-03-10 02:56:41,149 - INFO - Train loss on step 6500 was 1.10861
+2020-03-10 02:59:49,727 - INFO - Train loss on step 7000 was 1.1079
+2020-03-10 03:02:58,374 - INFO - Train loss on step 7500 was 1.10997
+2020-03-10 03:03:10,279 - INFO - Mean train loss: 1.10837
+2020-03-10 03:05:44,745 - INFO - recall: vowel 0.9862006027437228, grapheme 0.9562724186700999, consonant 0.9849362119196602
+2020-03-10 03:05:44,745 - INFO - Mean valid loss: 0.15173 score: 0.97092
+2020-03-10 03:05:44,853 - INFO - save model at score=0.9709204130008957 on epoch=16
+2020-03-10 03:05:44,854 - INFO - Starting 17 epoch...
+2020-03-10 03:08:53,622 - INFO - Train loss on step 500 was 1.07689
+2020-03-10 03:12:02,576 - INFO - Train loss on step 1000 was 1.10368
+2020-03-10 03:15:10,837 - INFO - Train loss on step 1500 was 1.09691
+2020-03-10 03:18:19,648 - INFO - Train loss on step 2000 was 1.11258
+2020-03-10 03:21:28,435 - INFO - Train loss on step 2500 was 1.11261
+2020-03-10 03:24:36,797 - INFO - Train loss on step 3000 was 1.10529
+2020-03-10 03:27:45,150 - INFO - Train loss on step 3500 was 1.09916
+2020-03-10 03:30:54,114 - INFO - Train loss on step 4000 was 1.0978
+2020-03-10 03:34:03,198 - INFO - Train loss on step 4500 was 1.1004
+2020-03-10 03:37:12,444 - INFO - Train loss on step 5000 was 1.09913
+2020-03-10 03:40:21,843 - INFO - Train loss on step 5500 was 1.0957
+2020-03-10 03:43:30,205 - INFO - Train loss on step 6000 was 1.09282
+2020-03-10 03:46:39,664 - INFO - Train loss on step 6500 was 1.093
+2020-03-10 03:49:49,073 - INFO - Train loss on step 7000 was 1.09529
+2020-03-10 03:52:58,809 - INFO - Train loss on step 7500 was 1.09816
+2020-03-10 03:53:10,774 - INFO - Mean train loss: 1.09672
+2020-03-10 03:55:47,720 - INFO - recall: vowel 0.9865567929558264, grapheme 0.9550657281371562, consonant 0.984635995440146
+2020-03-10 03:55:47,720 - INFO - Mean valid loss: 0.15408 score: 0.97033
+2020-03-10 03:55:47,720 - INFO - Starting 18 epoch...
+2020-03-10 03:58:57,471 - INFO - Train loss on step 500 was 1.07859
+2020-03-10 04:02:07,621 - INFO - Train loss on step 1000 was 1.05851
+2020-03-10 04:05:17,203 - INFO - Train loss on step 1500 was 1.06593
+2020-03-10 04:08:25,305 - INFO - Train loss on step 2000 was 1.07473
+2020-03-10 04:11:33,796 - INFO - Train loss on step 2500 was 1.083
+2020-03-10 04:14:42,378 - INFO - Train loss on step 3000 was 1.0828
+2020-03-10 04:17:50,897 - INFO - Train loss on step 3500 was 1.08017
+2020-03-10 04:20:59,444 - INFO - Train loss on step 4000 was 1.08428
+2020-03-10 04:24:08,246 - INFO - Train loss on step 4500 was 1.08317
+2020-03-10 04:27:16,516 - INFO - Train loss on step 5000 was 1.08464
+2020-03-10 04:30:24,800 - INFO - Train loss on step 5500 was 1.08948
+2020-03-10 04:33:33,083 - INFO - Train loss on step 6000 was 1.09003
+2020-03-10 04:36:41,948 - INFO - Train loss on step 6500 was 1.09112
+2020-03-10 04:39:50,831 - INFO - Train loss on step 7000 was 1.08842
+2020-03-10 04:42:59,587 - INFO - Train loss on step 7500 was 1.08837
+2020-03-10 04:43:11,481 - INFO - Mean train loss: 1.08758
+2020-03-10 04:45:46,022 - INFO - recall: vowel 0.9858435495776487, grapheme 0.9531868535072777, consonant 0.9859743170039456
+2020-03-10 04:45:46,022 - INFO - Mean valid loss: 0.15355 score: 0.96955
+2020-03-10 04:45:46,023 - INFO - Starting 19 epoch...
+2020-03-10 04:48:53,800 - INFO - Train loss on step 500 was 1.09319
+2020-03-10 04:52:01,896 - INFO - Train loss on step 1000 was 1.07753
+2020-03-10 04:55:10,003 - INFO - Train loss on step 1500 was 1.09156
+2020-03-10 04:58:18,076 - INFO - Train loss on step 2000 was 1.09819
+2020-03-10 05:01:26,127 - INFO - Train loss on step 2500 was 1.09825
+2020-03-10 05:04:34,202 - INFO - Train loss on step 3000 was 1.0875
+2020-03-10 05:07:42,259 - INFO - Train loss on step 3500 was 1.08742
+2020-03-10 05:10:50,400 - INFO - Train loss on step 4000 was 1.08319
+2020-03-10 05:13:58,576 - INFO - Train loss on step 4500 was 1.07378
+2020-03-10 05:17:08,625 - INFO - Train loss on step 5000 was 1.06893
+2020-03-10 05:20:18,331 - INFO - Train loss on step 5500 was 1.07445
+2020-03-10 05:23:27,723 - INFO - Train loss on step 6000 was 1.06996
+2020-03-10 05:26:37,097 - INFO - Train loss on step 6500 was 1.06903
+2020-03-10 05:29:46,501 - INFO - Train loss on step 7000 was 1.06817
+2020-03-10 05:32:55,846 - INFO - Train loss on step 7500 was 1.06725
+2020-03-10 05:33:07,808 - INFO - Mean train loss: 1.06779
+2020-03-10 05:35:42,445 - INFO - recall: vowel 0.9869341649910944, grapheme 0.9567242902461305, consonant 0.9849110145553599
+2020-03-10 05:35:42,445 - INFO - Mean valid loss: 0.18034 score: 0.97132
+2020-03-10 05:35:42,553 - INFO - save model at score=0.9713234400096789 on epoch=19
+2020-03-10 05:35:42,553 - INFO - Starting 20 epoch...
+2020-03-10 05:38:50,356 - INFO - Train loss on step 500 was 1.03197
+2020-03-10 05:41:59,659 - INFO - Train loss on step 1000 was 1.05174
+2020-03-10 05:45:09,155 - INFO - Train loss on step 1500 was 1.05245
+2020-03-10 05:48:18,633 - INFO - Train loss on step 2000 was 1.04325
+2020-03-10 05:51:28,184 - INFO - Train loss on step 2500 was 1.0411
+2020-03-10 05:54:37,642 - INFO - Train loss on step 3000 was 1.04446
+2020-03-10 05:57:47,187 - INFO - Train loss on step 3500 was 1.04331
+2020-03-10 06:00:56,763 - INFO - Train loss on step 4000 was 1.04229
+2020-03-10 06:04:06,283 - INFO - Train loss on step 4500 was 1.04167
+2020-03-10 06:07:15,796 - INFO - Train loss on step 5000 was 1.04601
+2020-03-10 06:10:25,396 - INFO - Train loss on step 5500 was 1.04599
+2020-03-10 06:13:34,987 - INFO - Train loss on step 6000 was 1.04582
+2020-03-10 06:16:44,586 - INFO - Train loss on step 6500 was 1.0446
+2020-03-10 06:19:54,109 - INFO - Train loss on step 7000 was 1.04452
+2020-03-10 06:23:03,580 - INFO - Train loss on step 7500 was 1.04058
+2020-03-10 06:23:15,557 - INFO - Mean train loss: 1.04128
+2020-03-10 06:25:49,938 - INFO - recall: vowel 0.9871151656705056, grapheme 0.9571504683086507, consonant 0.9855045878323476
+2020-03-10 06:25:49,938 - INFO - Mean valid loss: 0.16787 score: 0.97173
+2020-03-10 06:25:50,046 - INFO - save model at score=0.9717301725300387 on epoch=20
+2020-03-10 06:25:50,046 - INFO - Starting 21 epoch...
+2020-03-10 06:28:59,156 - INFO - Train loss on step 500 was 1.02386
+2020-03-10 06:32:08,779 - INFO - Train loss on step 1000 was 1.03655
+2020-03-10 06:35:18,354 - INFO - Train loss on step 1500 was 1.03716
+2020-03-10 06:38:27,871 - INFO - Train loss on step 2000 was 1.04964
+2020-03-10 06:41:37,475 - INFO - Train loss on step 2500 was 1.05271
+2020-03-10 06:44:47,110 - INFO - Train loss on step 3000 was 1.05359
+2020-03-10 06:47:56,791 - INFO - Train loss on step 3500 was 1.05691
+2020-03-10 06:51:06,426 - INFO - Train loss on step 4000 was 1.06406
+2020-03-10 06:54:15,952 - INFO - Train loss on step 4500 was 1.06103
+2020-03-10 06:57:25,509 - INFO - Train loss on step 5000 was 1.06548
+2020-03-10 07:00:35,045 - INFO - Train loss on step 5500 was 1.06568
+2020-03-10 07:03:43,149 - INFO - Train loss on step 6000 was 1.06323
+2020-03-10 07:06:51,169 - INFO - Train loss on step 6500 was 1.06055
+2020-03-10 07:09:59,245 - INFO - Train loss on step 7000 was 1.05691
+2020-03-10 07:13:08,017 - INFO - Train loss on step 7500 was 1.0613
+2020-03-10 07:13:19,949 - INFO - Mean train loss: 1.06161
+2020-03-10 07:15:54,470 - INFO - recall: vowel 0.9849206295426789, grapheme 0.9554416216609285, consonant 0.9842275880852999
+2020-03-10 07:15:54,470 - INFO - Mean valid loss: 0.17166 score: 0.97001
+2020-03-10 07:15:54,470 - INFO - Starting 22 epoch...
+2020-03-10 07:19:02,870 - INFO - Train loss on step 500 was 1.03276
+2020-03-10 07:22:11,162 - INFO - Train loss on step 1000 was 1.03145
+2020-03-10 07:25:19,463 - INFO - Train loss on step 1500 was 1.03194
+2020-03-10 07:28:27,761 - INFO - Train loss on step 2000 was 1.04257
+2020-03-10 07:31:36,082 - INFO - Train loss on step 2500 was 1.03547
+2020-03-10 07:34:44,373 - INFO - Train loss on step 3000 was 1.03779
+2020-03-10 07:37:52,646 - INFO - Train loss on step 3500 was 1.04541
+2020-03-10 07:41:00,851 - INFO - Train loss on step 4000 was 1.04387
+2020-03-10 07:44:09,078 - INFO - Train loss on step 4500 was 1.04246
+2020-03-10 07:47:17,249 - INFO - Train loss on step 5000 was 1.03822
+2020-03-10 07:50:25,459 - INFO - Train loss on step 5500 was 1.03775
+2020-03-10 07:53:33,631 - INFO - Train loss on step 6000 was 1.03979
+2020-03-10 07:56:41,819 - INFO - Train loss on step 6500 was 1.03848
+2020-03-10 07:59:50,014 - INFO - Train loss on step 7000 was 1.03855
+2020-03-10 08:02:58,229 - INFO - Train loss on step 7500 was 1.03686
+2020-03-10 08:03:10,112 - INFO - Mean train loss: 1.03647
+2020-03-10 08:05:44,822 - INFO - recall: vowel 0.9872395678237242, grapheme 0.958599710239057, consonant 0.9850498859270526
+2020-03-10 08:05:44,822 - INFO - Mean valid loss: 0.15742 score: 0.97237
+2020-03-10 08:05:44,929 - INFO - save model at score=0.9723722185572228 on epoch=22
+2020-03-10 08:05:44,929 - INFO - Starting 23 epoch...
+2020-03-10 08:08:52,830 - INFO - Train loss on step 500 was 1.00027
+2020-03-10 08:12:01,254 - INFO - Train loss on step 1000 was 1.02805
+2020-03-10 08:15:09,573 - INFO - Train loss on step 1500 was 1.03555
+2020-03-10 08:18:17,899 - INFO - Train loss on step 2000 was 1.02916
+2020-03-10 08:21:26,130 - INFO - Train loss on step 2500 was 1.03743
+2020-03-10 08:24:34,209 - INFO - Train loss on step 3000 was 1.04044
+2020-03-10 08:27:42,255 - INFO - Train loss on step 3500 was 1.0481
+2020-03-10 08:30:50,374 - INFO - Train loss on step 4000 was 1.04504
+2020-03-10 08:33:58,421 - INFO - Train loss on step 4500 was 1.04826
+2020-03-10 08:37:06,481 - INFO - Train loss on step 5000 was 1.04274
+2020-03-10 08:40:14,995 - INFO - Train loss on step 5500 was 1.04904
+2020-03-10 08:43:24,480 - INFO - Train loss on step 6000 was 1.04875
+2020-03-10 08:46:33,974 - INFO - Train loss on step 6500 was 1.04914
+2020-03-10 08:49:43,448 - INFO - Train loss on step 7000 was 1.04863
+2020-03-10 08:52:52,923 - INFO - Train loss on step 7500 was 1.047
+2020-03-10 08:53:04,894 - INFO - Mean train loss: 1.04718
+2020-03-10 08:55:39,354 - INFO - recall: vowel 0.9860988354209937, grapheme 0.957923282868507, consonant 0.985682811462599
+2020-03-10 08:55:39,354 - INFO - Mean valid loss: 0.17424 score: 0.97191
+2020-03-10 08:55:39,354 - INFO - Starting 24 epoch...
+2020-03-10 08:58:47,835 - INFO - Train loss on step 500 was 1.0294
+2020-03-10 09:01:56,831 - INFO - Train loss on step 1000 was 1.01499
+2020-03-10 09:05:05,709 - INFO - Train loss on step 1500 was 1.01684
+2020-03-10 09:08:14,524 - INFO - Train loss on step 2000 was 1.03186
+2020-03-10 09:11:23,716 - INFO - Train loss on step 2500 was 1.03852
+2020-03-10 09:14:33,332 - INFO - Train loss on step 3000 was 1.0328
+2020-03-10 09:17:42,903 - INFO - Train loss on step 3500 was 1.01896
+2020-03-10 09:20:52,451 - INFO - Train loss on step 4000 was 1.02653
+2020-03-10 09:24:01,781 - INFO - Train loss on step 4500 was 1.0223
+2020-03-10 09:27:11,117 - INFO - Train loss on step 5000 was 1.02021
+2020-03-10 09:30:20,540 - INFO - Train loss on step 5500 was 1.0202
+2020-03-10 09:33:30,006 - INFO - Train loss on step 6000 was 1.0201
+2020-03-10 09:36:39,426 - INFO - Train loss on step 6500 was 1.01864
+2020-03-10 09:39:48,809 - INFO - Train loss on step 7000 was 1.02128
+2020-03-10 09:42:58,204 - INFO - Train loss on step 7500 was 1.01976
+2020-03-10 09:43:10,176 - INFO - Mean train loss: 1.02014
+2020-03-10 09:45:44,692 - INFO - recall: vowel 0.9878683500467793, grapheme 0.9583543876485324, consonant 0.9841645556698925
+2020-03-10 09:45:44,692 - INFO - Mean valid loss: 0.16893 score: 0.97219
+2020-03-10 09:45:44,692 - INFO - Starting 25 epoch...
+2020-03-10 09:48:52,707 - INFO - Train loss on step 500 was 1.0277
+2020-03-10 09:52:00,985 - INFO - Train loss on step 1000 was 1.04368
+2020-03-10 09:55:09,174 - INFO - Train loss on step 1500 was 1.03516
+2020-03-10 09:58:17,384 - INFO - Train loss on step 2000 was 1.03763
+2020-03-10 10:01:25,575 - INFO - Train loss on step 2500 was 1.03569
+2020-03-10 10:04:33,795 - INFO - Train loss on step 3000 was 1.03193
+2020-03-10 10:07:41,972 - INFO - Train loss on step 3500 was 1.0324
+2020-03-10 10:10:50,087 - INFO - Train loss on step 4000 was 1.03449
+2020-03-10 10:13:58,216 - INFO - Train loss on step 4500 was 1.02642
+2020-03-10 10:17:06,349 - INFO - Train loss on step 5000 was 1.02431
+2020-03-10 10:20:14,594 - INFO - Train loss on step 5500 was 1.02241
+2020-03-10 10:23:23,221 - INFO - Train loss on step 6000 was 1.02661
+2020-03-10 10:26:31,765 - INFO - Train loss on step 6500 was 1.02983
+2020-03-10 10:29:40,036 - INFO - Train loss on step 7000 was 1.02414
+2020-03-10 10:32:48,421 - INFO - Train loss on step 7500 was 1.0219
+2020-03-10 10:33:00,333 - INFO - Mean train loss: 1.02173
+2020-03-10 10:35:35,618 - INFO - recall: vowel 0.9876104279832102, grapheme 0.9602131735512119, consonant 0.9842254418574916
+2020-03-10 10:35:35,618 - INFO - Mean valid loss: 0.15927 score: 0.97307
+2020-03-10 10:35:35,726 - INFO - save model at score=0.9730655542357813 on epoch=25
+2020-03-10 10:35:35,726 - INFO - Starting 26 epoch...
+2020-03-10 10:38:44,436 - INFO - Train loss on step 500 was 1.00718
+2020-03-10 10:41:53,586 - INFO - Train loss on step 1000 was 0.98409
+2020-03-10 10:45:02,556 - INFO - Train loss on step 1500 was 0.98433
+2020-03-10 10:48:11,521 - INFO - Train loss on step 2000 was 0.9969
+2020-03-10 10:51:20,248 - INFO - Train loss on step 2500 was 0.9994
+2020-03-10 10:54:28,425 - INFO - Train loss on step 3000 was 1.00497
+2020-03-10 10:57:36,591 - INFO - Train loss on step 3500 was 1.00084
+2020-03-10 11:00:44,865 - INFO - Train loss on step 4000 was 1.00004
+2020-03-10 11:03:53,082 - INFO - Train loss on step 4500 was 1.00199
+2020-03-10 11:07:01,909 - INFO - Train loss on step 5000 was 1.00544
+2020-03-10 11:10:11,393 - INFO - Train loss on step 5500 was 1.00583
+2020-03-10 11:13:20,891 - INFO - Train loss on step 6000 was 1.00547
+2020-03-10 11:16:30,542 - INFO - Train loss on step 6500 was 1.00438
+2020-03-10 11:19:40,209 - INFO - Train loss on step 7000 was 0.99725
+2020-03-10 11:22:49,889 - INFO - Train loss on step 7500 was 0.99815
+2020-03-10 11:23:01,858 - INFO - Mean train loss: 0.99803
+2020-03-10 11:25:36,351 - INFO - recall: vowel 0.9868036823349183, grapheme 0.9574432103195599, consonant 0.9837978671731109
+2020-03-10 11:25:36,351 - INFO - Mean valid loss: 0.17598 score: 0.97137
+2020-03-10 11:25:36,351 - INFO - Starting 27 epoch...
+2020-03-10 11:28:45,416 - INFO - Train loss on step 500 was 1.01355
+2020-03-10 11:31:55,044 - INFO - Train loss on step 1000 was 0.98541
+2020-03-10 11:35:04,549 - INFO - Train loss on step 1500 was 0.98545
+2020-03-10 11:38:13,979 - INFO - Train loss on step 2000 was 0.97742
+2020-03-10 11:41:22,921 - INFO - Train loss on step 2500 was 0.98517
+2020-03-10 11:44:31,764 - INFO - Train loss on step 3000 was 0.99169
+2020-03-10 11:47:40,366 - INFO - Train loss on step 3500 was 0.99825
+2020-03-10 11:50:48,685 - INFO - Train loss on step 4000 was 0.99634
+2020-03-10 11:53:56,987 - INFO - Train loss on step 4500 was 1.00162
+2020-03-10 11:57:05,333 - INFO - Train loss on step 5000 was 1.00193
+2020-03-10 12:00:13,713 - INFO - Train loss on step 5500 was 1.00452
+2020-03-10 12:03:22,184 - INFO - Train loss on step 6000 was 1.00995
+2020-03-10 12:06:30,620 - INFO - Train loss on step 6500 was 1.00972
+2020-03-10 12:09:39,033 - INFO - Train loss on step 7000 was 1.01176
+2020-03-10 12:12:48,483 - INFO - Train loss on step 7500 was 1.01083
+2020-03-10 12:13:00,460 - INFO - Mean train loss: 1.0106
+2020-03-10 12:15:36,042 - INFO - recall: vowel 0.9864410018351045, grapheme 0.9582457919743798, consonant 0.9845559175426164
+2020-03-10 12:15:36,042 - INFO - Mean valid loss: 0.17116 score: 0.97187
+2020-03-10 12:15:36,042 - INFO - Starting 28 epoch...
+2020-03-10 12:18:43,883 - INFO - Train loss on step 500 was 0.95307
+2020-03-10 12:21:52,143 - INFO - Train loss on step 1000 was 0.99894
+2020-03-10 12:25:00,238 - INFO - Train loss on step 1500 was 0.98239
+2020-03-10 12:28:08,323 - INFO - Train loss on step 2000 was 0.98182
+2020-03-10 12:31:16,439 - INFO - Train loss on step 2500 was 0.98444
+2020-03-10 12:34:24,574 - INFO - Train loss on step 3000 was 0.98402
+2020-03-10 12:37:32,704 - INFO - Train loss on step 3500 was 0.98896
+2020-03-10 12:40:40,842 - INFO - Train loss on step 4000 was 0.99067
+2020-03-10 12:43:48,905 - INFO - Train loss on step 4500 was 0.9859
+2020-03-10 12:46:56,978 - INFO - Train loss on step 5000 was 0.98613
+2020-03-10 12:50:05,240 - INFO - Train loss on step 5500 was 0.98421
+2020-03-10 12:53:13,551 - INFO - Train loss on step 6000 was 0.98661
+2020-03-10 12:56:21,774 - INFO - Train loss on step 6500 was 0.98648
+2020-03-10 12:59:29,958 - INFO - Train loss on step 7000 was 0.98879
+2020-03-10 13:02:38,148 - INFO - Train loss on step 7500 was 0.99153
+2020-03-10 13:02:50,020 - INFO - Mean train loss: 0.99161
+2020-03-10 13:05:24,592 - INFO - recall: vowel 0.9881440531883349, grapheme 0.9561654161348517, consonant 0.9867658173961832
+2020-03-10 13:05:24,592 - INFO - Mean valid loss: 0.1601 score: 0.97181
+2020-03-10 13:05:24,592 - INFO - Starting 29 epoch...
+2020-03-10 13:08:32,269 - INFO - Train loss on step 500 was 0.99614
+2020-03-10 13:11:40,391 - INFO - Train loss on step 1000 was 0.99832
+2020-03-10 13:14:48,388 - INFO - Train loss on step 1500 was 0.98493
+2020-03-10 13:17:56,373 - INFO - Train loss on step 2000 was 0.9861
+2020-03-10 13:21:04,417 - INFO - Train loss on step 2500 was 0.98963
+2020-03-10 13:24:12,457 - INFO - Train loss on step 3000 was 0.98998
+2020-03-10 13:27:20,482 - INFO - Train loss on step 3500 was 0.99674
+2020-03-10 13:30:28,372 - INFO - Train loss on step 4000 was 0.99617
+2020-03-10 13:33:36,284 - INFO - Train loss on step 4500 was 0.99665
+2020-03-10 13:36:44,249 - INFO - Train loss on step 5000 was 0.99653
+2020-03-10 13:39:52,286 - INFO - Train loss on step 5500 was 1.00121
+2020-03-10 13:43:01,020 - INFO - Train loss on step 6000 was 1.0045
+2020-03-10 13:46:10,432 - INFO - Train loss on step 6500 was 1.00115
+2020-03-10 13:49:19,898 - INFO - Train loss on step 7000 was 0.99796
+2020-03-10 13:52:27,866 - INFO - Train loss on step 7500 was 0.99947
+2020-03-10 13:52:39,736 - INFO - Mean train loss: 0.99978
+2020-03-10 13:55:14,180 - INFO - recall: vowel 0.9874795960406307, grapheme 0.9570465720488651, consonant 0.9834036729419763
+2020-03-10 13:55:14,181 - INFO - Mean valid loss: 0.15535 score: 0.97124
+2020-03-10 13:55:14,181 - INFO - Starting 30 epoch...
+2020-03-10 13:58:21,832 - INFO - Train loss on step 500 was 1.02206
+2020-03-10 14:01:29,802 - INFO - Train loss on step 1000 was 1.00431
+2020-03-10 14:04:37,740 - INFO - Train loss on step 1500 was 0.97474
+2020-03-10 14:07:45,746 - INFO - Train loss on step 2000 was 0.97255
+2020-03-10 14:10:53,774 - INFO - Train loss on step 2500 was 0.97653
+2020-03-10 14:14:01,831 - INFO - Train loss on step 3000 was 0.9775
+2020-03-10 14:17:09,938 - INFO - Train loss on step 3500 was 0.97641
+2020-03-10 14:20:17,971 - INFO - Train loss on step 4000 was 0.97383
+2020-03-10 14:23:26,021 - INFO - Train loss on step 4500 was 0.96794
+2020-03-10 14:26:34,023 - INFO - Train loss on step 5000 was 0.96834
+2020-03-10 14:29:42,193 - INFO - Train loss on step 5500 was 0.97252
+2020-03-10 14:32:50,300 - INFO - Train loss on step 6000 was 0.97604
+2020-03-10 14:35:58,352 - INFO - Train loss on step 6500 was 0.97701
+2020-03-10 14:39:06,457 - INFO - Train loss on step 7000 was 0.98103
+2020-03-10 14:42:14,493 - INFO - Train loss on step 7500 was 0.97921
+2020-03-10 14:42:26,379 - INFO - Mean train loss: 0.97932
+2020-03-10 14:45:01,011 - INFO - recall: vowel 0.9892899072903266, grapheme 0.9593704369705743, consonant 0.9861158763649335
+2020-03-10 14:45:01,011 - INFO - Mean valid loss: 0.15519 score: 0.97354
+2020-03-10 14:45:01,118 - INFO - save model at score=0.9735366643991021 on epoch=30
+2020-03-10 14:45:01,118 - INFO - Starting 31 epoch...
+2020-03-10 14:48:08,657 - INFO - Train loss on step 500 was 0.95131
+2020-03-10 14:51:16,469 - INFO - Train loss on step 1000 was 0.95473
+2020-03-10 14:54:24,430 - INFO - Train loss on step 1500 was 0.98376
+2020-03-10 14:57:32,303 - INFO - Train loss on step 2000 was 0.96722
+2020-03-10 15:00:40,297 - INFO - Train loss on step 2500 was 0.96953
+2020-03-10 15:03:48,249 - INFO - Train loss on step 3000 was 0.96796
+2020-03-10 15:06:56,505 - INFO - Train loss on step 3500 was 0.97315
+2020-03-10 15:10:04,612 - INFO - Train loss on step 4000 was 0.97307
+2020-03-10 15:13:12,630 - INFO - Train loss on step 4500 was 0.97196
+2020-03-10 15:16:20,640 - INFO - Train loss on step 5000 was 0.96951
+2020-03-10 15:19:28,673 - INFO - Train loss on step 5500 was 0.96921
+2020-03-10 15:22:36,699 - INFO - Train loss on step 6000 was 0.96991
+2020-03-10 15:25:45,190 - INFO - Train loss on step 6500 was 0.97057
+2020-03-10 15:28:53,774 - INFO - Train loss on step 7000 was 0.96827
+2020-03-10 15:32:02,447 - INFO - Train loss on step 7500 was 0.97051
+2020-03-10 15:32:14,361 - INFO - Mean train loss: 0.97063
+2020-03-10 15:34:49,926 - INFO - recall: vowel 0.9886441920448031, grapheme 0.9600941489526978, consonant 0.9849170028357624
+2020-03-10 15:34:49,926 - INFO - Mean valid loss: 0.16236 score: 0.97344
+2020-03-10 15:34:49,926 - INFO - Starting 32 epoch...
+2020-03-10 15:37:57,603 - INFO - Train loss on step 500 was 1.0175
+2020-03-10 15:41:05,334 - INFO - Train loss on step 1000 was 1.0043
+2020-03-10 15:44:13,031 - INFO - Train loss on step 1500 was 0.98202
+2020-03-10 15:47:20,709 - INFO - Train loss on step 2000 was 0.98925
+2020-03-10 15:50:28,335 - INFO - Train loss on step 2500 was 0.97747
+2020-03-10 15:53:35,949 - INFO - Train loss on step 3000 was 0.97963
+2020-03-10 15:56:43,567 - INFO - Train loss on step 3500 was 0.98723
+2020-03-10 15:59:51,148 - INFO - Train loss on step 4000 was 0.98724
+2020-03-10 16:02:59,086 - INFO - Train loss on step 4500 was 0.99534
+2020-03-10 16:06:07,281 - INFO - Train loss on step 5000 was 0.99309
+2020-03-10 16:09:15,625 - INFO - Train loss on step 5500 was 0.98974
+2020-03-10 16:12:24,402 - INFO - Train loss on step 6000 was 0.98975
+2020-03-10 16:15:33,831 - INFO - Train loss on step 6500 was 0.98491
+2020-03-10 16:18:43,208 - INFO - Train loss on step 7000 was 0.98652
+2020-03-10 16:21:52,534 - INFO - Train loss on step 7500 was 0.98459
+2020-03-10 16:22:04,489 - INFO - Mean train loss: 0.98483
+2020-03-10 16:24:40,771 - INFO - recall: vowel 0.9882871112512234, grapheme 0.9611041628102696, consonant 0.9848951503195185
+2020-03-10 16:24:40,771 - INFO - Mean valid loss: 0.16628 score: 0.97385
+2020-03-10 16:24:40,879 - INFO - save model at score=0.9738476467978202 on epoch=32
+2020-03-10 16:24:40,879 - INFO - Starting 33 epoch...
+2020-03-10 16:27:48,511 - INFO - Train loss on step 500 was 0.99321
+2020-03-10 16:30:56,278 - INFO - Train loss on step 1000 was 0.98559
+2020-03-10 16:34:03,913 - INFO - Train loss on step 1500 was 0.96647
+2020-03-10 16:37:11,586 - INFO - Train loss on step 2000 was 0.97223
+2020-03-10 16:40:19,266 - INFO - Train loss on step 2500 was 0.97086
+2020-03-10 16:43:26,917 - INFO - Train loss on step 3000 was 0.96893
+2020-03-10 16:46:34,610 - INFO - Train loss on step 3500 was 0.9697
+2020-03-10 16:49:42,343 - INFO - Train loss on step 4000 was 0.97734
+2020-03-10 16:52:50,013 - INFO - Train loss on step 4500 was 0.97539
+2020-03-10 16:55:57,649 - INFO - Train loss on step 5000 was 0.97953
+2020-03-10 16:59:05,235 - INFO - Train loss on step 5500 was 0.98056
+2020-03-10 17:02:12,882 - INFO - Train loss on step 6000 was 0.97652
+2020-03-10 17:05:20,549 - INFO - Train loss on step 6500 was 0.97874
+2020-03-10 17:08:28,140 - INFO - Train loss on step 7000 was 0.97713
+2020-03-10 17:11:35,698 - INFO - Train loss on step 7500 was 0.97787
+2020-03-10 17:11:47,551 - INFO - Mean train loss: 0.97842
+2020-03-10 17:14:22,174 - INFO - recall: vowel 0.9876417430349349, grapheme 0.9614550180419501, consonant 0.9859005512209983
+2020-03-10 17:14:22,174 - INFO - Mean valid loss: 0.17337 score: 0.97411
+2020-03-10 17:14:22,282 - INFO - save model at score=0.9741130825849583 on epoch=33
+2020-03-10 17:14:22,282 - INFO - Starting 34 epoch...
+2020-03-10 17:17:29,916 - INFO - Train loss on step 500 was 0.93611
+2020-03-10 17:20:37,693 - INFO - Train loss on step 1000 was 0.93359
+2020-03-10 17:23:45,350 - INFO - Train loss on step 1500 was 0.929
+2020-03-10 17:26:52,949 - INFO - Train loss on step 2000 was 0.92842
+2020-03-10 17:30:00,501 - INFO - Train loss on step 2500 was 0.93124
+2020-03-10 17:33:08,123 - INFO - Train loss on step 3000 was 0.9322
+2020-03-10 17:36:15,745 - INFO - Train loss on step 3500 was 0.93298
+2020-03-10 17:39:23,358 - INFO - Train loss on step 4000 was 0.93078
+2020-03-10 17:42:30,963 - INFO - Train loss on step 4500 was 0.93643
+2020-03-10 17:45:38,582 - INFO - Train loss on step 5000 was 0.93594
+2020-03-10 17:48:46,223 - INFO - Train loss on step 5500 was 0.93715
+2020-03-10 17:51:53,961 - INFO - Train loss on step 6000 was 0.93699
+2020-03-10 17:55:01,613 - INFO - Train loss on step 6500 was 0.94304
+2020-03-10 17:58:09,260 - INFO - Train loss on step 7000 was 0.94429
+2020-03-10 18:01:16,901 - INFO - Train loss on step 7500 was 0.94748
+2020-03-10 18:01:28,753 - INFO - Mean train loss: 0.94785
+2020-03-10 18:04:03,671 - INFO - recall: vowel 0.9888144189631721, grapheme 0.9587502771129591, consonant 0.9840522497662965
+2020-03-10 18:04:03,671 - INFO - Mean valid loss: 0.16973 score: 0.97259
+2020-03-10 18:04:03,672 - INFO - Starting 35 epoch...
+2020-03-10 18:07:11,210 - INFO - Train loss on step 500 was 0.9502
+2020-03-10 18:10:19,111 - INFO - Train loss on step 1000 was 0.94488
+2020-03-10 18:13:26,812 - INFO - Train loss on step 1500 was 0.94817
+2020-03-10 18:16:34,609 - INFO - Train loss on step 2000 was 0.94913
+2020-03-10 18:19:43,624 - INFO - Train loss on step 2500 was 0.95573
+2020-03-10 18:22:52,701 - INFO - Train loss on step 3000 was 0.95809
+2020-03-10 18:26:01,780 - INFO - Train loss on step 3500 was 0.95586
+2020-03-10 18:29:10,912 - INFO - Train loss on step 4000 was 0.95041
+2020-03-10 18:32:19,977 - INFO - Train loss on step 4500 was 0.9539
+2020-03-10 18:35:29,014 - INFO - Train loss on step 5000 was 0.96042
+2020-03-10 18:38:38,109 - INFO - Train loss on step 5500 was 0.96321
+2020-03-10 18:41:47,207 - INFO - Train loss on step 6000 was 0.96295
+2020-03-10 18:44:56,251 - INFO - Train loss on step 6500 was 0.96113
+2020-03-10 18:48:05,228 - INFO - Train loss on step 7000 was 0.96263
+2020-03-10 18:51:14,206 - INFO - Train loss on step 7500 was 0.96363
+2020-03-10 18:51:26,150 - INFO - Mean train loss: 0.96274
+2020-03-10 18:54:01,712 - INFO - recall: vowel 0.9883069440791098, grapheme 0.9601436875615155, consonant 0.9856983050687999
+2020-03-10 18:54:01,712 - INFO - Mean valid loss: 0.16062 score: 0.97357
+2020-03-10 18:54:01,712 - INFO - Starting 36 epoch...
+2020-03-10 18:57:10,287 - INFO - Train loss on step 500 was 0.88606
+2020-03-10 19:00:18,585 - INFO - Train loss on step 1000 was 0.92569
+2020-03-10 19:03:26,687 - INFO - Train loss on step 1500 was 0.94074
+2020-03-10 19:06:34,356 - INFO - Train loss on step 2000 was 0.93656
+2020-03-10 19:09:42,051 - INFO - Train loss on step 2500 was 0.94564
+2020-03-10 19:12:50,009 - INFO - Train loss on step 3000 was 0.94524
+2020-03-10 19:15:58,326 - INFO - Train loss on step 3500 was 0.94044
+2020-03-10 19:19:06,643 - INFO - Train loss on step 4000 was 0.93957
+2020-03-10 19:22:14,999 - INFO - Train loss on step 4500 was 0.94237
+2020-03-10 19:25:23,341 - INFO - Train loss on step 5000 was 0.94322
+2020-03-10 19:28:31,679 - INFO - Train loss on step 5500 was 0.94416
+2020-03-10 19:31:39,990 - INFO - Train loss on step 6000 was 0.94239
+2020-03-10 19:34:48,245 - INFO - Train loss on step 6500 was 0.94298
+2020-03-10 19:37:56,262 - INFO - Train loss on step 7000 was 0.94687
+2020-03-10 19:41:03,795 - INFO - Train loss on step 7500 was 0.94187
+2020-03-10 19:41:15,652 - INFO - Mean train loss: 0.94203
+2020-03-10 19:43:50,252 - INFO - recall: vowel 0.9886936885581743, grapheme 0.9612980760804201, consonant 0.9842716525308376
+2020-03-10 19:43:50,253 - INFO - Mean valid loss: 0.16452 score: 0.97389
+2020-03-10 19:43:50,253 - INFO - Starting 37 epoch...
+2020-03-10 19:46:57,676 - INFO - Train loss on step 500 was 0.95046
+2020-03-10 19:50:05,275 - INFO - Train loss on step 1000 was 0.94471
+2020-03-10 19:53:12,859 - INFO - Train loss on step 1500 was 0.94269
+2020-03-10 19:56:20,402 - INFO - Train loss on step 2000 was 0.93908
+2020-03-10 19:59:27,969 - INFO - Train loss on step 2500 was 0.94613
+2020-03-10 20:02:37,043 - INFO - Train loss on step 3000 was 0.94352
+2020-03-10 20:05:46,252 - INFO - Train loss on step 3500 was 0.94354
+2020-03-10 20:08:55,498 - INFO - Train loss on step 4000 was 0.94383
+2020-03-10 20:12:03,035 - INFO - Train loss on step 4500 was 0.94662
+2020-03-10 20:15:12,133 - INFO - Train loss on step 5000 was 0.94673
+2020-03-10 20:18:19,731 - INFO - Train loss on step 5500 was 0.94624
+2020-03-10 20:21:27,348 - INFO - Train loss on step 6000 was 0.94501
+2020-03-10 20:24:34,896 - INFO - Train loss on step 6500 was 0.94243
+2020-03-10 20:27:42,418 - INFO - Train loss on step 7000 was 0.94187
+2020-03-10 20:30:49,960 - INFO - Train loss on step 7500 was 0.93979
+2020-03-10 20:31:01,806 - INFO - Mean train loss: 0.93966
+2020-03-10 20:33:37,319 - INFO - recall: vowel 0.988480194041903, grapheme 0.9597877681671187, consonant 0.986163387145968
+2020-03-10 20:33:37,319 - INFO - Mean valid loss: 0.15893 score: 0.97355
+2020-03-10 20:33:37,319 - INFO - Starting 38 epoch...
+2020-03-10 20:36:46,773 - INFO - Train loss on step 500 was 0.95589
+2020-03-10 20:39:57,013 - INFO - Train loss on step 1000 was 0.94749
+2020-03-10 20:43:06,721 - INFO - Train loss on step 1500 was 0.94902
+2020-03-10 20:46:17,642 - INFO - Train loss on step 2000 was 0.9572
+2020-03-10 20:49:25,278 - INFO - Train loss on step 2500 was 0.94632
+2020-03-10 20:52:33,333 - INFO - Train loss on step 3000 was 0.94703
+2020-03-10 20:55:43,307 - INFO - Train loss on step 3500 was 0.94162
+2020-03-10 20:58:52,271 - INFO - Train loss on step 4000 was 0.94058
+2020-03-10 21:02:01,293 - INFO - Train loss on step 4500 was 0.94106
+2020-03-10 21:05:10,363 - INFO - Train loss on step 5000 was 0.94369
+2020-03-10 21:08:19,657 - INFO - Train loss on step 5500 was 0.94397
+2020-03-10 21:11:29,168 - INFO - Train loss on step 6000 was 0.9423
+2020-03-10 21:14:38,564 - INFO - Train loss on step 6500 was 0.9425
+2020-03-10 21:17:47,828 - INFO - Train loss on step 7000 was 0.93815
+2020-03-10 21:20:57,196 - INFO - Train loss on step 7500 was 0.93897
+2020-03-10 21:21:09,091 - INFO - Mean train loss: 0.939
+2020-03-10 21:23:46,105 - INFO - recall: vowel 0.9879757540693442, grapheme 0.9615717234289298, consonant 0.9853167469379921
+2020-03-10 21:23:46,105 - INFO - Mean valid loss: 0.16111 score: 0.97411
+2020-03-10 21:23:46,105 - INFO - Starting 39 epoch...
+2020-03-10 21:26:56,089 - INFO - Train loss on step 500 was 0.95846
+2020-03-10 21:30:05,441 - INFO - Train loss on step 1000 was 0.96735
+2020-03-10 21:33:15,128 - INFO - Train loss on step 1500 was 0.94654
+2020-03-10 21:36:24,878 - INFO - Train loss on step 2000 was 0.93037
+2020-03-10 21:39:35,093 - INFO - Train loss on step 2500 was 0.9243
+2020-03-10 21:42:45,041 - INFO - Train loss on step 3000 was 0.93017
+2020-03-10 21:45:53,479 - INFO - Train loss on step 3500 was 0.92786
+2020-03-10 21:49:01,074 - INFO - Train loss on step 4000 was 0.93137
+2020-03-10 21:52:08,639 - INFO - Train loss on step 4500 was 0.93215
+2020-03-10 21:55:16,223 - INFO - Train loss on step 5000 was 0.92736
+2020-03-10 21:58:23,793 - INFO - Train loss on step 5500 was 0.91996
+2020-03-10 22:01:31,358 - INFO - Train loss on step 6000 was 0.92088
+2020-03-10 22:04:38,847 - INFO - Train loss on step 6500 was 0.92242
+2020-03-10 22:07:46,369 - INFO - Train loss on step 7000 was 0.92129
+2020-03-10 22:10:53,916 - INFO - Train loss on step 7500 was 0.9171
+2020-03-10 22:11:05,771 - INFO - Mean train loss: 0.91674
+2020-03-10 22:13:40,425 - INFO - recall: vowel 0.9894377253195684, grapheme 0.9608670469262547, consonant 0.9845345873258843
+2020-03-10 22:13:40,426 - INFO - Mean valid loss: 0.15437 score: 0.97393
+2020-03-10 22:13:40,426 - INFO - Starting 40 epoch...
+2020-03-10 22:16:48,007 - INFO - Train loss on step 500 was 0.93181
+2020-03-10 22:19:55,743 - INFO - Train loss on step 1000 was 0.93523
+2020-03-10 22:23:03,278 - INFO - Train loss on step 1500 was 0.94711
+2020-03-10 22:26:10,896 - INFO - Train loss on step 2000 was 0.91853
+2020-03-10 22:29:18,492 - INFO - Train loss on step 2500 was 0.91413
+2020-03-10 22:32:26,042 - INFO - Train loss on step 3000 was 0.91407
+2020-03-10 22:35:33,594 - INFO - Train loss on step 3500 was 0.92007
+2020-03-10 22:38:41,123 - INFO - Train loss on step 4000 was 0.91989
+2020-03-10 22:41:48,671 - INFO - Train loss on step 4500 was 0.91667
+2020-03-10 22:44:56,267 - INFO - Train loss on step 5000 was 0.9207
+2020-03-10 22:48:03,836 - INFO - Train loss on step 5500 was 0.92531
+2020-03-10 22:51:11,434 - INFO - Train loss on step 6000 was 0.92645
+2020-03-10 22:54:18,986 - INFO - Train loss on step 6500 was 0.92238
+2020-03-10 22:57:26,554 - INFO - Train loss on step 7000 was 0.92298
+2020-03-10 23:00:34,152 - INFO - Train loss on step 7500 was 0.92486
+2020-03-10 23:00:45,992 - INFO - Mean train loss: 0.92471
+2020-03-10 23:03:20,347 - INFO - recall: vowel 0.9868440698829619, grapheme 0.9571047255647855, consonant 0.9854816047216026
+2020-03-10 23:03:20,347 - INFO - Mean valid loss: 0.17204 score: 0.97163
+2020-03-10 23:03:20,347 - INFO - Starting 41 epoch...
+2020-03-10 23:06:28,643 - INFO - Train loss on step 500 was 0.92551
+2020-03-10 23:09:37,146 - INFO - Train loss on step 1000 was 0.92437
+2020-03-10 23:12:45,509 - INFO - Train loss on step 1500 was 0.92657
+2020-03-10 23:15:53,911 - INFO - Train loss on step 2000 was 0.9329
+2020-03-10 23:19:02,266 - INFO - Train loss on step 2500 was 0.93295
+2020-03-10 23:22:10,582 - INFO - Train loss on step 3000 was 0.92571
+2020-03-10 23:25:18,876 - INFO - Train loss on step 3500 was 0.93007
+2020-03-10 23:28:27,233 - INFO - Train loss on step 4000 was 0.92454
+2020-03-10 23:31:35,535 - INFO - Train loss on step 4500 was 0.92497
+2020-03-10 23:34:43,848 - INFO - Train loss on step 5000 was 0.92345
+2020-03-10 23:37:51,659 - INFO - Train loss on step 5500 was 0.92266
+2020-03-10 23:40:59,380 - INFO - Train loss on step 6000 was 0.92421
+2020-03-10 23:44:07,071 - INFO - Train loss on step 6500 was 0.92632
+2020-03-10 23:47:14,790 - INFO - Train loss on step 7000 was 0.92728
+2020-03-10 23:50:22,491 - INFO - Train loss on step 7500 was 0.92738
+2020-03-10 23:50:34,348 - INFO - Mean train loss: 0.92611
+2020-03-10 23:53:09,022 - INFO - recall: vowel 0.9887814487718841, grapheme 0.9621898577607885, consonant 0.9866293364018915
+2020-03-10 23:53:09,023 - INFO - Mean valid loss: 0.14869 score: 0.97495
+2020-03-10 23:53:09,131 - INFO - save model at score=0.9749476251738382 on epoch=41
+2020-03-10 23:53:09,131 - INFO - Starting 42 epoch...
+2020-03-10 23:56:18,051 - INFO - Train loss on step 500 was 0.88297
+2020-03-10 23:59:27,167 - INFO - Train loss on step 1000 was 0.92195
+2020-03-11 00:02:35,877 - INFO - Train loss on step 1500 was 0.91667
+2020-03-11 00:05:44,245 - INFO - Train loss on step 2000 was 0.91997
+2020-03-11 00:08:52,634 - INFO - Train loss on step 2500 was 0.9258
+2020-03-11 00:12:00,981 - INFO - Train loss on step 3000 was 0.92371
+2020-03-11 00:15:08,737 - INFO - Train loss on step 3500 was 0.92319
+2020-03-11 00:18:16,307 - INFO - Train loss on step 4000 was 0.92319
+2020-03-11 00:21:23,882 - INFO - Train loss on step 4500 was 0.92097
+2020-03-11 00:24:31,449 - INFO - Train loss on step 5000 was 0.91881
+2020-03-11 00:27:39,141 - INFO - Train loss on step 5500 was 0.92154
+2020-03-11 00:30:46,860 - INFO - Train loss on step 6000 was 0.91966
+2020-03-11 00:33:54,470 - INFO - Train loss on step 6500 was 0.92106
+2020-03-11 00:37:02,109 - INFO - Train loss on step 7000 was 0.92312
+2020-03-11 00:40:09,812 - INFO - Train loss on step 7500 was 0.92311
+2020-03-11 00:40:21,676 - INFO - Mean train loss: 0.92305
+2020-03-11 00:42:56,208 - INFO - recall: vowel 0.9881501840398733, grapheme 0.9603239487134265, consonant 0.9849621091368925
+2020-03-11 00:42:56,208 - INFO - Mean valid loss: 0.16295 score: 0.97344
+2020-03-11 00:42:56,208 - INFO - Starting 43 epoch...
+2020-03-11 00:46:03,884 - INFO - Train loss on step 500 was 0.94049
+2020-03-11 00:49:13,178 - INFO - Train loss on step 1000 was 0.93044
+2020-03-11 00:52:22,487 - INFO - Train loss on step 1500 was 0.91325
+2020-03-11 00:55:31,740 - INFO - Train loss on step 2000 was 0.93108
+2020-03-11 00:58:41,000 - INFO - Train loss on step 2500 was 0.93507
+2020-03-11 01:01:50,262 - INFO - Train loss on step 3000 was 0.93049
+2020-03-11 01:04:59,508 - INFO - Train loss on step 3500 was 0.92123
+2020-03-11 01:08:08,283 - INFO - Train loss on step 4000 was 0.92009
+2020-03-11 01:11:15,920 - INFO - Train loss on step 4500 was 0.91894
+2020-03-11 01:14:23,537 - INFO - Train loss on step 5000 was 0.92069
+2020-03-11 01:17:31,161 - INFO - Train loss on step 5500 was 0.91942
+2020-03-11 01:20:38,909 - INFO - Train loss on step 6000 was 0.91752
+2020-03-11 01:23:46,643 - INFO - Train loss on step 6500 was 0.91685
+2020-03-11 01:26:55,093 - INFO - Train loss on step 7000 was 0.91534
+2020-03-11 01:30:03,605 - INFO - Train loss on step 7500 was 0.91685
+2020-03-11 01:30:15,511 - INFO - Mean train loss: 0.91767
+2020-03-11 01:32:50,948 - INFO - recall: vowel 0.9877118457799202, grapheme 0.9603076984014801, consonant 0.985586677255103
+2020-03-11 01:32:50,949 - INFO - Mean valid loss: 0.18462 score: 0.97348
+2020-03-11 01:32:50,949 - INFO - Starting 44 epoch...
+2020-03-11 01:35:58,875 - INFO - Train loss on step 500 was 0.9129
+2020-03-11 01:39:06,718 - INFO - Train loss on step 1000 was 0.90499
+2020-03-11 01:42:14,826 - INFO - Train loss on step 1500 was 0.90547
+2020-03-11 01:45:22,997 - INFO - Train loss on step 2000 was 0.90267
+2020-03-11 01:48:31,166 - INFO - Train loss on step 2500 was 0.90728
+2020-03-11 01:51:39,328 - INFO - Train loss on step 3000 was 0.90739
+2020-03-11 01:54:47,513 - INFO - Train loss on step 3500 was 0.90129
+2020-03-11 01:57:55,705 - INFO - Train loss on step 4000 was 0.90117
+2020-03-11 02:01:03,988 - INFO - Train loss on step 4500 was 0.90409
+2020-03-11 02:04:12,523 - INFO - Train loss on step 5000 was 0.90539
+2020-03-11 02:07:21,474 - INFO - Train loss on step 5500 was 0.9055
+2020-03-11 02:10:30,469 - INFO - Train loss on step 6000 was 0.90596
+2020-03-11 02:13:38,877 - INFO - Train loss on step 6500 was 0.90559
+2020-03-11 02:16:47,375 - INFO - Train loss on step 7000 was 0.90297
+2020-03-11 02:19:56,827 - INFO - Train loss on step 7500 was 0.90368
+2020-03-11 02:20:08,739 - INFO - Mean train loss: 0.90424
+2020-03-11 02:22:43,445 - INFO - recall: vowel 0.9886855488003721, grapheme 0.961364722497348, consonant 0.9858069634679566
+2020-03-11 02:22:43,445 - INFO - Mean valid loss: 0.1655 score: 0.97431
+2020-03-11 02:22:43,445 - INFO - Starting 45 epoch...
+2020-03-11 02:25:51,301 - INFO - Train loss on step 500 was 0.95397
+2020-03-11 02:28:59,896 - INFO - Train loss on step 1000 was 0.92741
+2020-03-11 02:32:08,135 - INFO - Train loss on step 1500 was 0.92605
+2020-03-11 02:35:16,340 - INFO - Train loss on step 2000 was 0.91708
+2020-03-11 02:38:24,627 - INFO - Train loss on step 2500 was 0.91772
+2020-03-11 02:41:33,077 - INFO - Train loss on step 3000 was 0.91345
+2020-03-11 02:44:41,985 - INFO - Train loss on step 3500 was 0.91504
+2020-03-11 02:47:50,902 - INFO - Train loss on step 4000 was 0.90987
+2020-03-11 02:51:00,612 - INFO - Train loss on step 4500 was 0.91142
+2020-03-11 02:54:10,288 - INFO - Train loss on step 5000 was 0.91136
+2020-03-11 02:57:20,090 - INFO - Train loss on step 5500 was 0.90847
+2020-03-11 03:00:29,864 - INFO - Train loss on step 6000 was 0.90456
+2020-03-11 03:03:39,124 - INFO - Train loss on step 6500 was 0.90683
+2020-03-11 03:06:48,212 - INFO - Train loss on step 7000 was 0.90778
+2020-03-11 03:09:57,295 - INFO - Train loss on step 7500 was 0.90776
+2020-03-11 03:10:09,253 - INFO - Mean train loss: 0.90801
+2020-03-11 03:12:44,324 - INFO - recall: vowel 0.9890148019029531, grapheme 0.9600722566673826, consonant 0.9864108711429107
+2020-03-11 03:12:44,324 - INFO - Mean valid loss: 0.16682 score: 0.97389
+2020-03-11 03:12:44,325 - INFO - Starting 46 epoch...
+2020-03-11 03:15:52,236 - INFO - Train loss on step 500 was 0.92905
+2020-03-11 03:19:00,611 - INFO - Train loss on step 1000 was 0.91946
+2020-03-11 03:22:08,940 - INFO - Train loss on step 1500 was 0.91141
+2020-03-11 03:25:17,327 - INFO - Train loss on step 2000 was 0.91008
+2020-03-11 03:28:25,757 - INFO - Train loss on step 2500 was 0.90796
+2020-03-11 03:31:34,253 - INFO - Train loss on step 3000 was 0.90831
+2020-03-11 03:34:42,735 - INFO - Train loss on step 3500 was 0.90073
+2020-03-11 03:37:51,333 - INFO - Train loss on step 4000 was 0.8949
+2020-03-11 03:40:59,977 - INFO - Train loss on step 4500 was 0.89793
+2020-03-11 03:44:08,590 - INFO - Train loss on step 5000 was 0.90141
+2020-03-11 03:47:17,142 - INFO - Train loss on step 5500 was 0.89991
+2020-03-11 03:50:25,674 - INFO - Train loss on step 6000 was 0.89926
+2020-03-11 03:53:34,226 - INFO - Train loss on step 6500 was 0.89637
+2020-03-11 03:56:42,722 - INFO - Train loss on step 7000 was 0.89693
+2020-03-11 03:59:51,711 - INFO - Train loss on step 7500 was 0.89609
+2020-03-11 04:00:03,664 - INFO - Mean train loss: 0.89548
+2020-03-11 04:02:39,432 - INFO - recall: vowel 0.9894380613939812, grapheme 0.9606199161320546, consonant 0.9862230062478623
+2020-03-11 04:02:39,433 - INFO - Mean valid loss: 0.15673 score: 0.97423
+2020-03-11 04:02:39,433 - INFO - Starting 47 epoch...
+2020-03-11 04:05:47,361 - INFO - Train loss on step 500 was 0.94812
+2020-03-11 04:08:55,894 - INFO - Train loss on step 1000 was 0.93742
+2020-03-11 04:12:04,495 - INFO - Train loss on step 1500 was 0.92245
+2020-03-11 04:15:13,070 - INFO - Train loss on step 2000 was 0.92148
+2020-03-11 04:18:21,666 - INFO - Train loss on step 2500 was 0.91005
+2020-03-11 04:21:30,420 - INFO - Train loss on step 3000 was 0.91061
+2020-03-11 04:24:39,148 - INFO - Train loss on step 3500 was 0.90426
+2020-03-11 04:27:47,849 - INFO - Train loss on step 4000 was 0.90082
+2020-03-11 04:30:56,469 - INFO - Train loss on step 4500 was 0.89814
+2020-03-11 04:34:05,075 - INFO - Train loss on step 5000 was 0.8954
+2020-03-11 04:37:13,587 - INFO - Train loss on step 5500 was 0.89391
+2020-03-11 04:40:22,136 - INFO - Train loss on step 6000 was 0.89191
+2020-03-11 04:43:30,578 - INFO - Train loss on step 6500 was 0.89318
+2020-03-11 04:46:39,034 - INFO - Train loss on step 7000 was 0.89565
+2020-03-11 04:49:47,481 - INFO - Train loss on step 7500 was 0.89531
+2020-03-11 04:49:59,388 - INFO - Mean train loss: 0.89505
+2020-03-11 04:52:34,226 - INFO - recall: vowel 0.9884023888025895, grapheme 0.9609036812828273, consonant 0.9860799778571723
+2020-03-11 04:52:34,226 - INFO - Mean valid loss: 0.15935 score: 0.97407
+2020-03-11 04:52:34,226 - INFO - Starting 48 epoch...
+2020-03-11 04:55:42,333 - INFO - Train loss on step 500 was 0.89451
+2020-03-11 04:58:51,032 - INFO - Train loss on step 1000 was 0.90576
+2020-03-11 05:01:59,747 - INFO - Train loss on step 1500 was 0.91112
+2020-03-11 05:05:08,405 - INFO - Train loss on step 2000 was 0.89869
+2020-03-11 05:08:17,058 - INFO - Train loss on step 2500 was 0.90856
+2020-03-11 05:11:25,709 - INFO - Train loss on step 3000 was 0.91038
+2020-03-11 05:14:34,284 - INFO - Train loss on step 3500 was 0.90744
+2020-03-11 05:17:42,806 - INFO - Train loss on step 4000 was 0.90095
+2020-03-11 05:20:51,376 - INFO - Train loss on step 4500 was 0.90616
+2020-03-11 05:23:59,874 - INFO - Train loss on step 5000 was 0.89971
+2020-03-11 05:27:08,181 - INFO - Train loss on step 5500 was 0.90097
+2020-03-11 05:30:16,521 - INFO - Train loss on step 6000 was 0.9018
+2020-03-11 05:33:24,882 - INFO - Train loss on step 6500 was 0.8982
+2020-03-11 05:36:33,235 - INFO - Train loss on step 7000 was 0.8977
+2020-03-11 05:39:41,608 - INFO - Train loss on step 7500 was 0.89545
+2020-03-11 05:39:53,510 - INFO - Mean train loss: 0.89638
+2020-03-11 05:42:28,203 - INFO - recall: vowel 0.9889120548301148, grapheme 0.9550153984931672, consonant 0.9864532073464244
+2020-03-11 05:42:28,203 - INFO - Mean valid loss: 0.17376 score: 0.97135
+2020-03-11 05:42:28,203 - INFO - Starting 49 epoch...
+2020-03-11 05:45:36,191 - INFO - Train loss on step 500 was 0.8644
+2020-03-11 05:48:44,808 - INFO - Train loss on step 1000 was 0.88155
+2020-03-11 05:51:53,441 - INFO - Train loss on step 1500 was 0.88735
+2020-03-11 05:55:02,023 - INFO - Train loss on step 2000 was 0.87956
+2020-03-11 05:58:10,556 - INFO - Train loss on step 2500 was 0.88223
+2020-03-11 06:01:19,023 - INFO - Train loss on step 3000 was 0.88302
+2020-03-11 06:04:27,382 - INFO - Train loss on step 3500 was 0.8878
+2020-03-11 06:07:35,696 - INFO - Train loss on step 4000 was 0.88595
+2020-03-11 06:10:43,931 - INFO - Train loss on step 4500 was 0.88501
+2020-03-11 06:13:52,152 - INFO - Train loss on step 5000 was 0.88685
+2020-03-11 06:17:00,532 - INFO - Train loss on step 5500 was 0.88723
+2020-03-11 06:20:08,920 - INFO - Train loss on step 6000 was 0.88821
+2020-03-11 06:23:17,213 - INFO - Train loss on step 6500 was 0.88591
+2020-03-11 06:26:25,508 - INFO - Train loss on step 7000 was 0.89258
+2020-03-11 06:29:33,868 - INFO - Train loss on step 7500 was 0.89443
+2020-03-11 06:29:45,765 - INFO - Mean train loss: 0.89447
+2020-03-11 06:32:21,439 - INFO - recall: vowel 0.9886594549695805, grapheme 0.9576682733205437, consonant 0.9840433104990545
+2020-03-11 06:32:21,440 - INFO - Mean valid loss: 0.18185 score: 0.97201
+2020-03-11 06:32:21,440 - INFO - Starting 50 epoch...
+2020-03-11 06:35:30,023 - INFO - Train loss on step 500 was 0.89289
+2020-03-11 06:38:39,096 - INFO - Train loss on step 1000 was 0.87249
+2020-03-11 06:41:48,173 - INFO - Train loss on step 1500 was 0.8723
+2020-03-11 06:44:57,183 - INFO - Train loss on step 2000 was 0.89464
+2020-03-11 06:48:06,150 - INFO - Train loss on step 2500 was 0.89494
+2020-03-11 06:51:15,118 - INFO - Train loss on step 3000 was 0.89867
+2020-03-11 06:54:24,033 - INFO - Train loss on step 3500 was 0.8972
+2020-03-11 06:57:32,920 - INFO - Train loss on step 4000 was 0.89642
+2020-03-11 07:00:41,847 - INFO - Train loss on step 4500 was 0.89707
+2020-03-11 07:03:50,781 - INFO - Train loss on step 5000 was 0.88924
+2020-03-11 07:07:00,021 - INFO - Train loss on step 5500 was 0.89158
+2020-03-11 07:10:09,801 - INFO - Train loss on step 6000 was 0.89242
+2020-03-11 07:13:19,623 - INFO - Train loss on step 6500 was 0.89121
+2020-03-11 07:16:29,545 - INFO - Train loss on step 7000 was 0.89376
+2020-03-11 07:19:39,454 - INFO - Train loss on step 7500 was 0.89011
+2020-03-11 07:19:51,445 - INFO - Mean train loss: 0.89053
+2020-03-11 07:22:27,903 - INFO - recall: vowel 0.9881121404879124, grapheme 0.9624453999898742, consonant 0.9851439081219288
+2020-03-11 07:22:27,903 - INFO - Mean valid loss: 0.1629 score: 0.97454
+2020-03-11 07:22:27,904 - INFO - Starting 51 epoch...
+2020-03-11 07:25:36,757 - INFO - Train loss on step 500 was 0.89485
+2020-03-11 07:28:46,007 - INFO - Train loss on step 1000 was 0.89979
+2020-03-11 07:31:55,127 - INFO - Train loss on step 1500 was 0.89286
+2020-03-11 07:35:04,130 - INFO - Train loss on step 2000 was 0.9051
+2020-03-11 07:38:13,125 - INFO - Train loss on step 2500 was 0.90268
+2020-03-11 07:41:22,121 - INFO - Train loss on step 3000 was 0.89345
+2020-03-11 07:44:31,144 - INFO - Train loss on step 3500 was 0.89181
+2020-03-11 07:47:40,137 - INFO - Train loss on step 4000 was 0.8918
+2020-03-11 07:50:49,521 - INFO - Train loss on step 4500 was 0.89207
+2020-03-11 07:53:59,284 - INFO - Train loss on step 5000 was 0.89103
+2020-03-11 07:57:09,155 - INFO - Train loss on step 5500 was 0.89041
+2020-03-11 08:00:19,087 - INFO - Train loss on step 6000 was 0.88803
+2020-03-11 08:03:29,112 - INFO - Train loss on step 6500 was 0.89026
+2020-03-11 08:06:39,001 - INFO - Train loss on step 7000 was 0.89104
+2020-03-11 08:09:48,867 - INFO - Train loss on step 7500 was 0.89321
+2020-03-11 08:10:00,864 - INFO - Mean train loss: 0.8934
+2020-03-11 08:12:37,266 - INFO - recall: vowel 0.9891823296924023, grapheme 0.9590374064674195, consonant 0.9861796996098414
+2020-03-11 08:12:37,266 - INFO - Mean valid loss: 0.17264 score: 0.97336
+2020-03-11 08:12:37,266 - INFO - Starting 52 epoch...
+2020-03-11 08:15:46,667 - INFO - Train loss on step 500 was 0.88358
+2020-03-11 08:18:56,422 - INFO - Train loss on step 1000 was 0.88988
+2020-03-11 08:22:05,999 - INFO - Train loss on step 1500 was 0.87261
+2020-03-11 08:25:15,675 - INFO - Train loss on step 2000 was 0.87689
+2020-03-11 08:28:25,139 - INFO - Train loss on step 2500 was 0.88132
+2020-03-11 08:31:34,652 - INFO - Train loss on step 3000 was 0.88175
+2020-03-11 08:34:44,163 - INFO - Train loss on step 3500 was 0.88079
+2020-03-11 08:37:53,215 - INFO - Train loss on step 4000 was 0.89033
+2020-03-11 08:41:01,619 - INFO - Train loss on step 4500 was 0.8906
+2020-03-11 08:44:10,015 - INFO - Train loss on step 5000 was 0.89257
+2020-03-11 08:47:18,329 - INFO - Train loss on step 5500 was 0.89086
+2020-03-11 08:50:26,715 - INFO - Train loss on step 6000 was 0.88942
+2020-03-11 08:53:35,480 - INFO - Train loss on step 6500 was 0.88892
+2020-03-11 08:56:44,464 - INFO - Train loss on step 7000 was 0.88532
+2020-03-11 08:59:53,409 - INFO - Train loss on step 7500 was 0.88417
+2020-03-11 09:00:05,345 - INFO - Mean train loss: 0.88405
+2020-03-11 09:02:40,144 - INFO - recall: vowel 0.9900974474909116, grapheme 0.9610934863954613, consonant 0.986456696819425
+2020-03-11 09:02:40,144 - INFO - Mean valid loss: 0.16481 score: 0.97469
+2020-03-11 09:02:40,144 - INFO - Starting 53 epoch...
+2020-03-11 09:05:49,360 - INFO - Train loss on step 500 was 0.90819
+2020-03-11 09:08:59,145 - INFO - Train loss on step 1000 was 0.89136
+2020-03-11 09:12:08,816 - INFO - Train loss on step 1500 was 0.90046
+2020-03-11 09:15:18,424 - INFO - Train loss on step 2000 was 0.88972
+2020-03-11 09:18:28,031 - INFO - Train loss on step 2500 was 0.88615
+2020-03-11 09:21:37,689 - INFO - Train loss on step 3000 was 0.88223
+2020-03-11 09:24:47,337 - INFO - Train loss on step 3500 was 0.87382
+2020-03-11 09:27:56,961 - INFO - Train loss on step 4000 was 0.87476
+2020-03-11 09:31:06,537 - INFO - Train loss on step 4500 was 0.87709
+2020-03-11 09:34:16,068 - INFO - Train loss on step 5000 was 0.87584
+2020-03-11 09:37:25,613 - INFO - Train loss on step 5500 was 0.87364
+2020-03-11 09:40:35,145 - INFO - Train loss on step 6000 was 0.87341
+2020-03-11 09:43:44,617 - INFO - Train loss on step 6500 was 0.87656
+2020-03-11 09:46:54,063 - INFO - Train loss on step 7000 was 0.87415
+2020-03-11 09:50:03,636 - INFO - Train loss on step 7500 was 0.87265
+2020-03-11 09:50:15,602 - INFO - Mean train loss: 0.87307
+2020-03-11 09:52:50,945 - INFO - recall: vowel 0.9877729835776816, grapheme 0.9584183669152334, consonant 0.9844808934165247
+2020-03-11 09:52:50,946 - INFO - Mean valid loss: 0.17453 score: 0.97227
+2020-03-11 09:52:50,946 - INFO - Starting 54 epoch...
+2020-03-11 09:56:00,123 - INFO - Train loss on step 500 was 0.85092
+2020-03-11 09:59:09,761 - INFO - Train loss on step 1000 was 0.85829
+2020-03-11 10:02:19,325 - INFO - Train loss on step 1500 was 0.86333
+2020-03-11 10:05:28,922 - INFO - Train loss on step 2000 was 0.86696
+2020-03-11 10:08:38,442 - INFO - Train loss on step 2500 was 0.8597
+2020-03-11 10:11:47,972 - INFO - Train loss on step 3000 was 0.85748
+2020-03-11 10:14:57,398 - INFO - Train loss on step 3500 was 0.85967
+2020-03-11 10:18:06,834 - INFO - Train loss on step 4000 was 0.86056
+2020-03-11 10:21:16,328 - INFO - Train loss on step 4500 was 0.86205
+2020-03-11 10:24:25,813 - INFO - Train loss on step 5000 was 0.86352
+2020-03-11 10:27:35,344 - INFO - Train loss on step 5500 was 0.86107
+2020-03-11 10:30:44,702 - INFO - Train loss on step 6000 was 0.86025
+2020-03-11 10:33:54,076 - INFO - Train loss on step 6500 was 0.86481
+2020-03-11 10:37:03,436 - INFO - Train loss on step 7000 was 0.86447
+2020-03-11 10:40:12,744 - INFO - Train loss on step 7500 was 0.86146
+2020-03-11 10:40:24,721 - INFO - Mean train loss: 0.86182
+2020-03-11 10:42:59,469 - INFO - recall: vowel 0.9884902289218964, grapheme 0.9610722333984606, consonant 0.9848993311958757
+2020-03-11 10:42:59,469 - INFO - Mean valid loss: 0.16331 score: 0.97388
+2020-03-11 10:42:59,469 - INFO - Starting 55 epoch...
+2020-03-11 10:46:07,825 - INFO - Train loss on step 500 was 0.88068
+2020-03-11 10:49:15,842 - INFO - Train loss on step 1000 was 0.89146
+2020-03-11 10:52:24,039 - INFO - Train loss on step 1500 was 0.891
+2020-03-11 10:55:32,253 - INFO - Train loss on step 2000 was 0.889
+2020-03-11 10:58:40,477 - INFO - Train loss on step 2500 was 0.89286
+2020-03-11 11:01:48,740 - INFO - Train loss on step 3000 was 0.8927
+2020-03-11 11:04:56,967 - INFO - Train loss on step 3500 was 0.88492
+2020-03-11 11:08:05,244 - INFO - Train loss on step 4000 was 0.88493
+2020-03-11 11:11:13,468 - INFO - Train loss on step 4500 was 0.88163
+2020-03-11 11:14:21,695 - INFO - Train loss on step 5000 was 0.88224
+2020-03-11 11:17:29,892 - INFO - Train loss on step 5500 was 0.8816
+2020-03-11 11:20:38,125 - INFO - Train loss on step 6000 was 0.88199
+2020-03-11 11:23:46,360 - INFO - Train loss on step 6500 was 0.88068
+2020-03-11 11:26:54,535 - INFO - Train loss on step 7000 was 0.87999
+2020-03-11 11:30:02,580 - INFO - Train loss on step 7500 was 0.87855
+2020-03-11 11:30:14,459 - INFO - Mean train loss: 0.8788
+2020-03-11 11:32:49,917 - INFO - recall: vowel 0.9886586295905883, grapheme 0.9605569793934039, consonant 0.9861532038233075
+2020-03-11 11:32:49,917 - INFO - Mean valid loss: 0.16737 score: 0.97398
+2020-03-11 11:32:49,917 - INFO - Starting 56 epoch...
+2020-03-11 11:35:57,362 - INFO - Train loss on step 500 was 0.8253
+2020-03-11 11:39:05,181 - INFO - Train loss on step 1000 was 0.84448
+2020-03-11 11:42:13,098 - INFO - Train loss on step 1500 was 0.83827
+2020-03-11 11:45:21,051 - INFO - Train loss on step 2000 was 0.84497
+2020-03-11 11:48:29,063 - INFO - Train loss on step 2500 was 0.84638
+2020-03-11 11:51:37,115 - INFO - Train loss on step 3000 was 0.8514
+2020-03-11 11:54:45,131 - INFO - Train loss on step 3500 was 0.8554
+2020-03-11 11:57:53,135 - INFO - Train loss on step 4000 was 0.85315
+2020-03-11 12:01:01,160 - INFO - Train loss on step 4500 was 0.85354
+2020-03-11 12:04:09,305 - INFO - Train loss on step 5000 was 0.86009
+2020-03-11 12:07:17,346 - INFO - Train loss on step 5500 was 0.85824
+2020-03-11 12:10:25,233 - INFO - Train loss on step 6000 was 0.85596
+2020-03-11 12:13:33,342 - INFO - Train loss on step 6500 was 0.85417
+2020-03-11 12:16:41,075 - INFO - Train loss on step 7000 was 0.85408
+2020-03-11 12:19:48,824 - INFO - Train loss on step 7500 was 0.85074
+2020-03-11 12:20:00,684 - INFO - Mean train loss: 0.85128
+2020-03-11 12:22:35,861 - INFO - recall: vowel 0.9890064124482042, grapheme 0.9608743248604634, consonant 0.9841761440219378
+2020-03-11 12:22:35,861 - INFO - Mean valid loss: 0.1806 score: 0.97373
+2020-03-11 12:22:35,861 - INFO - Starting 57 epoch...
+2020-03-11 12:25:43,879 - INFO - Train loss on step 500 was 0.88935
+2020-03-11 12:28:52,097 - INFO - Train loss on step 1000 was 0.89221
+2020-03-11 12:32:00,285 - INFO - Train loss on step 1500 was 0.86632
+2020-03-11 12:35:08,510 - INFO - Train loss on step 2000 was 0.87168
+2020-03-11 12:38:16,722 - INFO - Train loss on step 2500 was 0.87421
+2020-03-11 12:41:24,927 - INFO - Train loss on step 3000 was 0.87107
+2020-03-11 12:44:33,239 - INFO - Train loss on step 3500 was 0.87245
+2020-03-11 12:47:41,464 - INFO - Train loss on step 4000 was 0.87442
+2020-03-11 12:50:49,667 - INFO - Train loss on step 4500 was 0.8745
+2020-03-11 12:53:57,840 - INFO - Train loss on step 5000 was 0.87463
+2020-03-11 12:57:06,015 - INFO - Train loss on step 5500 was 0.87233
+2020-03-11 13:00:14,226 - INFO - Train loss on step 6000 was 0.87402
+2020-03-11 13:03:22,488 - INFO - Train loss on step 6500 was 0.87412
+2020-03-11 13:06:30,752 - INFO - Train loss on step 7000 was 0.8698
+2020-03-11 13:09:39,020 - INFO - Train loss on step 7500 was 0.86732
+2020-03-11 13:09:50,921 - INFO - Mean train loss: 0.86755
+2020-03-11 13:12:25,292 - INFO - recall: vowel 0.9896136647785924, grapheme 0.9598932501687658, consonant 0.9862449531554719
+2020-03-11 13:12:25,292 - INFO - Mean valid loss: 0.16375 score: 0.97391
+2020-03-11 13:12:25,292 - INFO - Starting 58 epoch...
+2020-03-11 13:15:34,200 - INFO - Train loss on step 500 was 0.82927
+2020-03-11 13:18:43,416 - INFO - Train loss on step 1000 was 0.83634
+2020-03-11 13:21:52,477 - INFO - Train loss on step 1500 was 0.83827
+2020-03-11 13:25:01,515 - INFO - Train loss on step 2000 was 0.85381
+2020-03-11 13:28:10,458 - INFO - Train loss on step 2500 was 0.85988
+2020-03-11 13:31:19,432 - INFO - Train loss on step 3000 was 0.86233
+2020-03-11 13:34:28,403 - INFO - Train loss on step 3500 was 0.86393
+2020-03-11 13:37:37,279 - INFO - Train loss on step 4000 was 0.86513
+2020-03-11 13:40:46,162 - INFO - Train loss on step 4500 was 0.86269
+2020-03-11 13:43:54,798 - INFO - Train loss on step 5000 was 0.863
+2020-03-11 13:47:02,947 - INFO - Train loss on step 5500 was 0.86411
+2020-03-11 13:50:11,094 - INFO - Train loss on step 6000 was 0.86254
+2020-03-11 13:53:19,339 - INFO - Train loss on step 6500 was 0.86412
+2020-03-11 13:56:27,554 - INFO - Train loss on step 7000 was 0.8651
+2020-03-11 13:59:35,749 - INFO - Train loss on step 7500 was 0.86594
+2020-03-11 13:59:47,635 - INFO - Mean train loss: 0.86593
+2020-03-11 14:02:23,328 - INFO - recall: vowel 0.9890342754618697, grapheme 0.9592916941065491, consonant 0.9862139735304921
+2020-03-11 14:02:23,328 - INFO - Mean valid loss: 0.16853 score: 0.97346
+2020-03-11 14:02:23,328 - INFO - Starting 59 epoch...
+2020-03-11 14:05:31,551 - INFO - Train loss on step 500 was 0.89687
+2020-03-11 14:08:40,048 - INFO - Train loss on step 1000 was 0.87961
+2020-03-11 14:11:48,402 - INFO - Train loss on step 1500 was 0.86531
+2020-03-11 14:14:56,832 - INFO - Train loss on step 2000 was 0.86927
+2020-03-11 14:18:05,252 - INFO - Train loss on step 2500 was 0.86472
+2020-03-11 14:21:13,710 - INFO - Train loss on step 3000 was 0.86118
+2020-03-11 14:24:22,174 - INFO - Train loss on step 3500 was 0.86069
+2020-03-11 14:27:30,613 - INFO - Train loss on step 4000 was 0.86054
+2020-03-11 14:30:38,973 - INFO - Train loss on step 4500 was 0.85568
+2020-03-11 14:33:47,469 - INFO - Train loss on step 5000 was 0.85543
+2020-03-11 14:36:55,900 - INFO - Train loss on step 5500 was 0.85832
+2020-03-11 14:40:04,291 - INFO - Train loss on step 6000 was 0.85853
+2020-03-11 14:43:12,748 - INFO - Train loss on step 6500 was 0.85993
+2020-03-11 14:46:21,271 - INFO - Train loss on step 7000 was 0.85963
+2020-03-11 14:49:29,609 - INFO - Train loss on step 7500 was 0.85955
+2020-03-11 14:49:41,500 - INFO - Mean train loss: 0.85893
+2020-03-11 14:52:15,999 - INFO - recall: vowel 0.9899139813529637, grapheme 0.9608978804975203, consonant 0.9849042454566127
+2020-03-11 14:52:16,000 - INFO - Mean valid loss: 0.1577 score: 0.97415
+2020-03-11 14:52:16,000 - INFO - Starting 60 epoch...
+2020-03-11 14:55:24,016 - INFO - Train loss on step 500 was 0.85165
+2020-03-11 14:58:32,229 - INFO - Train loss on step 1000 was 0.8545
+2020-03-11 15:01:40,468 - INFO - Train loss on step 1500 was 0.84511
+2020-03-11 15:04:48,787 - INFO - Train loss on step 2000 was 0.85181
+2020-03-11 15:07:57,149 - INFO - Train loss on step 2500 was 0.84217
+2020-03-11 15:11:05,081 - INFO - Train loss on step 3000 was 0.84739
+2020-03-11 15:14:12,671 - INFO - Train loss on step 3500 was 0.85502
+2020-03-11 15:17:20,259 - INFO - Train loss on step 4000 was 0.85566
+2020-03-11 15:20:27,922 - INFO - Train loss on step 4500 was 0.85596
+2020-03-11 15:23:35,598 - INFO - Train loss on step 5000 was 0.8596
+2020-03-11 15:26:43,298 - INFO - Train loss on step 5500 was 0.85997
+2020-03-11 15:29:51,001 - INFO - Train loss on step 6000 was 0.86226
+2020-03-11 15:32:58,655 - INFO - Train loss on step 6500 was 0.85955
+2020-03-11 15:36:06,343 - INFO - Train loss on step 7000 was 0.85784
+2020-03-11 15:39:13,890 - INFO - Train loss on step 7500 was 0.85789
+2020-03-11 15:39:25,745 - INFO - Mean train loss: 0.85787
+2020-03-11 15:42:00,873 - INFO - recall: vowel 0.9891975710840157, grapheme 0.9614385533883197, consonant 0.9860839734294632
+2020-03-11 15:42:00,873 - INFO - Mean valid loss: 0.16254 score: 0.97454
+2020-03-11 15:42:00,873 - INFO - Starting 61 epoch...
+2020-03-11 15:45:09,018 - INFO - Train loss on step 500 was 0.86112
+2020-03-11 15:48:16,611 - INFO - Train loss on step 1000 was 0.87978
+2020-03-11 15:51:24,202 - INFO - Train loss on step 1500 was 0.86252
+2020-03-11 15:54:31,805 - INFO - Train loss on step 2000 was 0.84897
+2020-03-11 15:57:39,398 - INFO - Train loss on step 2500 was 0.85005
+2020-03-11 16:00:47,019 - INFO - Train loss on step 3000 was 0.85915
+2020-03-11 16:03:54,660 - INFO - Train loss on step 3500 was 0.85882
+2020-03-11 16:07:02,375 - INFO - Train loss on step 4000 was 0.86079
+2020-03-11 16:10:09,932 - INFO - Train loss on step 4500 was 0.85883
+2020-03-11 16:13:17,500 - INFO - Train loss on step 5000 was 0.85572
+2020-03-11 16:16:25,072 - INFO - Train loss on step 5500 was 0.85569
+2020-03-11 16:19:32,722 - INFO - Train loss on step 6000 was 0.85811
+2020-03-11 16:22:40,320 - INFO - Train loss on step 6500 was 0.8594
+2020-03-11 16:25:48,479 - INFO - Train loss on step 7000 was 0.86059
+2020-03-11 16:28:56,699 - INFO - Train loss on step 7500 was 0.85739
+2020-03-11 16:29:08,596 - INFO - Mean train loss: 0.85678
+2020-03-11 16:31:43,353 - INFO - recall: vowel 0.9888073908354577, grapheme 0.9625696476732104, consonant 0.9854845946387119
+2020-03-11 16:31:43,353 - INFO - Mean valid loss: 0.16353 score: 0.97486
+2020-03-11 16:31:43,354 - INFO - Starting 62 epoch...
+2020-03-11 16:34:50,853 - INFO - Train loss on step 500 was 0.8373
+2020-03-11 16:37:58,546 - INFO - Train loss on step 1000 was 0.84607
+2020-03-11 16:41:06,215 - INFO - Train loss on step 1500 was 0.85157
+2020-03-11 16:44:13,928 - INFO - Train loss on step 2000 was 0.84319
+2020-03-11 16:47:21,568 - INFO - Train loss on step 2500 was 0.84516
+2020-03-11 16:50:29,160 - INFO - Train loss on step 3000 was 0.84791
+2020-03-11 16:53:36,736 - INFO - Train loss on step 3500 was 0.8395
+2020-03-11 16:56:44,314 - INFO - Train loss on step 4000 was 0.84433
+2020-03-11 16:59:51,982 - INFO - Train loss on step 4500 was 0.84866
+2020-03-11 17:03:00,486 - INFO - Train loss on step 5000 was 0.8483
+2020-03-11 17:06:08,786 - INFO - Train loss on step 5500 was 0.85254
+2020-03-11 17:09:17,050 - INFO - Train loss on step 6000 was 0.85224
+2020-03-11 17:12:25,357 - INFO - Train loss on step 6500 was 0.84997
+2020-03-11 17:15:33,314 - INFO - Train loss on step 7000 was 0.84926
+2020-03-11 17:18:40,937 - INFO - Train loss on step 7500 was 0.84873
+2020-03-11 17:18:52,784 - INFO - Mean train loss: 0.84819
+2020-03-11 17:21:27,388 - INFO - recall: vowel 0.9891958431508638, grapheme 0.9602484451519502, consonant 0.9861403510823855
+2020-03-11 17:21:27,388 - INFO - Mean valid loss: 0.16784 score: 0.97396
+2020-03-11 17:21:27,388 - INFO - Starting 63 epoch...
+2020-03-11 17:24:34,930 - INFO - Train loss on step 500 was 0.86429
+2020-03-11 17:27:42,628 - INFO - Train loss on step 1000 was 0.86627
+2020-03-11 17:30:50,261 - INFO - Train loss on step 1500 was 0.84994
+2020-03-11 17:33:57,866 - INFO - Train loss on step 2000 was 0.84807
+2020-03-11 17:37:05,457 - INFO - Train loss on step 2500 was 0.85644
+2020-03-11 17:40:13,520 - INFO - Train loss on step 3000 was 0.84909
+2020-03-11 17:43:21,780 - INFO - Train loss on step 3500 was 0.85062
+2020-03-11 17:46:29,989 - INFO - Train loss on step 4000 was 0.84976
+2020-03-11 17:49:38,203 - INFO - Train loss on step 4500 was 0.84534
+2020-03-11 17:52:46,417 - INFO - Train loss on step 5000 was 0.84988
+2020-03-11 17:55:54,680 - INFO - Train loss on step 5500 was 0.84646
+2020-03-11 17:59:02,935 - INFO - Train loss on step 6000 was 0.84425
+2020-03-11 18:02:11,727 - INFO - Train loss on step 6500 was 0.84734
+2020-03-11 18:05:20,667 - INFO - Train loss on step 7000 was 0.84475
+2020-03-11 18:08:29,605 - INFO - Train loss on step 7500 was 0.84517
+2020-03-11 18:08:41,546 - INFO - Mean train loss: 0.84504
+2020-03-11 18:11:16,450 - INFO - recall: vowel 0.9881798069276742, grapheme 0.9590763122292927, consonant 0.9860780297356494
+2020-03-11 18:11:16,450 - INFO - Mean valid loss: 0.17374 score: 0.9731
+2020-03-11 18:11:16,450 - INFO - Starting 64 epoch...
+2020-03-11 18:14:23,835 - INFO - Train loss on step 500 was 0.80532
+2020-03-11 18:17:31,445 - INFO - Train loss on step 1000 was 0.84686
+2020-03-11 18:20:39,086 - INFO - Train loss on step 1500 was 0.8344
+2020-03-11 18:23:46,747 - INFO - Train loss on step 2000 was 0.83586
+2020-03-11 18:26:54,525 - INFO - Train loss on step 2500 was 0.83323
+2020-03-11 18:30:03,133 - INFO - Train loss on step 3000 was 0.83955
+2020-03-11 18:33:11,505 - INFO - Train loss on step 3500 was 0.84114
+2020-03-11 18:36:19,847 - INFO - Train loss on step 4000 was 0.83768
+2020-03-11 18:39:28,252 - INFO - Train loss on step 4500 was 0.83847
+2020-03-11 18:42:36,623 - INFO - Train loss on step 5000 was 0.84554
+2020-03-11 18:45:45,015 - INFO - Train loss on step 5500 was 0.85033
+2020-03-11 18:48:53,300 - INFO - Train loss on step 6000 was 0.84862
+2020-03-11 18:52:01,621 - INFO - Train loss on step 6500 was 0.8483
+2020-03-11 18:55:10,008 - INFO - Train loss on step 7000 was 0.85008
+2020-03-11 18:58:18,301 - INFO - Train loss on step 7500 was 0.8501
+2020-03-11 18:58:30,203 - INFO - Mean train loss: 0.84959
+2020-03-11 19:01:04,839 - INFO - recall: vowel 0.9890697124955686, grapheme 0.959298520748167, consonant 0.9862652191078658
+2020-03-11 19:01:04,839 - INFO - Mean valid loss: 0.16029 score: 0.97348
+2020-03-11 19:01:04,839 - INFO - Starting 65 epoch...
+2020-03-11 19:04:12,458 - INFO - Train loss on step 500 was 0.80425
+2020-03-11 19:07:20,143 - INFO - Train loss on step 1000 was 0.79752
+2020-03-11 19:10:27,771 - INFO - Train loss on step 1500 was 0.81563
+2020-03-11 19:13:35,441 - INFO - Train loss on step 2000 was 0.81886
+2020-03-11 19:16:42,966 - INFO - Train loss on step 2500 was 0.82192
+2020-03-11 19:19:50,478 - INFO - Train loss on step 3000 was 0.82537
+2020-03-11 19:22:58,007 - INFO - Train loss on step 3500 was 0.83275
+2020-03-11 19:26:05,603 - INFO - Train loss on step 4000 was 0.83207
+2020-03-11 19:29:13,258 - INFO - Train loss on step 4500 was 0.83373
+2020-03-11 19:32:20,869 - INFO - Train loss on step 5000 was 0.83946
+2020-03-11 19:35:28,482 - INFO - Train loss on step 5500 was 0.84237
+2020-03-11 19:38:36,156 - INFO - Train loss on step 6000 was 0.84329
+2020-03-11 19:41:43,899 - INFO - Train loss on step 6500 was 0.84259
+2020-03-11 19:44:51,590 - INFO - Train loss on step 7000 was 0.8433
+2020-03-11 19:47:59,238 - INFO - Train loss on step 7500 was 0.84215
+2020-03-11 19:48:11,123 - INFO - Mean train loss: 0.84249
+2020-03-11 19:50:46,205 - INFO - recall: vowel 0.9878999502722453, grapheme 0.9588027510893509, consonant 0.9861315416923423
+2020-03-11 19:50:46,205 - INFO - Mean valid loss: 0.16797 score: 0.97291
+2020-03-11 19:50:46,205 - INFO - Starting 66 epoch...
+2020-03-11 19:53:54,938 - INFO - Train loss on step 500 was 0.85392
+2020-03-11 19:57:03,884 - INFO - Train loss on step 1000 was 0.84388
+2020-03-11 20:00:12,810 - INFO - Train loss on step 1500 was 0.85062
+2020-03-11 20:03:21,763 - INFO - Train loss on step 2000 was 0.84154
+2020-03-11 20:06:30,725 - INFO - Train loss on step 2500 was 0.84301
+2020-03-11 20:09:39,681 - INFO - Train loss on step 3000 was 0.8403
+2020-03-11 20:12:48,654 - INFO - Train loss on step 3500 was 0.83776
+2020-03-11 20:15:57,179 - INFO - Train loss on step 4000 was 0.83453
+2020-03-11 20:19:04,661 - INFO - Train loss on step 4500 was 0.83888
+2020-03-11 20:22:12,180 - INFO - Train loss on step 5000 was 0.83922
+2020-03-11 20:25:19,746 - INFO - Train loss on step 5500 was 0.84126
+2020-03-11 20:28:27,321 - INFO - Train loss on step 6000 was 0.84064
+2020-03-11 20:31:34,899 - INFO - Train loss on step 6500 was 0.84199
+2020-03-11 20:34:42,434 - INFO - Train loss on step 7000 was 0.84586
+2020-03-11 20:37:49,928 - INFO - Train loss on step 7500 was 0.84464
+2020-03-11 20:38:01,777 - INFO - Mean train loss: 0.84433
+2020-03-11 20:40:36,466 - INFO - recall: vowel 0.9889478455061479, grapheme 0.9606173819095064, consonant 0.9848403922388578
+2020-03-11 20:40:36,467 - INFO - Mean valid loss: 0.15314 score: 0.97376
+2020-03-11 20:40:36,467 - INFO - Starting 67 epoch...
+2020-03-11 20:43:43,763 - INFO - Train loss on step 500 was 0.85533
+2020-03-11 20:46:51,347 - INFO - Train loss on step 1000 was 0.87245
+2020-03-11 20:49:58,860 - INFO - Train loss on step 1500 was 0.86266
+2020-03-11 20:53:06,345 - INFO - Train loss on step 2000 was 0.85502
+2020-03-11 20:56:13,850 - INFO - Train loss on step 2500 was 0.84412
+2020-03-11 20:59:21,962 - INFO - Train loss on step 3000 was 0.83272
+2020-03-11 21:02:30,268 - INFO - Train loss on step 3500 was 0.8314
+2020-03-11 21:05:38,536 - INFO - Train loss on step 4000 was 0.82911
+2020-03-11 21:08:46,645 - INFO - Train loss on step 4500 was 0.83302
+2020-03-11 21:11:54,429 - INFO - Train loss on step 5000 was 0.83211
+2020-03-11 21:15:02,761 - INFO - Train loss on step 5500 was 0.83174
+2020-03-11 21:18:11,064 - INFO - Train loss on step 6000 was 0.83057
+2020-03-11 21:21:19,360 - INFO - Train loss on step 6500 was 0.83584
+2020-03-11 21:24:26,891 - INFO - Train loss on step 7000 was 0.83322
+2020-03-11 21:27:34,491 - INFO - Train loss on step 7500 was 0.83071
+2020-03-11 21:27:46,438 - INFO - Mean train loss: 0.83073
+2020-03-11 21:30:21,822 - INFO - recall: vowel 0.9889717914220252, grapheme 0.9604181873007706, consonant 0.9873886072946201
+2020-03-11 21:30:21,822 - INFO - Mean valid loss: 0.18512 score: 0.9743
+2020-03-11 21:30:21,823 - INFO - Starting 68 epoch...
+2020-03-11 21:33:29,198 - INFO - Train loss on step 500 was 0.83198
+2020-03-11 21:36:36,853 - INFO - Train loss on step 1000 was 0.84682
+2020-03-11 21:39:45,091 - INFO - Train loss on step 1500 was 0.82653
+2020-03-11 21:42:54,085 - INFO - Train loss on step 2000 was 0.83078
+2020-03-11 21:46:02,192 - INFO - Train loss on step 2500 was 0.83189
+2020-03-11 21:49:09,852 - INFO - Train loss on step 3000 was 0.82962
+2020-03-11 21:52:17,534 - INFO - Train loss on step 3500 was 0.82716
+2020-03-11 21:55:25,224 - INFO - Train loss on step 4000 was 0.82146
+2020-03-11 21:58:32,912 - INFO - Train loss on step 4500 was 0.82668
+2020-03-11 22:01:40,611 - INFO - Train loss on step 5000 was 0.82675
+2020-03-11 22:04:48,316 - INFO - Train loss on step 5500 was 0.82452
+2020-03-11 22:07:55,933 - INFO - Train loss on step 6000 was 0.82768
+2020-03-11 22:11:03,550 - INFO - Train loss on step 6500 was 0.82998
+2020-03-11 22:14:11,222 - INFO - Train loss on step 7000 was 0.83208
+2020-03-11 22:17:18,932 - INFO - Train loss on step 7500 was 0.82782
+2020-03-11 22:17:30,784 - INFO - Mean train loss: 0.8278
+2020-03-11 22:20:05,925 - INFO - recall: vowel 0.9889258898903591, grapheme 0.9624130356389936, consonant 0.9849726449461099
+2020-03-11 22:20:05,925 - INFO - Mean valid loss: 0.16158 score: 0.97468
+2020-03-11 22:20:05,925 - INFO - Starting 69 epoch...
+2020-03-11 22:23:13,503 - INFO - Train loss on step 500 was 0.81507
+2020-03-11 22:26:21,254 - INFO - Train loss on step 1000 was 0.84013
+2020-03-11 22:29:28,902 - INFO - Train loss on step 1500 was 0.84438
+2020-03-11 22:32:36,495 - INFO - Train loss on step 2000 was 0.85148
+2020-03-11 22:35:44,125 - INFO - Train loss on step 2500 was 0.8476
+2020-03-11 22:38:51,737 - INFO - Train loss on step 3000 was 0.85081
+2020-03-11 22:41:59,833 - INFO - Train loss on step 3500 was 0.84858
+2020-03-11 22:45:07,866 - INFO - Train loss on step 4000 was 0.84622
+2020-03-11 22:48:15,346 - INFO - Train loss on step 4500 was 0.84773
+2020-03-11 22:51:22,820 - INFO - Train loss on step 5000 was 0.84641
+2020-03-11 22:54:30,295 - INFO - Train loss on step 5500 was 0.84586
+2020-03-11 22:57:38,154 - INFO - Train loss on step 6000 was 0.8428
+2020-03-11 23:00:46,389 - INFO - Train loss on step 6500 was 0.84336
+2020-03-11 23:03:54,618 - INFO - Train loss on step 7000 was 0.84478
+2020-03-11 23:07:02,896 - INFO - Train loss on step 7500 was 0.8453
+2020-03-11 23:07:14,801 - INFO - Mean train loss: 0.84541
+2020-03-11 23:09:50,850 - INFO - recall: vowel 0.9886898954774229, grapheme 0.961723134114064, consonant 0.9852008920943282
+2020-03-11 23:09:50,850 - INFO - Mean valid loss: 0.16204 score: 0.97433
+2020-03-11 23:09:50,850 - INFO - Starting 70 epoch...
+2020-03-11 23:12:59,134 - INFO - Train loss on step 500 was 0.8543
+2020-03-11 23:16:07,631 - INFO - Train loss on step 1000 was 0.87184
+2020-03-11 23:19:15,975 - INFO - Train loss on step 1500 was 0.8622
+2020-03-11 23:22:24,251 - INFO - Train loss on step 2000 was 0.8622
+2020-03-11 23:25:32,574 - INFO - Train loss on step 2500 was 0.85013
+2020-03-11 23:28:40,888 - INFO - Train loss on step 3000 was 0.83814
+2020-03-11 23:31:49,148 - INFO - Train loss on step 3500 was 0.83692
+2020-03-11 23:34:57,417 - INFO - Train loss on step 4000 was 0.83518
+2020-03-11 23:38:05,896 - INFO - Train loss on step 4500 was 0.83637
+2020-03-11 23:41:14,930 - INFO - Train loss on step 5000 was 0.83808
+2020-03-11 23:44:23,966 - INFO - Train loss on step 5500 was 0.8418
+2020-03-11 23:47:33,046 - INFO - Train loss on step 6000 was 0.8387
+2020-03-11 23:50:42,142 - INFO - Train loss on step 6500 was 0.8389
+2020-03-11 23:53:50,240 - INFO - Train loss on step 7000 was 0.84139
+2020-03-11 23:56:57,783 - INFO - Train loss on step 7500 was 0.84279
+2020-03-11 23:57:09,628 - INFO - Mean train loss: 0.84241
+2020-03-11 23:59:44,634 - INFO - recall: vowel 0.9893210367829681, grapheme 0.9592714630365711, consonant 0.9862169993228477
+2020-03-11 23:59:44,634 - INFO - Mean valid loss: 0.16662 score: 0.97352
+2020-03-11 23:59:44,635 - INFO - Starting 71 epoch...
+2020-03-12 00:02:52,785 - INFO - Train loss on step 500 was 0.8888
+2020-03-12 00:06:01,168 - INFO - Train loss on step 1000 was 0.85584
+2020-03-12 00:09:09,485 - INFO - Train loss on step 1500 was 0.83783
+2020-03-12 00:12:17,798 - INFO - Train loss on step 2000 was 0.83255
+2020-03-12 00:15:26,113 - INFO - Train loss on step 2500 was 0.83459
+2020-03-12 00:18:34,411 - INFO - Train loss on step 3000 was 0.83148
+2020-03-12 00:21:42,693 - INFO - Train loss on step 3500 was 0.83927
+2020-03-12 00:24:50,970 - INFO - Train loss on step 4000 was 0.83544
+2020-03-12 00:27:59,236 - INFO - Train loss on step 4500 was 0.83555
+2020-03-12 00:31:07,501 - INFO - Train loss on step 5000 was 0.83628
+2020-03-12 00:34:15,793 - INFO - Train loss on step 5500 was 0.83352
+2020-03-12 00:37:24,028 - INFO - Train loss on step 6000 was 0.83116
+2020-03-12 00:40:32,380 - INFO - Train loss on step 6500 was 0.83382
+2020-03-12 00:43:40,842 - INFO - Train loss on step 7000 was 0.83355
+2020-03-12 00:46:49,198 - INFO - Train loss on step 7500 was 0.8326
+2020-03-12 00:47:01,096 - INFO - Mean train loss: 0.83201
+2020-03-12 00:49:37,000 - INFO - recall: vowel 0.9893780049638113, grapheme 0.961701305859908, consonant 0.9863277408949755
+2020-03-12 00:49:37,000 - INFO - Mean valid loss: 0.15609 score: 0.97478
+2020-03-12 00:49:37,000 - INFO - Starting 72 epoch...
+2020-03-12 00:52:45,191 - INFO - Train loss on step 500 was 0.8361
+2020-03-12 00:55:53,542 - INFO - Train loss on step 1000 was 0.8361
+2020-03-12 00:59:01,908 - INFO - Train loss on step 1500 was 0.82428
+2020-03-12 01:02:10,248 - INFO - Train loss on step 2000 was 0.81081
+2020-03-12 01:05:18,556 - INFO - Train loss on step 2500 was 0.80671
+2020-03-12 01:08:26,873 - INFO - Train loss on step 3000 was 0.81819
+2020-03-12 01:11:35,222 - INFO - Train loss on step 3500 was 0.81837
+2020-03-12 01:14:43,535 - INFO - Train loss on step 4000 was 0.82025
+2020-03-12 01:17:51,866 - INFO - Train loss on step 4500 was 0.82096
+2020-03-12 01:21:00,199 - INFO - Train loss on step 5000 was 0.8215
+2020-03-12 01:24:08,431 - INFO - Train loss on step 5500 was 0.82203
+2020-03-12 01:27:16,708 - INFO - Train loss on step 6000 was 0.82091
+2020-03-12 01:30:25,034 - INFO - Train loss on step 6500 was 0.8244
+2020-03-12 01:33:33,289 - INFO - Train loss on step 7000 was 0.82117
+2020-03-12 01:36:42,220 - INFO - Train loss on step 7500 was 0.81835
+2020-03-12 01:36:54,188 - INFO - Mean train loss: 0.81862
+2020-03-12 01:39:29,695 - INFO - recall: vowel 0.9897252829970593, grapheme 0.9625603630408002, consonant 0.985935418709203
+2020-03-12 01:39:29,695 - INFO - Mean valid loss: 0.16039 score: 0.9752
+2020-03-12 01:39:29,806 - INFO - save model at score=0.9751953569469656 on epoch=72
+2020-03-12 01:39:29,806 - INFO - Starting 73 epoch...
+2020-03-12 01:42:37,316 - INFO - Train loss on step 500 was 0.86142
+2020-03-12 01:45:44,946 - INFO - Train loss on step 1000 was 0.82094
+2020-03-12 01:48:52,577 - INFO - Train loss on step 1500 was 0.81633
+2020-03-12 01:52:00,254 - INFO - Train loss on step 2000 was 0.82105
+2020-03-12 01:55:07,797 - INFO - Train loss on step 2500 was 0.82543
+2020-03-12 01:58:15,430 - INFO - Train loss on step 3000 was 0.8276
+2020-03-12 02:01:23,021 - INFO - Train loss on step 3500 was 0.82741
+2020-03-12 02:04:30,585 - INFO - Train loss on step 4000 was 0.82976
+2020-03-12 02:07:38,226 - INFO - Train loss on step 4500 was 0.82933
+2020-03-12 02:10:45,919 - INFO - Train loss on step 5000 was 0.82865
+2020-03-12 02:13:53,619 - INFO - Train loss on step 5500 was 0.82867
+2020-03-12 02:17:01,305 - INFO - Train loss on step 6000 was 0.82607
+2020-03-12 02:20:10,371 - INFO - Train loss on step 6500 was 0.82705
+2020-03-12 02:23:19,449 - INFO - Train loss on step 7000 was 0.82757
+2020-03-12 02:26:28,556 - INFO - Train loss on step 7500 was 0.82808
+2020-03-12 02:26:40,500 - INFO - Mean train loss: 0.82785
+2020-03-12 02:29:15,642 - INFO - recall: vowel 0.9889043019782204, grapheme 0.9621905782659864, consonant 0.9849807564879022
+2020-03-12 02:29:15,643 - INFO - Mean valid loss: 0.16353 score: 0.97457
+2020-03-12 02:29:15,643 - INFO - Starting 74 epoch...
+2020-03-12 02:32:23,291 - INFO - Train loss on step 500 was 0.83596
+2020-03-12 02:35:31,207 - INFO - Train loss on step 1000 was 0.83319
+2020-03-12 02:38:39,313 - INFO - Train loss on step 1500 was 0.83461
+2020-03-12 02:41:47,396 - INFO - Train loss on step 2000 was 0.8309
+2020-03-12 02:44:55,586 - INFO - Train loss on step 2500 was 0.82673
+2020-03-12 02:48:03,694 - INFO - Train loss on step 3000 was 0.82976
+2020-03-12 02:51:11,677 - INFO - Train loss on step 3500 was 0.8321
+2020-03-12 02:54:19,698 - INFO - Train loss on step 4000 was 0.8319
+2020-03-12 02:57:27,693 - INFO - Train loss on step 4500 was 0.83229
+2020-03-12 03:00:35,707 - INFO - Train loss on step 5000 was 0.83356
+2020-03-12 03:03:44,085 - INFO - Train loss on step 5500 was 0.83563
+2020-03-12 03:06:53,463 - INFO - Train loss on step 6000 was 0.83577
+2020-03-12 03:10:02,812 - INFO - Train loss on step 6500 was 0.83363
+2020-03-12 03:13:12,031 - INFO - Train loss on step 7000 was 0.82882
+2020-03-12 03:16:19,981 - INFO - Train loss on step 7500 was 0.82878
+2020-03-12 03:16:31,846 - INFO - Mean train loss: 0.82875
+2020-03-12 03:19:06,837 - INFO - recall: vowel 0.9897426927075959, grapheme 0.9600192209621026, consonant 0.9855846490899465
+2020-03-12 03:19:06,837 - INFO - Mean valid loss: 0.16402 score: 0.97384
+2020-03-12 03:19:06,838 - INFO - Starting 75 epoch...
+2020-03-12 03:22:15,628 - INFO - Train loss on step 500 was 0.79623
+2020-03-12 03:25:24,825 - INFO - Train loss on step 1000 was 0.80238
+2020-03-12 03:28:33,993 - INFO - Train loss on step 1500 was 0.82412
+2020-03-12 03:31:42,801 - INFO - Train loss on step 2000 was 0.82564
+2020-03-12 03:34:51,555 - INFO - Train loss on step 2500 was 0.82715
+2020-03-12 03:38:00,265 - INFO - Train loss on step 3000 was 0.83724
+2020-03-12 03:41:09,042 - INFO - Train loss on step 3500 was 0.8365
+2020-03-12 03:44:17,787 - INFO - Train loss on step 4000 was 0.83314
+2020-03-12 03:47:26,474 - INFO - Train loss on step 4500 was 0.83168
+2020-03-12 03:50:34,573 - INFO - Train loss on step 5000 was 0.82954
+2020-03-12 03:53:42,576 - INFO - Train loss on step 5500 was 0.82929
+2020-03-12 03:56:50,558 - INFO - Train loss on step 6000 was 0.828
+2020-03-12 03:59:58,552 - INFO - Train loss on step 6500 was 0.82993
+2020-03-12 04:03:06,516 - INFO - Train loss on step 7000 was 0.82924
+2020-03-12 04:06:14,499 - INFO - Train loss on step 7500 was 0.82753
+2020-03-12 04:06:26,391 - INFO - Mean train loss: 0.82631
+2020-03-12 04:09:01,490 - INFO - recall: vowel 0.9886770446534139, grapheme 0.9606692788066773, consonant 0.9861769408404601
+2020-03-12 04:09:01,491 - INFO - Mean valid loss: 0.15079 score: 0.97405
+2020-03-12 04:09:01,491 - INFO - Starting 76 epoch...
+2020-03-12 04:12:09,104 - INFO - Train loss on step 500 was 0.87449
+2020-03-12 04:15:17,105 - INFO - Train loss on step 1000 was 0.85973
+2020-03-12 04:18:25,239 - INFO - Train loss on step 1500 was 0.83682
+2020-03-12 04:21:33,391 - INFO - Train loss on step 2000 was 0.83538
+2020-03-12 04:24:41,875 - INFO - Train loss on step 2500 was 0.8323
+2020-03-12 04:27:50,638 - INFO - Train loss on step 3000 was 0.83023
+2020-03-12 04:30:59,400 - INFO - Train loss on step 3500 was 0.82935
+2020-03-12 04:34:08,157 - INFO - Train loss on step 4000 was 0.82608
+2020-03-12 04:37:16,526 - INFO - Train loss on step 4500 was 0.82903
+2020-03-12 04:40:24,638 - INFO - Train loss on step 5000 was 0.82897
+2020-03-12 04:43:32,748 - INFO - Train loss on step 5500 was 0.83287
+2020-03-12 04:46:40,832 - INFO - Train loss on step 6000 was 0.83028
+2020-03-12 04:49:48,910 - INFO - Train loss on step 6500 was 0.83029
+2020-03-12 04:52:57,001 - INFO - Train loss on step 7000 was 0.83356
+2020-03-12 04:56:05,077 - INFO - Train loss on step 7500 was 0.83163
+2020-03-12 04:56:16,959 - INFO - Mean train loss: 0.83141
+2020-03-12 04:58:52,000 - INFO - recall: vowel 0.9894997943822955, grapheme 0.9644155854382649, consonant 0.9861516810428635
+2020-03-12 04:58:52,000 - INFO - Mean valid loss: 0.17821 score: 0.97612
+2020-03-12 04:58:52,112 - INFO - save model at score=0.9761206615754222 on epoch=76
+2020-03-12 04:58:52,112 - INFO - Starting 77 epoch...
+2020-03-12 05:01:59,964 - INFO - Train loss on step 500 was 0.79964
+2020-03-12 05:05:08,362 - INFO - Train loss on step 1000 was 0.80198
+2020-03-12 05:08:16,652 - INFO - Train loss on step 1500 was 0.80748
+2020-03-12 05:11:24,852 - INFO - Train loss on step 2000 was 0.81202
+2020-03-12 05:14:33,047 - INFO - Train loss on step 2500 was 0.80835
+2020-03-12 05:17:41,230 - INFO - Train loss on step 3000 was 0.80891
+2020-03-12 05:20:49,223 - INFO - Train loss on step 3500 was 0.80989
+2020-03-12 05:23:57,366 - INFO - Train loss on step 4000 was 0.81147
+2020-03-12 05:27:05,793 - INFO - Train loss on step 4500 was 0.80918
+2020-03-12 05:30:14,802 - INFO - Train loss on step 5000 was 0.81137
+2020-03-12 05:33:22,833 - INFO - Train loss on step 5500 was 0.81267
+2020-03-12 05:36:30,936 - INFO - Train loss on step 6000 was 0.81408
+2020-03-12 05:39:39,014 - INFO - Train loss on step 6500 was 0.81268
+2020-03-12 05:42:47,251 - INFO - Train loss on step 7000 was 0.81427
+2020-03-12 05:45:55,415 - INFO - Train loss on step 7500 was 0.81431
+2020-03-12 05:46:07,294 - INFO - Mean train loss: 0.81399
+2020-03-12 05:48:43,037 - INFO - recall: vowel 0.9895616563992147, grapheme 0.9619628492516002, consonant 0.9861298909599159
+2020-03-12 05:48:43,038 - INFO - Mean valid loss: 0.16413 score: 0.9749
+2020-03-12 05:48:43,038 - INFO - Starting 78 epoch...
+2020-03-12 05:51:52,053 - INFO - Train loss on step 500 was 0.81289
+2020-03-12 05:55:01,434 - INFO - Train loss on step 1000 was 0.81334
+2020-03-12 05:58:10,697 - INFO - Train loss on step 1500 was 0.80916
+2020-03-12 06:01:19,975 - INFO - Train loss on step 2000 was 0.81479
+2020-03-12 06:04:29,236 - INFO - Train loss on step 2500 was 0.823
+2020-03-12 06:07:38,563 - INFO - Train loss on step 3000 was 0.82165
+2020-03-12 06:10:48,039 - INFO - Train loss on step 3500 was 0.81706
+2020-03-12 06:13:57,381 - INFO - Train loss on step 4000 was 0.81453
+2020-03-12 06:17:06,703 - INFO - Train loss on step 4500 was 0.81166
+2020-03-12 06:20:16,590 - INFO - Train loss on step 5000 was 0.81305
+2020-03-12 06:23:26,556 - INFO - Train loss on step 5500 was 0.81563
+2020-03-12 06:26:35,120 - INFO - Train loss on step 6000 was 0.81471
+2020-03-12 06:29:43,316 - INFO - Train loss on step 6500 was 0.81461
+2020-03-12 06:32:52,353 - INFO - Train loss on step 7000 was 0.81498
+2020-03-12 06:36:00,719 - INFO - Train loss on step 7500 was 0.81493
+2020-03-12 06:36:12,681 - INFO - Mean train loss: 0.81428
+2020-03-12 06:38:51,144 - INFO - recall: vowel 0.9886168566286435, grapheme 0.9608813114762058, consonant 0.982173227690227
+2020-03-12 06:38:51,145 - INFO - Mean valid loss: 0.15768 score: 0.97314
+2020-03-12 06:38:51,145 - INFO - Starting 79 epoch...
+2020-03-12 06:41:58,852 - INFO - Train loss on step 500 was 0.74911
+2020-03-12 06:45:06,969 - INFO - Train loss on step 1000 was 0.77992
+2020-03-12 06:48:15,040 - INFO - Train loss on step 1500 was 0.79061
+2020-03-12 06:51:23,542 - INFO - Train loss on step 2000 was 0.79815
+2020-03-12 06:54:32,809 - INFO - Train loss on step 2500 was 0.80517
+2020-03-12 06:57:41,437 - INFO - Train loss on step 3000 was 0.79979
+2020-03-12 07:00:49,465 - INFO - Train loss on step 3500 was 0.79948
+2020-03-12 07:03:59,318 - INFO - Train loss on step 4000 was 0.79943
+2020-03-12 07:07:08,607 - INFO - Train loss on step 4500 was 0.80008
+2020-03-12 07:10:18,156 - INFO - Train loss on step 5000 was 0.80048
+2020-03-12 07:13:26,290 - INFO - Train loss on step 5500 was 0.80283
+2020-03-12 07:16:35,785 - INFO - Train loss on step 6000 was 0.80234
+2020-03-12 07:19:44,065 - INFO - Train loss on step 6500 was 0.80505
+2020-03-12 07:22:54,022 - INFO - Train loss on step 7000 was 0.8065
+2020-03-12 07:26:02,770 - INFO - Train loss on step 7500 was 0.80661
+2020-03-12 07:26:14,706 - INFO - Mean train loss: 0.80688
+2020-03-12 07:28:50,753 - INFO - recall: vowel 0.9888167596206917, grapheme 0.963705915191825, consonant 0.9861109160939198
+2020-03-12 07:28:50,753 - INFO - Mean valid loss: 0.18 score: 0.97558
+2020-03-12 07:28:50,753 - INFO - Starting 80 epoch...
+2020-03-12 07:31:59,765 - INFO - Train loss on step 500 was 0.78446
+2020-03-12 07:35:09,311 - INFO - Train loss on step 1000 was 0.7856
+2020-03-12 07:38:17,374 - INFO - Train loss on step 1500 was 0.7835
+2020-03-12 07:41:25,484 - INFO - Train loss on step 2000 was 0.78043
+2020-03-12 07:44:33,583 - INFO - Train loss on step 2500 was 0.77868
+2020-03-12 07:47:42,092 - INFO - Train loss on step 3000 was 0.78676
+2020-03-12 07:50:52,162 - INFO - Train loss on step 3500 was 0.78699
+2020-03-12 07:54:02,400 - INFO - Train loss on step 4000 was 0.78892
+2020-03-12 07:57:11,091 - INFO - Train loss on step 4500 was 0.78987
+2020-03-12 08:00:19,803 - INFO - Train loss on step 5000 was 0.79402
+2020-03-12 08:03:27,943 - INFO - Train loss on step 5500 was 0.79449
+2020-03-12 08:06:36,572 - INFO - Train loss on step 6000 was 0.79442
+2020-03-12 08:09:46,902 - INFO - Train loss on step 6500 was 0.79211
+2020-03-12 08:12:56,553 - INFO - Train loss on step 7000 was 0.79657
+2020-03-12 08:16:06,222 - INFO - Train loss on step 7500 was 0.79671
+2020-03-12 08:16:18,206 - INFO - Mean train loss: 0.7963
+2020-03-12 08:18:56,231 - INFO - recall: vowel 0.990355663084841, grapheme 0.9615212788541786, consonant 0.9863566891627996
+2020-03-12 08:18:56,231 - INFO - Mean valid loss: 0.14931 score: 0.97494
+2020-03-12 08:18:56,231 - INFO - Starting 81 epoch...
+2020-03-12 08:22:05,265 - INFO - Train loss on step 500 was 0.83542
+2020-03-12 08:25:14,593 - INFO - Train loss on step 1000 was 0.83434
+2020-03-12 08:28:24,745 - INFO - Train loss on step 1500 was 0.83233
+2020-03-12 08:31:33,808 - INFO - Train loss on step 2000 was 0.8281
+2020-03-12 08:34:43,253 - INFO - Train loss on step 2500 was 0.82814
+2020-03-12 08:37:52,648 - INFO - Train loss on step 3000 was 0.82549
+2020-03-12 08:41:01,991 - INFO - Train loss on step 3500 was 0.82432
+2020-03-12 08:44:11,340 - INFO - Train loss on step 4000 was 0.82136
+2020-03-12 08:47:20,695 - INFO - Train loss on step 4500 was 0.81977
+2020-03-12 08:50:30,084 - INFO - Train loss on step 5000 was 0.81882
+2020-03-12 08:53:39,434 - INFO - Train loss on step 5500 was 0.81513
+2020-03-12 08:56:48,814 - INFO - Train loss on step 6000 was 0.81097
+2020-03-12 08:59:58,162 - INFO - Train loss on step 6500 was 0.80897
+2020-03-12 09:03:07,606 - INFO - Train loss on step 7000 was 0.80935
+2020-03-12 09:06:16,949 - INFO - Train loss on step 7500 was 0.80942
+2020-03-12 09:06:28,919 - INFO - Mean train loss: 0.80898
+2020-03-12 09:09:04,255 - INFO - recall: vowel 0.9893658273977604, grapheme 0.961580299672771, consonant 0.9862698309816211
+2020-03-12 09:09:04,255 - INFO - Mean valid loss: 0.16581 score: 0.9747
+2020-03-12 09:09:04,256 - INFO - Starting 82 epoch...
+2020-03-12 09:12:12,552 - INFO - Train loss on step 500 was 0.78962
+2020-03-12 09:15:20,754 - INFO - Train loss on step 1000 was 0.79495
+2020-03-12 09:18:28,564 - INFO - Train loss on step 1500 was 0.79345
+2020-03-12 09:21:36,378 - INFO - Train loss on step 2000 was 0.79943
+2020-03-12 09:24:44,138 - INFO - Train loss on step 2500 was 0.80379
+2020-03-12 09:27:51,863 - INFO - Train loss on step 3000 was 0.81138
+2020-03-12 09:30:59,621 - INFO - Train loss on step 3500 was 0.80894
+2020-03-12 09:34:07,398 - INFO - Train loss on step 4000 was 0.80682
+2020-03-12 09:37:15,202 - INFO - Train loss on step 4500 was 0.80078
+2020-03-12 09:40:23,021 - INFO - Train loss on step 5000 was 0.79871
+2020-03-12 09:43:31,413 - INFO - Train loss on step 5500 was 0.79873
+2020-03-12 09:46:40,326 - INFO - Train loss on step 6000 was 0.79632
+2020-03-12 09:49:49,839 - INFO - Train loss on step 6500 was 0.79521
+2020-03-12 09:52:58,274 - INFO - Train loss on step 7000 was 0.79889
+2020-03-12 09:56:06,639 - INFO - Train loss on step 7500 was 0.79944
+2020-03-12 09:56:18,540 - INFO - Mean train loss: 0.79934
+2020-03-12 09:58:53,634 - INFO - recall: vowel 0.9876550649554652, grapheme 0.9628730124293627, consonant 0.9837354953938352
+2020-03-12 09:58:53,634 - INFO - Mean valid loss: 0.16387 score: 0.97428
+2020-03-12 09:58:53,634 - INFO - Starting 83 epoch...
+2020-03-12 10:02:02,007 - INFO - Train loss on step 500 was 0.78583
+2020-03-12 10:05:11,031 - INFO - Train loss on step 1000 was 0.81157
+2020-03-12 10:08:19,869 - INFO - Train loss on step 1500 was 0.81614
+2020-03-12 10:11:30,231 - INFO - Train loss on step 2000 was 0.82346
+2020-03-12 10:14:39,724 - INFO - Train loss on step 2500 was 0.81768
+2020-03-12 10:17:49,275 - INFO - Train loss on step 3000 was 0.81232
+2020-03-12 10:20:58,920 - INFO - Train loss on step 3500 was 0.80989
+2020-03-12 10:24:07,591 - INFO - Train loss on step 4000 was 0.79908
+2020-03-12 10:27:16,130 - INFO - Train loss on step 4500 was 0.79832
+2020-03-12 10:30:24,650 - INFO - Train loss on step 5000 was 0.79566
+2020-03-12 10:33:33,174 - INFO - Train loss on step 5500 was 0.79348
+2020-03-12 10:36:41,592 - INFO - Train loss on step 6000 was 0.79621
+2020-03-12 10:39:50,009 - INFO - Train loss on step 6500 was 0.798
+2020-03-12 10:42:59,172 - INFO - Train loss on step 7000 was 0.79963
+2020-03-12 10:46:08,674 - INFO - Train loss on step 7500 was 0.802
+2020-03-12 10:46:20,568 - INFO - Mean train loss: 0.80167
+2020-03-12 10:48:56,286 - INFO - recall: vowel 0.9892882331908506, grapheme 0.9613484508916494, consonant 0.986445634916196
+2020-03-12 10:48:56,286 - INFO - Mean valid loss: 0.17319 score: 0.97461
+2020-03-12 10:48:56,286 - INFO - Starting 84 epoch...
+2020-03-12 10:52:04,151 - INFO - Train loss on step 500 was 0.83048
+2020-03-12 10:55:12,064 - INFO - Train loss on step 1000 was 0.80924
+2020-03-12 10:58:20,476 - INFO - Train loss on step 1500 was 0.79989
+2020-03-12 11:01:28,884 - INFO - Train loss on step 2000 was 0.80147
+2020-03-12 11:04:37,312 - INFO - Train loss on step 2500 was 0.80482
+2020-03-12 11:07:45,831 - INFO - Train loss on step 3000 was 0.80243
+2020-03-12 11:10:55,195 - INFO - Train loss on step 3500 was 0.80815
+2020-03-12 11:14:05,294 - INFO - Train loss on step 4000 was 0.80864
+2020-03-12 11:17:15,509 - INFO - Train loss on step 4500 was 0.81004
+2020-03-12 11:20:24,769 - INFO - Train loss on step 5000 was 0.80855
+2020-03-12 11:23:33,941 - INFO - Train loss on step 5500 was 0.80728
+2020-03-12 11:26:43,185 - INFO - Train loss on step 6000 was 0.80905
+2020-03-12 11:29:53,229 - INFO - Train loss on step 6500 was 0.80789
+2020-03-12 11:33:03,184 - INFO - Train loss on step 7000 was 0.80524
+2020-03-12 11:36:12,319 - INFO - Train loss on step 7500 was 0.80771
+2020-03-12 11:36:24,258 - INFO - Mean train loss: 0.80768
+2020-03-12 11:38:59,655 - INFO - recall: vowel 0.9900834041819081, grapheme 0.9630085951016344, consonant 0.9862703269594529
+2020-03-12 11:38:59,656 - INFO - Mean valid loss: 0.16877 score: 0.97559
+2020-03-12 11:38:59,656 - INFO - Starting 85 epoch...
+2020-03-12 11:42:07,377 - INFO - Train loss on step 500 was 0.77609
+2020-03-12 11:45:16,650 - INFO - Train loss on step 1000 was 0.77655
+2020-03-12 11:48:25,917 - INFO - Train loss on step 1500 was 0.78445
+2020-03-12 11:51:34,491 - INFO - Train loss on step 2000 was 0.78906
+2020-03-12 11:54:42,283 - INFO - Train loss on step 2500 was 0.79247
+2020-03-12 11:57:50,102 - INFO - Train loss on step 3000 was 0.79626
+2020-03-12 12:00:57,990 - INFO - Train loss on step 3500 was 0.79952
+2020-03-12 12:04:06,730 - INFO - Train loss on step 4000 was 0.7996
+2020-03-12 12:07:15,930 - INFO - Train loss on step 4500 was 0.79296
+2020-03-12 12:10:24,433 - INFO - Train loss on step 5000 was 0.79508
+2020-03-12 12:13:33,768 - INFO - Train loss on step 5500 was 0.79575
+2020-03-12 12:16:41,605 - INFO - Train loss on step 6000 was 0.79744
+2020-03-12 12:19:49,370 - INFO - Train loss on step 6500 was 0.79956
+2020-03-12 12:22:57,095 - INFO - Train loss on step 7000 was 0.80218
+2020-03-12 12:26:04,809 - INFO - Train loss on step 7500 was 0.80166
+2020-03-12 12:26:16,667 - INFO - Mean train loss: 0.80147
+2020-03-12 12:28:52,038 - INFO - recall: vowel 0.9889801915833552, grapheme 0.9602503655693944, consonant 0.9861084087769363
+2020-03-12 12:28:52,038 - INFO - Mean valid loss: 0.17049 score: 0.9739
+2020-03-12 12:28:52,038 - INFO - Starting 86 epoch...
+2020-03-12 12:31:59,293 - INFO - Train loss on step 500 was 0.02741
+2020-03-12 12:35:07,011 - INFO - Train loss on step 1000 was 0.02709
+2020-03-12 12:38:15,262 - INFO - Train loss on step 1500 was 0.02727
+2020-03-12 12:41:23,961 - INFO - Train loss on step 2000 was 0.02802
+2020-03-12 12:44:32,639 - INFO - Train loss on step 2500 was 0.02894
+2020-03-12 12:47:41,328 - INFO - Train loss on step 3000 was 0.02909
+2020-03-12 12:50:50,005 - INFO - Train loss on step 3500 was 0.02936
+2020-03-12 12:53:58,655 - INFO - Train loss on step 4000 was 0.02933
+2020-03-12 12:57:07,271 - INFO - Train loss on step 4500 was 0.02964
+2020-03-12 13:00:15,909 - INFO - Train loss on step 5000 was 0.02967
+2020-03-12 13:03:24,567 - INFO - Train loss on step 5500 was 0.02976
+2020-03-12 13:06:33,035 - INFO - Train loss on step 6000 was 0.03008
+2020-03-12 13:09:40,498 - INFO - Train loss on step 6500 was 0.03019
+2020-03-12 13:12:47,788 - INFO - Train loss on step 7000 was 0.0302
+2020-03-12 13:15:55,454 - INFO - Train loss on step 7500 was 0.03019
+2020-03-12 13:16:07,350 - INFO - Mean train loss: 0.03018
+2020-03-12 13:18:42,738 - INFO - recall: vowel 0.9889262190447808, grapheme 0.9590325895506288, consonant 0.9864368003981481
+2020-03-12 13:18:42,738 - INFO - Mean valid loss: 0.15165 score: 0.97336
+2020-03-12 13:18:42,738 - INFO - Starting 87 epoch...
+2020-03-12 13:21:50,018 - INFO - Train loss on step 500 was 0.02243
+2020-03-12 13:24:57,395 - INFO - Train loss on step 1000 was 0.02421
+2020-03-12 13:28:04,870 - INFO - Train loss on step 1500 was 0.02469
+2020-03-12 13:31:13,513 - INFO - Train loss on step 2000 was 0.02456
+2020-03-12 13:34:22,145 - INFO - Train loss on step 2500 was 0.02543
+2020-03-12 13:37:30,854 - INFO - Train loss on step 3000 was 0.02563
+2020-03-12 13:40:39,055 - INFO - Train loss on step 3500 was 0.02564
+2020-03-12 13:43:46,419 - INFO - Train loss on step 4000 was 0.02565
+2020-03-12 13:46:53,769 - INFO - Train loss on step 4500 was 0.02613
+2020-03-12 13:50:01,177 - INFO - Train loss on step 5000 was 0.02641
+2020-03-12 13:53:08,608 - INFO - Train loss on step 5500 was 0.02617
+2020-03-12 13:56:16,054 - INFO - Train loss on step 6000 was 0.02649
+2020-03-12 13:59:24,096 - INFO - Train loss on step 6500 was 0.02688
+2020-03-12 14:02:32,489 - INFO - Train loss on step 7000 was 0.02714
+2020-03-12 14:05:41,173 - INFO - Train loss on step 7500 was 0.02728
+2020-03-12 14:05:53,101 - INFO - Mean train loss: 0.02729
+2020-03-12 14:08:28,254 - INFO - recall: vowel 0.9893978647198445, grapheme 0.9596729802116286, consonant 0.9842304731601778
+2020-03-12 14:08:28,255 - INFO - Mean valid loss: 0.15556 score: 0.97324
+2020-03-12 14:08:28,255 - INFO - Starting 88 epoch...
+2020-03-12 14:11:36,716 - INFO - Train loss on step 500 was 0.02019
+2020-03-12 14:14:45,046 - INFO - Train loss on step 1000 was 0.02149
+2020-03-12 14:17:52,702 - INFO - Train loss on step 1500 was 0.02155
+2020-03-12 14:21:00,124 - INFO - Train loss on step 2000 was 0.022
+2020-03-12 14:24:07,729 - INFO - Train loss on step 2500 was 0.02265
+2020-03-12 14:27:15,016 - INFO - Train loss on step 3000 was 0.02263
+2020-03-12 14:30:22,699 - INFO - Train loss on step 3500 was 0.02281
+2020-03-12 14:33:30,869 - INFO - Train loss on step 4000 was 0.02316
+2020-03-12 14:36:39,043 - INFO - Train loss on step 4500 was 0.02333
+2020-03-12 14:39:46,866 - INFO - Train loss on step 5000 was 0.02328
+2020-03-12 14:42:54,279 - INFO - Train loss on step 5500 was 0.02344
+2020-03-12 14:46:01,706 - INFO - Train loss on step 6000 was 0.02384
+2020-03-12 14:49:09,036 - INFO - Train loss on step 6500 was 0.02371
+2020-03-12 14:52:16,382 - INFO - Train loss on step 7000 was 0.02358
+2020-03-12 14:55:23,652 - INFO - Train loss on step 7500 was 0.02372
+2020-03-12 14:55:35,474 - INFO - Mean train loss: 0.02373
+2020-03-12 14:58:10,818 - INFO - recall: vowel 0.9880314503248457, grapheme 0.9594820355149607, consonant 0.9824739050702311
+2020-03-12 14:58:10,818 - INFO - Mean valid loss: 0.17074 score: 0.97237
+2020-03-12 14:58:10,818 - INFO - Starting 89 epoch...
+2020-03-12 15:01:19,239 - INFO - Train loss on step 500 was 0.01811
+2020-03-12 15:04:26,884 - INFO - Train loss on step 1000 was 0.01918
+2020-03-12 15:07:34,169 - INFO - Train loss on step 1500 was 0.0184
+2020-03-12 15:10:41,422 - INFO - Train loss on step 2000 was 0.01968
