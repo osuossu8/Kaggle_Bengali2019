@@ -108,7 +108,7 @@ def setup_logger(out_file=None, stderr=True, stderr_level=logging.INFO, file_lev
     return LOGGER
 
 
-EXP_ID = "exp54_224_takuoko_cbam_net50_10fold_validation_over9000_75epoch_1e-4"
+EXP_ID = "exp58_224_takuoko_cbam_net50_10fold_validation_over9000_100_150epoch_1e-4"
 LOGGER_PATH = f"logs/log_{EXP_ID}.txt"
 setup_logger(out_file=LOGGER_PATH)
 LOGGER.info("seed={}".format(SEED))
@@ -394,7 +394,7 @@ batch_size_list = [16, 48, 50, 64]
 
 with timer('load csv data'):
     fold_id = 0
-    epochs = 75
+    epochs = 45
     batch_size = batch_size_list[0]
     
     train = pd.read_csv('input/train.csv')
@@ -451,11 +451,14 @@ with timer('create model'):
     model = CnnModelV2(num_classes=186, encoder="resnet50_cbam", pretrained="imagenet", pool_type="gem")
     # model = CnnModel(num_classes=186, encoder="se_resnext50_32x4d", pretrained="imagenet", pool_type="concat")
     # model = convert_model_ReLU2Swish(model)
+    model.load_state_dict(torch.load("models/exp56_224_takuoko_cbam_net50_10fold_validation_over9000_75_150epoch_1e-4_fold0.pth"))
+    LOGGER.info('exp56 model loaded')
     model = model.to(device)
 
     criterion = nn.CrossEntropyLoss(reduction='mean').to(device)
     # optimizer = torch.optim.Adam(model.parameters(), lr=2e-3, eps=1e-4)
-    optimizer = Over9000(model.parameters(), lr=2e-3, weight_decay=1e-3) ## New once
+    # optimizer = Over9000(model.parameters(), lr=2e-3, weight_decay=1e-3) ## New once
+    optimizer = Over9000(model.parameters(), lr=2e-4, weight_decay=1e-4)
     scheduler = GradualWarmupScheduler(optimizer, multiplier=1.1, total_epoch=5,
                                        after_scheduler=None)
 
@@ -467,8 +470,8 @@ with timer('training loop'):
 
         LOGGER.info("Starting {} epoch...".format(epoch))
         # tr_loss = train_one_epoch_mixup_cutmix_for_single_output(model, train_loader, criterion, optimizer, device)
-        tr_loss = train_one_epoch_mixup_cutmix_for_single_output_weighted(model, train_loader, criterion, optimizer, device)
-        # tr_loss = train_one_epoch_cutmix_for_single_output(model, train_loader, criterion, optimizer, device)
+        # tr_loss = train_one_epoch_mixup_cutmix_for_single_output_weighted(model, train_loader, criterion, optimizer, device)
+        tr_loss = train_one_epoch_cutmix_for_single_output(model, train_loader, criterion, optimizer, device)
         LOGGER.info('Mean train loss: {}'.format(round(tr_loss, 5)))
 
         val_pred, y_true, val_loss = validate_for_single_output_weighted(model, val_loader, criterion, device)
