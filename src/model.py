@@ -282,3 +282,37 @@ class Efficient(nn.Module):
         return x
 
 
+class CNNHead6th(nn.Module):
+    def __init__(self, n_in_features):
+        super(CNNHead6th, self).__init__()
+
+        self.fc1280 = nn.Linear(n_in_features, 1280)
+        self.fc512_1 = nn.Linear(n_in_features, 512)
+
+        self.fc512_2 = nn.Linear(1280, 512)
+
+
+        self.fc1 = nn.Linear(512, 11)
+        self.fc2 = nn.Linear(512, 168)
+        self.fc3 = nn.Linear(512, 7)
+
+    def forward(self, x):
+
+        x_ = self.fc1280(x)
+
+        x1 = self.fc512_1(x)
+        x2 = self.fc512_1(x)
+        x3 = self.fc512_1(x)
+
+        x = self.fc512_2(x_)
+
+        vowel = x + x1
+        graph = x + x2
+        cons = x + x3
+
+        x1 = self.fc1(vowel)
+        x2 = self.fc2(graph)
+        x3 = self.fc3(cons)
+
+        out = torch.cat([x1, x2, x3], 1)
+        return out

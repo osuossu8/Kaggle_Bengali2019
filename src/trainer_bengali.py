@@ -189,7 +189,7 @@ def train_one_epoch_cutmix_for_single_output(model, train_loader, criterion, opt
         images, targets = cutmix(images, targets1, targets2, targets3, 0.4)
         logits = model(images)
         logits1, logits2, logits3 = logits[:,:11], logits[:,11:11+168], logits[:, 11+168:]
-        loss = cutmix_criterion_weighted(logits1, logits2, logits3, targets)
+        loss = cutmix_criterion_weighted(logits1, logits2, logits3, targets, criterion)
 
         loss.backward()
         optimizer.step()
@@ -218,7 +218,7 @@ def train_one_epoch_for_single_output(model, train_loader, criterion, optimizer,
 
         logits = model(images)
         logits1, logits2, logits3 = logits[:,:11], logits[:,11:11+168], logits[:, 11+168:]
-        loss = criterion(logits1, targets1) * 0.25 +criterion(logits2, targets2) * 0.5 +criterion(logits3, targets3) * 0.5
+        loss = criterion(logits1, targets1) * 0.25 +criterion(logits2, targets2) * 0.5 +criterion(logits3, targets3) * 0.25
 
         loss.backward()
         optimizer.step()
@@ -253,7 +253,7 @@ def validate_for_single_output(model, val_loader, criterion, device, multi_loss=
         logits1, logits2, logits3 = logits[:,:11], logits[:,11:11+168], logits[:, 11+168:]
 
         # loss = criterion(logits1, targets1)+criterion(logits2, targets2)+criterion(logits3, targets3)
-        loss = criterion(logits1, targets1) * 0.25 +criterion(logits2, targets2) * 0.5 +criterion(logits3, targets3) * 0.5
+        loss = criterion(logits1, targets1) * 0.25 +criterion(logits2, targets2) * 0.5 +criterion(logits3, targets3) * 0.25
 
         val_loss += loss.item()
 
