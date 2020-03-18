@@ -160,6 +160,23 @@ class Flatten(nn.Module):
         return input.view(input.size(0), -1)
 
 
+class SSEPooling(nn.Module):
+    def __init__(self, in_ch):
+        super(SSEPooling, self).__init__()
+
+        self.sse = SSE(in_ch)
+        self.gap = nn.AdaptiveAvgPool2d((1, 1))
+        self.flatten = Flatten()
+
+    def forward(self, x):
+
+        x = self.sse(x)
+        x = self.gap(x)
+        x = self.flatten(x)
+
+        return x
+
+
 def gem(x, p=3, eps=1e-6):
     return F.avg_pool2d(x.clamp(min=eps).pow(p), (x.size(-2), x.size(-1))).pow(1./p)
 

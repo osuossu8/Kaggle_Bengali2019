@@ -1,6 +1,7 @@
 import sys
 
 import torch
+import torchvision
 from torch import nn
 from torchvision import models
 from pretrainedmodels import se_resnext101_32x4d, se_resnext50_32x4d, senet154
@@ -8,7 +9,7 @@ from pretrainedmodels import inceptionresnetv2
 from efficientnet_pytorch import EfficientNet
 
 sys.path.append("/usr/src/app/Kaggle_Bengali2019")
-from src.layers import AdaptiveConcatPool2d, Flatten, SEBlock, GeM, CBAM_Module, Mish
+from src.layers import AdaptiveConcatPool2d, Flatten, SEBlock, GeM, CBAM_Module, Mish, SSE, SSEPooling
 
 
 encoders = {
@@ -315,4 +316,64 @@ class CNNHead6th(nn.Module):
         x3 = self.fc3(cons)
 
         out = torch.cat([x1, x2, x3], 1)
+        return out
+
+
+class CNNHead10th(nn.Module):
+    def __init__(self, in_ch):
+        super(CNNHead10th, self).__init__()
+
+
+        # pooling から分岐させるのがコツらしい
+
+        # vowel_diacritic
+        self.fc_v = nn.Sequential(
+                          SSEPooling(in_ch),
+                          nn.Linear(in_features=in_ch, out_features=512, bias=True),
+                          nn.ReLU(inplace=True),
+                          nn.Dropout(p=0.3),
+                          nn.Linear(512, 11)
+                   )
+        
+        # grapheme_root
+        self.fc_g = nn.Sequential(
+                          SSEPooling(in_ch),
+                          nn.Linear(in_features=in_ch, out_features=512, bias=True),
+                          nn.ReLU(inplace=True),
+                          nn.Dropout(p=0.3),
+                          nn.Linear(512, 168)
+                   )
+
+        # consonant_diacritic
+        self.fc_c = nn.Sequential(
+                          SSEPooling(in_ch),
+                          nn.Linear(in_features=in_ch, out_features=512, bias=True),
+                          nn.ReLU(inplace=True),
+                          nn.Dropout(p=0.3),
+                          nn.Linear(512, 7)
+                   )
+        
+
+    def forward(self, x):
+        x1 = self.fc_v(x)
+        x2 = self.fc_g(x)
+        x3 = self.fc_c(x)
+
+        out = torch.cat([x1, x2, x3], 1)
+        return out
+
+
+class BengaliResNeXt(nn.Module):
+    def __init__(self, pretrained=False):
+        super(BengaliResNeXt, self).__init__()
+
+        self.base = torchvision.models.resnext50_32x4d(pretrained=pretrained)
+        self.backbone = nn.Sequential(*list(self.base.children())[:-2])
+        
+        self.sse_pooling_head = CNNHead10th(2048)
+
+    def forward(self, x):
+
+        x = self.backbone(x)
+        out = self.sse_pooling_head(x)
         return out
