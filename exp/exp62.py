@@ -178,7 +178,7 @@ data_transforms = albumentations.Compose([
     albumentations.RandomScale(scale_limit=0.1),
     albumentations.PadIfNeeded(min_height=146, min_width=256, p=1.0),
     albumentations.RandomCrop(128, 224),
-    RandomErasing(probability=0.5)
+    # RandomErasing(probability=0.5)
     ])
 
 data_transforms_test = albumentations.Compose([
@@ -281,8 +281,12 @@ with timer('create model'):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     
     model = BengaliResNeXt(pretrained=True)
-    model.conv1 = nn.Conv2d(1, 64, kernel_size=7, stride=2, padding=3,
+
+    w = model.backbone[0].weight
+
+    model.backbone[0] = nn.Conv2d(1, 64, kernel_size=7, stride=2, padding=3,
                             bias=False)
+    model.backbone[0].weight = nn.Parameter(torch.mean(w, dim=1, keepdim=True))
 
     # model.load_state_dict(torch.load("models/exp49_256_efficient0_over9000_gem_90epoch_2e-3_exp47_weight_fold0.pth"))
     model = model.to(device)
