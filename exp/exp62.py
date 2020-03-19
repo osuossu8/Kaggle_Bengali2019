@@ -314,15 +314,15 @@ with timer('training loop'):
 
         LOGGER.info('Mean train loss: {}'.format(round(tr_loss, 5)))
 
-        val_pred, y_true, val_loss = validate_for_single_output_weighted(model, val_loader, criterion, device)
-        score = macro_recall(y_true, val_pred)
+        # val_pred, y_true, val_loss = validate_for_single_output_weighted(model, val_loader, criterion, device)
+        # score = macro_recall(y_true, val_pred)
         LOGGER.info('Mean valid loss: {} score: {}'.format(round(val_loss, 5), round(score, 5)))
         if score > best_score:
             best_score = score
             best_epoch = epoch
             torch.save(model.state_dict(), os.path.join(OUT_DIR, '{}_fold{}.pth'.format(EXP_ID, fold_id)))
-            np.save(os.path.join(OUT_DIR, "{}_fold{}.npy".format(EXP_ID, fold_id)), val_pred)
-            to_pickle(os.path.join(OUT_DIR, "{}_fold{}.pkl".format(EXP_ID, fold_id)), [val_idx, val_pred])
+            # np.save(os.path.join(OUT_DIR, "{}_fold{}.npy".format(EXP_ID, fold_id)), val_pred)
+            # to_pickle(os.path.join(OUT_DIR, "{}_fold{}.pkl".format(EXP_ID, fold_id)), [val_idx, val_pred])
             LOGGER.info("save model at score={} on epoch={}".format(best_score, best_epoch))
         scheduler.step()
 
