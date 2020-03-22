@@ -170,15 +170,11 @@ class BengaliAIDataset(torch.utils.data.Dataset):
 
 
 
-def run_one_fold(fold_id, epochs):
+def run_one_fold(fold_id, epochs, batch_size):
 
     with timer('load csv data'):
-        fold_id = 0
-        epochs = 90
-        batch_size = 24
     
         train = pd.read_csv('input/train.csv')
-   
         y = train[["grapheme_root", "vowel_diacritic", "consonant_diacritic"]]
 
         num_folds = 5
@@ -260,12 +256,29 @@ def run_one_fold(fold_id, epochs):
                 best_score = score
                 best_epoch = epoch
                 torch.save(model.state_dict(), os.path.join(OUT_DIR, '{}_fold{}.pth'.format(EXP_ID, fold_id)))
-                np.save(os.path.join(OUT_DIR, "{}_fold{}.npy".format(EXP_ID, fold_id)), val_pred)
                 to_pickle(os.path.join(OUT_DIR, "{}_fold{}_oof.pkl".format(EXP_ID, fold_id)), [val_idx, val_pred])
                 LOGGER.info("save model at score={} on epoch={}".format(best_score, best_epoch))
             scheduler.step()
 
         LOGGER.info("best score={} on epoch={}".format(best_score, best_epoch))
+
+
+if __name__ == '__main__':
+
+    fold0_only = False
+
+    for fold_id in range(5):
+
+        LOGGER.info("Starting fold {} ...".format(fold_id))
+
+        epochs = 10
+        batch_size = 36
+
+        run_one_fold(fold_id, epochs, batch_size)
+
+        if fold0_only:
+            LOGGER.info("This is fold0 only experiment.")
+            break
 
 
 
